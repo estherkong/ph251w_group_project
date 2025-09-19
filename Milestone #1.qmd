@@ -36,3 +36,7 @@ Shared document for meeting notes and action items and member assigned to each. 
 Whoever is available/has capacity will contact course facilitators. Default person will Carli.
 
 ## Group Tasks
+
+Will delegate tasks based on capacity
+Scheduling, uploading assisgnments, and proofing to be done on rotating basis
+
