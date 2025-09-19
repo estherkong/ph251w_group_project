@@ -1,6 +1,6 @@
 ---
 title: "Milestone #1"
-format: html
+format: pdf
 editor: visual
 ---
 
