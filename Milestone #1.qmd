@@ -16,25 +16,16 @@ https://github.com/estherkong/ph251w_group_project
 
 Team's preferred communication method. Google Chat is the preferred method of communication.
 
-{r}
-
-# Q1: Google Chat is the preferred method of communication.
-
-
-
 
 ### Question 2: Team's preferred meeting times and frequency
 
 Preferred meeting times: Saturdays and weekday evenings Preferred meeting frequency: Weekly
 
-{r}
-# Q2 Teams preferred meeting times and frequency:
-  
+{r} \# Q2 Teams preferred meeting times and frequency:
+
 # Saturdays and weekday evenings
 
 # weekly
-
-
 
 ### Question 3: Team's preferred method for tracking progress
 
@@ -43,7 +34,5 @@ Shared document for meeting notes and action items and member assigned to each. 
 ### Question 4: Point person for contacting course facilitators with questions
 
 Whoever is available/has capacity will contact course facilitators. Default person will Carli.
-
-
 
 ## Group Tasks
