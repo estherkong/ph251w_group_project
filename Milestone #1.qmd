@@ -4,34 +4,46 @@ format: html
 editor: visual
 ---
 
-## Quarto
+## Project option selection
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+Scenario 1: Infectious disease outbreak (simulated) in California
 
-## Repo link: estherkong/ph251w_group_project
+## Link to git repository
 
-```{r}
+https://github.com/estherkong/ph251w_group_project
 
-Q1: Google Chat is the preferred method of communication.
+### Question 1: Team's preferred communication method
+
+Team's preferred communication method. Google Chat is the preferred method of communication.
+
+{r}
+
+# Q1: Google Chat is the preferred method of communication.
 
 
 
 
-```
+### Question 2: Team's preferred meeting times and frequency
 
-You can add options to executable code like this
+Preferred meeting times: Saturdays and weekday evenings Preferred meeting frequency: Weekly
 
-```{r}
-#| echo: false
-2 * 2
-```
-
-The `echo: false` option disables the printing of code (only output is displayed).
-
-```{r}
+{r}
 # Q2 Teams preferred meeting times and frequency:
   
 # Saturdays and weekday evenings
 
 # weekly
-```
+
+
+
+### Question 3: Team's preferred method for tracking progress
+
+Shared document for meeting notes and action items and member assigned to each. Progress tracked by marking action items when completed.
+
+### Question 4: Point person for contacting course facilitators with questions
+
+Whoever is available/has capacity will contact course facilitators. Default person will Carli.
+
+
+
+## Group Tasks
