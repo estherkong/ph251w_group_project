@@ -80,13 +80,13 @@ head(ca_pop_2023)
 #Relation of data to problem statement:
 # The data provides patient demogrpahics of age group, binary gender, race and ethnicity which will help to answer if there are disparities in the rate of infection among different populations. 
 
-# The dataset was imported using read.csv from the class github. 
+# The dataset was imported using read.csv from the class github and assigned to an object
 novelid_LAcounty <- read.csv(
   "https://raw.githubusercontent.com//PHW290/phw251_projectdata/main/scenario_1/sim_novelid_LACounty.csv")
 
 novelid_LAcounty
 
-# Column names were updated to lower case below
+# Column names were updated to lower case below and reassigned to a new object
 la_county_cases <- novelid_LAcounty
 names(la_county_cases) <- tolower(names(la_county_cases))
 
@@ -102,7 +102,7 @@ unique(la_county_cases$race_eth)
 
 # This gives us "White, Non-Hispanic", "Black, Non-Hispanic", "American Indian or Alaska Native, Non-Hispanic", "Asian, Non-Hispanic", "Native Hawaiian or Pacific Islander, Non-Hispanic", "Multiracial (two or more of above races), Non-Hispanic" and "Hispanic (any race)"
 
-# Then we can summarize each grouping to get the number of cases per group and the range and average of new severe cases
+# Then we can summarize each grouping to get the number of cases per group and the range and average of new severe cases.
 
 la_county_cases %>% group_by(
   race_eth) %>%
