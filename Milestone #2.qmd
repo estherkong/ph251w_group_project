@@ -14,14 +14,55 @@ When you click the **Render** button a document will be generated that includes 
 
 Pam
 
+summary(sim_novelid_CA\$new_unrecovered)
+
 ```{r}
+
+# We can assume that the data source is simulated data of infectious disease cases for each county in California reported from public health agencies and organizations such as county health departments during 2023. 
+
+# Our research question explores if the current outbreak is disproportionately affecting certain demographic or geographic populations to inform departments and agencies how to allocate prevention and treatment resources. 
+
 library(readr)
 
 sim_novelid_CA <- read_csv("https://raw.githubusercontent.com//PHW290/phw251_projectdata/main/scenario_1/sim_novelid_CA.csv")
 
 sim_novelid_CA
 
+unique(sim_novelid_CA$dt_diagnosis)
 
+#Our importing process involves using the proper package to use a function that imports CSV files and locating the file path (or link) of the file on GITHUB.
+
+#Geography
+class(sim_novelid_CA$county)
+unique(sim_novelid_CA$county)
+
+#Demographics
+class(sim_novelid_CA$age_cat)
+unique(sim_novelid_CA$age_cat)
+class(sim_novelid_CA$sex)
+class(sim_novelid_CA$race_ethnicity)
+range(sim_novelid_CA$race_ethnicity)
+#1 = "White, Non-Hispanic", 2 = "Black, Non-Hispanic", 3 = "American Indian or Alaska Native, Non-Hispanic", 4 = "Asian, Non-Hispanic", 5 = "Native Hawaiian or Pacific Islander, Non-Hispanic", 6 = "Multiracial (two or more of above races), Non-Hispanic", 7 = "Hispanic (any race)", 9 = "Unknown). No Unknowns then. 
+
+class(sim_novelid_CA$dt_diagnosis)
+
+class(sim_novelid_CA$time_int)
+summary(sim_novelid_CA$time_int)
+
+class(sim_novelid_CA$new_infections)
+summary(sim_novelid_CA$new_infections)
+class(sim_novelid_CA$cumulative_infected)
+summary(sim_novelid_CA$cumulative_infected)
+
+#Newly identified individuals having severe disease requiring hospitalization
+class(sim_novelid_CA$new_severe)
+summary(sim_novelid_CA$new_infections)
+
+#Cumulative number of identified individuals having severe disease requiring hospitalization
+class(sim_novelid_CA$cumulative_severe)
+summary(sim_novelid_CA$cumulative_severe)
+
+# We might need to convert county, age_cat, sex, race_ethnicity from character into something else if we are going to do a regression later, for example, to compare them with new_infections, cumulative_infected, etc. I am not sure about this one. 
 
 ```
 
