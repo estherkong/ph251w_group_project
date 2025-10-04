@@ -41,6 +41,8 @@ The `echo: false` option disables the printing of code (only output is displayed
 
 ```{r}
 
+novelid_LAcounty <- "https://raw.githubusercontent.com//PHW290/phw251_projectdata/main/scenario_1/sim_novelid_LACounty.csv"
 
+novelid_LAcounty
 
 ```
