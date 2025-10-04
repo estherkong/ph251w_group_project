@@ -4,14 +4,6 @@ format: html
 editor: visual
 ---
 
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
-
-## Running Code
-
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
-
 Pam
 
 summary(sim_novelid_CA\$new_unrecovered)
@@ -78,18 +70,49 @@ ca_pop_2023 <- read_csv(filepath_ca_pop_2023)
 head(ca_pop_2023)
 ```
 
-The `echo: false` option disables the printing of code (only output is displayed).
-
 ### Carli
 
 ```{r}
 
-novelid_LAcounty <- read.csv("https://raw.githubusercontent.com//PHW290/phw251_projectdata/main/scenario_1/sim_novelid_LACounty.csv")
+#Description of the dataset:
+# This is a simulated dataset containing reported cases of a disease categorized by date of diagnoses, patient demographics, and cumulative totals for infected, unrecovered, and severe cases, for the county of Los Angelos.  
+
+#Relation of data to problem statement:
+# The data provides patient demogrpahics of age group, binary gender, race and ethnicity which will help to answer if there are disparities in the rate of infection among different populations. 
+
+# The dataset was imported using read.csv from the class github. 
+novelid_LAcounty <- read.csv(
+  "https://raw.githubusercontent.com//PHW290/phw251_projectdata/main/scenario_1/sim_novelid_LACounty.csv")
 
 novelid_LAcounty
 
+# Column names were updated to lower case below
 la_county_cases <- novelid_LAcounty
 names(la_county_cases) <- tolower(names(la_county_cases))
 
 names(la_county_cases)
+
+#Understanding the range of severe cases in each demographic area would be useful. Before we can get the ranges, we need to determine the data types
+
+str(la_county_cases)
+# the data elements are all classified as they should be
+
+# We need to know the different race/ethnicity groups in the dataset
+unique(la_county_cases$race_eth)
+
+# This gives us "White, Non-Hispanic", "Black, Non-Hispanic", "American Indian or Alaska Native, Non-Hispanic", "Asian, Non-Hispanic", "Native Hawaiian or Pacific Islander, Non-Hispanic", "Multiracial (two or more of above races), Non-Hispanic" and "Hispanic (any race)"
+
+# Then we can summarize each grouping to get the number of cases per group and the range and average of new severe cases
+
+la_county_cases %>% group_by(
+  race_eth) %>%
+  summarise(
+    count = n(),
+    severe_new_min = min(severe_new, na.rm = T),
+    severe_new_max = max(severe_new, na.rm = T),
+    severe_new_mean = mean(severe_new, na.rm = T),
+    severe_cumulative_mean = mean(severe_cumulative, na.rm = T)
+)
+
+# It would be a good idea to remove the column dt_report as part of cleaning as this column only contains NA values. 
 ```
