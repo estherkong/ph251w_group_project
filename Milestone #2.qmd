@@ -27,7 +27,7 @@ sim_novelid_CA
 
 You can add options to executable code like this
 
-```{r}
+```{r Esther's chunk'}
 library(tidyverse)
 
 filepath_ca_pop_2023 <- "https://raw.githubusercontent.com//PHW290/phw251_projectdata/main/scenario_1/ca_pop_2023.csv"
