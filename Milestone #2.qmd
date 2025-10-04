@@ -1,10 +1,21 @@
 ---
-title: "Milestone #2"
+title: "Milestone #2 for Infectious disease outbreak"
 format: html
+author: "Carli Boyd, Esther Kong, Pamela Pichon"
+date: 'today'
 editor: visual
 ---
 
-Pam
+```{r}
+#| results: 'hide'
+ 
+#Load required packages
+library(tidyverse)
+library(readr)
+
+```
+
+## Dataset 1: Simulated Novel Infection Disease case reporting for California
 
 summary(sim_novelid_CA\$new_unrecovered)
 
@@ -14,7 +25,6 @@ summary(sim_novelid_CA\$new_unrecovered)
 
 # Our research question explores if the current outbreak is disproportionately affecting certain demographic or geographic populations to inform departments and agencies how to allocate prevention and treatment resources. 
 
-library(readr)
 
 sim_novelid_CA <- read_csv("https://raw.githubusercontent.com//PHW290/phw251_projectdata/main/scenario_1/sim_novelid_CA.csv")
 
@@ -58,19 +68,7 @@ summary(sim_novelid_CA$cumulative_severe)
 
 ```
 
-You can add options to executable code like this
-
-```{r Esther's chunk'}
-library(tidyverse)
-
-filepath_ca_pop_2023 <- "https://raw.githubusercontent.com//PHW290/phw251_projectdata/main/scenario_1/ca_pop_2023.csv"
-
-ca_pop_2023 <- read_csv(filepath_ca_pop_2023)
-
-head(ca_pop_2023)
-```
-
-### Carli
+## Dataset 2: Simulated Novel Infectious Disease case reporting for Los Angeles County
 
 ```{r}
 
@@ -115,4 +113,30 @@ la_county_cases %>% group_by(
 )
 
 # It would be a good idea to remove the column dt_report as part of cleaning as this column only contains NA values. 
+```
+
+## Dataset 3: California estimated population for 2023
+
+```{r}
+
+#Desription of dataset:
+#This dataset is simulated, but approximates what population data from the State of California might look like. It includes population estimates for 2023 by CA county and demographic categories (age, race, and sex).
+
+#Relation of data to problem statement:
+#This population dataset provides information on the general Californian population which can be stratified according to the demographic or geographic categories of interest, which will be useful for standardizing between groups for comparison.
+
+
+#import the dataset and assign to an object
+filepath_ca_pop_2023 <- "https://raw.githubusercontent.com/PHW290/phw251_projectdata/main/scenario_1/ca_pop_2023.csv"
+ca_pop_2023 <- read_csv(filepath_ca_pop_2023)
+
+#see data types for each column
+str(ca_pop_2023)
+
+#check for any NA values in the dataset
+any(is.na(ca_pop_2023))
+
+# Most variables are currently character fields, but to properly manipulate them, it will make sense to convert them to factors. eg. county, health_officer_region, age_cat, sex, and race.
+
+# There also appear to be rows of data where all demographic and geographic values are the same, but have different population estimates listed. These may represent collection of count data from individual areas within each geographic area, stratified by age, so these fields will require combining to give one population number estimate per geographic area per demographic group.
 ```
