@@ -29,6 +29,8 @@ The `echo: false` option disables the printing of code (only output is displayed
 
 ```{r}
 
+sim_novelid_LACounty <- read.csv("https://raw.githubusercontent.com//phw290/phw251_projectdata/main/scenario_1/sim_novelid_LACounty.csv")
 
+sim_novelid_LACounty
 
 ```
