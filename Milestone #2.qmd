@@ -33,6 +33,8 @@ library(tidyverse)
 filepath_ca_pop_2023 <- "https://raw.githubusercontent.com//PHW290/phw251_projectdata/main/scenario_1/ca_pop_2023.csv"
 
 ca_pop_2023 <- read_csv(filepath_ca_pop_2023)
+
+head(ca_pop_2023)
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).
