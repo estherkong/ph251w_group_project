@@ -48,7 +48,7 @@ novelid_LAcounty <- read.csv("https://raw.githubusercontent.com//PHW290/phw251_p
 novelid_LAcounty
 
 la_county_cases <- novelid_LAcounty
-names(lacounty_cases) <- tolower(names(lacounty_cases))
+names(la_county_cases) <- tolower(names(la_county_cases))
 
-
+names(la_county_cases)
 ```
