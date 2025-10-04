@@ -29,12 +29,17 @@ You can add options to executable code like this
 
 ```{r Esther's chunk'}
 library(tidyverse)
+library(readxl)
 
 filepath_ca_pop_2023 <- "https://raw.githubusercontent.com//PHW290/phw251_projectdata/main/scenario_1/ca_pop_2023.csv"
 
 ca_pop_2023 <- read_csv(filepath_ca_pop_2023)
 
 head(ca_pop_2023)
+
+filepath_codebook <- "https://raw.githubusercontent.com/PHW290/phw251_projectdata/main/scenario_1/scenario_one_simulated_novelid_codebook.xlsx"
+codebook <- read_excel(filepath_codebook)
+codebook
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).
