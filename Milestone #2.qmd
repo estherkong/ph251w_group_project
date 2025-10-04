@@ -12,20 +12,24 @@ Quarto enables you to weave together content and executable code into a finished
 
 When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
 
+Pam
+
 ```{r}
-1 + 1
+library(readr)
+
+sim_novelid_CA <- read_csv("https://raw.githubusercontent.com//PHW290/phw251_projectdata/main/scenario_1/sim_novelid_CA.csv")
+
+sim_novelid_CA
+
+
+
 ```
 
 You can add options to executable code like this
 
-```{r Esther's chunk'}
-
-library(tidyverse)
-
-filepath_ca_pop_2023 <- "https://raw.githubusercontent.com/PHW290/phw251_projectdata/main/scenario_1/ca_pop_2023.csv"
-
-ca_pop_2023 <- read_csv(filepath_ca_pop_2023)
-
+```{r}
+#| echo: false
+2 * 2
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).
@@ -34,8 +38,6 @@ The `echo: false` option disables the printing of code (only output is displayed
 
 ```{r}
 
-sim_novelid_LACounty <- read.csv("https://raw.githubusercontent.com//phw290/phw251_projectdata/main/scenario_1/sim_novelid_LACounty.csv")
 
-sim_novelid_LACounty
 
 ```
