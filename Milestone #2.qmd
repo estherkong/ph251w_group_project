@@ -69,7 +69,7 @@ summary(sim_novelid_CA$new_severe)
 ```{r}
 
 #Description of the dataset:
-# This is a simulated dataset containing reported cases of a disease categorized by date of diagnoses, patient demographics, and cumulative totals for infected, unrecovered, and severe cases, for the county of Los Angelos.  
+# This is a simulated dataset containing reported cases of a disease categorized by date of diagnoses, patient demographics, and cumulative totals for infected, unrecovered, and severe cases, for the county of Los Angeles.  
 
 #Relation of data to problem statement:
 # The data provides patient demogrpahics of age group, binary gender, race and ethnicity which will help to answer if there are disparities in the rate of infection among different populations. 
