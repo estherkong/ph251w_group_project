@@ -35,36 +35,32 @@ unique(sim_novelid_CA$dt_diagnosis)
 #Our importing process involves using the proper package to use a function that imports CSV files and locating the file path (or link) of the file on GITHUB.
 
 #Geography
-class(sim_novelid_CA$county)
+str(sim_novelid_CA$county)
 unique(sim_novelid_CA$county)
+#This is character data and contains all the different counties that cases of individuals are from. 
 
 #Demographics
-class(sim_novelid_CA$age_cat)
+str(sim_novelid_CA$age_cat)
 unique(sim_novelid_CA$age_cat)
-class(sim_novelid_CA$sex)
-class(sim_novelid_CA$race_ethnicity)
+# This is character data and has data on different age_cat groups are 0-17, 18-49, 50-64, and 65+. 
+
+str(sim_novelid_CA$race_ethnicity)
 range(sim_novelid_CA$race_ethnicity)
-#1 = "White, Non-Hispanic", 2 = "Black, Non-Hispanic", 3 = "American Indian or Alaska Native, Non-Hispanic", 4 = "Asian, Non-Hispanic", 5 = "Native Hawaiian or Pacific Islander, Non-Hispanic", 6 = "Multiracial (two or more of above races), Non-Hispanic", 7 = "Hispanic (any race)", 9 = "Unknown). No Unknowns then. 
+# The coding for this is 1= "White, Non-Hispanic", 2 = "Black, Non-Hispanic", 3 = "American Indian or Alaska Native, Non-Hispanic", 4 = "Asian, Non-Hispanic", 5 = "Native Hawaiian or Pacific Islander, Non-Hispanic", 6 = "Multiracial (two or more of above races), Non-Hispanic", 7 = "Hispanic (any race)", 9 = "Unknown). Since the range max of this data set is 7, there are no participants who identify as 7 = "Unknowns."
 
-class(sim_novelid_CA$dt_diagnosis)
-
-class(sim_novelid_CA$time_int)
+str(sim_novelid_CA$time_int)
 summary(sim_novelid_CA$time_int)
+#time_int contains numeric values. This represents the standard 7-day period (Sunday to Saturday) used by the Centers for Disease Control and Prevention (CDC) to report public health data. The format is  YYYY+<2-digit MMWR week and ranges from  202322 to 202352. 
 
-class(sim_novelid_CA$new_infections)
+str(sim_novelid_CA$new_infections)
 summary(sim_novelid_CA$new_infections)
-class(sim_novelid_CA$cumulative_infected)
-summary(sim_novelid_CA$cumulative_infected)
+# new_infections is numeric data and shows the number of new infections or cases in a specific county and belonging to other demographics category. The maximum number of new infection is 7142.
 
-#Newly identified individuals having severe disease requiring hospitalization
-class(sim_novelid_CA$new_severe)
-summary(sim_novelid_CA$new_infections)
+str(sim_novelid_CA$new_severe)
+summary(sim_novelid_CA$new_severe)
+#new_severe is numeric data and shows newly identified individuals that need to be hospitalized due to severe cases. The maximum number of individuals is 198. 
 
-#Cumulative number of identified individuals having severe disease requiring hospitalization
-class(sim_novelid_CA$cumulative_severe)
-summary(sim_novelid_CA$cumulative_severe)
-
-# We might need to convert county, age_cat, sex, race_ethnicity from character into something else if we are going to do a regression later, for example, to compare them with new_infections, cumulative_infected, etc. I am not sure about this one. 
+# We might need to convert county, age_cat, sex, race_ethnicity from character into factor data if we are going to do a regression later, for example. It would be helpful to remove the columns that the codebook states are a result of the simulation and not needed for analysis (e.g., new_unrecovered, cumulative_unrecovered).
 
 ```
 
