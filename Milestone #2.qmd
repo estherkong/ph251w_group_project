@@ -34,19 +34,6 @@ unique(sim_novelid_CA$dt_diagnosis)
 
 #Our importing process involves using the proper package to use a function that imports CSV files and locating the file path (or link) of the file on GITHUB.
 
-#Geography
-str(sim_novelid_CA$county)
-unique(sim_novelid_CA$county)
-#This is character data and contains all the different counties that cases of individuals are from. 
-
-#Demographics
-str(sim_novelid_CA$age_cat)
-unique(sim_novelid_CA$age_cat)
-# This is character data and has data on different age_cat groups are 0-17, 18-49, 50-64, and 65+. 
-
-str(sim_novelid_CA$race_ethnicity)
-range(sim_novelid_CA$race_ethnicity)
-# The coding for this is 1= "White, Non-Hispanic", 2 = "Black, Non-Hispanic", 3 = "American Indian or Alaska Native, Non-Hispanic", 4 = "Asian, Non-Hispanic", 5 = "Native Hawaiian or Pacific Islander, Non-Hispanic", 6 = "Multiracial (two or more of above races), Non-Hispanic", 7 = "Hispanic (any race)", 9 = "Unknown). Since the range max of this data set is 7, there are no participants who identify as 7 = "Unknowns."
 
 str(sim_novelid_CA$time_int)
 summary(sim_novelid_CA$time_int)
