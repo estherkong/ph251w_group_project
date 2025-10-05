@@ -120,7 +120,7 @@ la_county_cases %>% group_by(
 ```{r}
 
 #Desription of dataset:
-#This dataset is simulated, but approximates what population data from the State of California might look like. It includes population estimates for 2023 by CA county and demographic categories (age, race, and sex).
+#This dataset is simulated, but approximates what population data from the State of California might look like. It includes population estimates by the CA Dept of Finance for 2023 by CA county and demographic categories (age, race, and sex).
 
 #Relation of data to problem statement:
 #This population dataset provides information on the general Californian population which can be stratified according to the demographic or geographic categories of interest, which will be useful for standardizing between groups for comparison.
@@ -136,7 +136,46 @@ str(ca_pop_2023)
 #check for any NA values in the dataset
 any(is.na(ca_pop_2023))
 
-# Most variables are currently character fields, but to properly manipulate them, it will make sense to convert them to factors. eg. county, health_officer_region, age_cat, sex, and race.
+#see the unique values for some columns
+unique(ca_pop_2023$health_officer_region)
+unique(ca_pop_2023$age_cat)
+unique(ca_pop_2023$race7)
+
+#mean, median, range for pop column
+summary(ca_pop_2023$pop)
+
+#quick summary of population numbers (summed up the rows) across race and age groups
+ca_pop_2023 |> 
+  group_by(race7, age_cat) |> 
+  summarise(
+    count = n(),
+    total = sum(pop)
+  )
+
+
+# Most variables are currently character fields, but to properly manipulate them, it will make sense to convert them to factors. eg. county, health_officer_region, age_cat, sex, and race. Also a number of these character fields are inconsistently capitalized, so we'd likely want to standardise all the data. age_cat would also likely be more useful if set up as an ordered factor.
 
 # There also appear to be rows of data where all demographic and geographic values are the same, but have different population estimates listed. These may represent collection of count data from individual areas within each geographic area, stratified by age, so these fields will require combining to give one population number estimate per geographic area per demographic group.
+```
+
+## Data element descriptions:
+
+From Dataset 3:
+
+-   health_officer_region: contains character data, unique values of "Bay Area", "Greater Sierra Sacramento","Central California", "Rural North", "Southern California", "Los Angeles". It aggregates counties into more general buckets.
+
+-   age_cat: contains character data, with unique values "0-4", "5-11", "12-17", "18-49", "50-64", "65+". These haven't been set up as ordered levels yet.
+
+-   sex: character data with only two unique values "FEMALE" and "MALE".
+
+-   race7: contains character data, with values that correspond to race category codes (according to the codebook). Unique values are: "WhiteTE NH" "Black NH" "AIAN NH" "Asian NH" "NHPI NH" "MR NH" "Hispanic". These correspond to the following:\
+    WhiteTE NH = White, Non-Hispanic; Black NH = Black, Non-Hispanic;AIAN NH = American Indian or Alaska Native, Non-Hispanic; Asian NH = Asian, Non-Hispanic; NHPI NH = Native Hawaiian or Pacific Islander, Non-Hispanic; MR NH = Multiracial (two or more of above races), Non-Hispanic; Hispanic = Hispanic (any race)
+
+-   pop: contains numeric data which indicate the number of people in each strata. Mean, median, and range from this column:\
+    Mean 433.9\
+    Median 15.0\
+    Range 0.0 to 45227.0
+
+```{r}
+
 ```
