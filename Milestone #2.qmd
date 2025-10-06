@@ -1,9 +1,9 @@
 ---
 title: "Milestone #2 for Infectious disease outbreak"
-format: html
 author: "Carli Boyd, Esther Kong, Pamela Pichon"
 date: 'today'
 editor: visual
+format: html
 ---
 
 ```{r}
@@ -17,15 +17,12 @@ library(readr)
 
 ## Dataset 1: Simulated Novel Infection Disease case reporting for California
 
-summary(sim_novelid_CA\$new_unrecovered)
+We can assume that the data source is simulated data of infectious disease cases for each county in California reported from public health agencies and organizations such as county health departments during 2023.
+
+Our research question explores if the current outbreak is disproportionately affecting certain demographic or geographic populations to inform departments and agencies how to allocate prevention and treatment resources.
 
 ```{r}
-
-# We can assume that the data source is simulated data of infectious disease cases for each county in California reported from public health agencies and organizations such as county health departments during 2023. 
-
-# Our research question explores if the current outbreak is disproportionately affecting certain demographic or geographic populations to inform departments and agencies how to allocate prevention and treatment resources. 
-
-
+#| code-overflow: wrap
 sim_novelid_CA <- read_csv("https://raw.githubusercontent.com//PHW290/phw251_projectdata/main/scenario_1/sim_novelid_CA.csv")
 
 sim_novelid_CA
@@ -37,15 +34,14 @@ unique(sim_novelid_CA$dt_diagnosis)
 
 str(sim_novelid_CA$time_int)
 summary(sim_novelid_CA$time_int)
-#time_int contains numeric values. This represents the standard 7-day period (Sunday to Saturday) used by the Centers for Disease Control and Prevention (CDC) to report public health data. The format is  YYYY+<2-digit MMWR week and ranges from  202322 to 202352. 
+
 
 str(sim_novelid_CA$new_infections)
 summary(sim_novelid_CA$new_infections)
-# new_infections is numeric data and shows the number of new infections or cases in a specific county and belonging to other demographics category. The maximum number of new infection is 7142.
+
 
 str(sim_novelid_CA$new_severe)
 summary(sim_novelid_CA$new_severe)
-#new_severe is numeric data and shows newly identified individuals that need to be hospitalized due to severe cases. The maximum number of individuals is 198. 
 
 # We might need to convert county, age_cat, sex, race_ethnicity from character into factor data if we are going to do a regression later, for example. It would be helpful to remove the columns that the codebook states are a result of the simulation and not needed for analysis (e.g., new_unrecovered, cumulative_unrecovered).
 
@@ -53,19 +49,19 @@ summary(sim_novelid_CA$new_severe)
 
 ## Dataset 2: Simulated Novel Infectious Disease case reporting for Los Angeles County
 
+Description of the dataset:
+
+This is a simulated dataset containing reported cases of a disease categorized by date of diagnoses, patient demographics, and cumulative totals for infected, unrecovered, and severe cases, for the county of Los Angeles.
+
+Relation of data to problem statement:
+
+The data provides patient demogrpahics of age group, binary gender, race and ethnicity which will help to answer if there are disparities in the rate of infection among different populations.
+
 ```{r}
-
-#Description of the dataset:
-# This is a simulated dataset containing reported cases of a disease categorized by date of diagnoses, patient demographics, and cumulative totals for infected, unrecovered, and severe cases, for the county of Los Angeles.  
-
-#Relation of data to problem statement:
-# The data provides patient demogrpahics of age group, binary gender, race and ethnicity which will help to answer if there are disparities in the rate of infection among different populations. 
-
+#| code-overflow: wrap
 # The dataset was imported using read.csv from the class github and assigned to an object
 novelid_LAcounty <- read.csv(
   "https://raw.githubusercontent.com//PHW290/phw251_projectdata/main/scenario_1/sim_novelid_LACounty.csv")
-
-novelid_LAcounty
 
 # Column names were updated to lower case below and reassigned to a new object
 la_county_cases <- novelid_LAcounty
@@ -100,15 +96,14 @@ la_county_cases %>% group_by(
 
 ## Dataset 3: California estimated population for 2023
 
+Desription of dataset:
+This dataset is simulated, but approximates what population data from the State of California might look like. It includes population estimates by the CA Dept of Finance for 2023 by CA county and demographic categories (age, race, and sex).
+
+Relation of data to problem statement:
+This population dataset provides information on the general Californian population which can be stratified according to the demographic or geographic categories of interest, which will be useful for standardizing between groups for comparison.
+
 ```{r}
-
-#Desription of dataset:
-#This dataset is simulated, but approximates what population data from the State of California might look like. It includes population estimates by the CA Dept of Finance for 2023 by CA county and demographic categories (age, race, and sex).
-
-#Relation of data to problem statement:
-#This population dataset provides information on the general Californian population which can be stratified according to the demographic or geographic categories of interest, which will be useful for standardizing between groups for comparison.
-
-
+#| code-overflow: wrap
 #import the dataset and assign to an object
 filepath_ca_pop_2023 <- "https://raw.githubusercontent.com/PHW290/phw251_projectdata/main/scenario_1/ca_pop_2023.csv"
 ca_pop_2023 <- read_csv(filepath_ca_pop_2023)
@@ -135,13 +130,20 @@ ca_pop_2023 |>
     total = sum(pop)
   )
 
-
 # Most variables are currently character fields, but to properly manipulate them, it will make sense to convert them to factors. eg. county, health_officer_region, age_cat, sex, and race. Also a number of these character fields are inconsistently capitalized, so we'd likely want to standardise all the data. age_cat would also likely be more useful if set up as an ordered factor.
 
 # There also appear to be rows of data where all demographic and geographic values are the same, but have different population estimates listed. These may represent collection of count data from individual areas within each geographic area, stratified by age, so these fields will require combining to give one population number estimate per geographic area per demographic group.
 ```
 
 ## Data element descriptions:
+
+From Dataset 1:
+
+-   time_int: contains numeric values. This represents the standard 7-day period (Sunday to Saturday) used by the Centers for Disease Control and Prevention (CDC) to report public health data. The format is YYYY+\<2-digit MMWR week and ranges from 202322 to 202352.
+
+-   new_infections: is numeric data and shows the number of new infections or cases in a specific county and belonging to other demographics category. The maximum number of new infection is 7142.
+
+-   new_severe: is numeric data and shows newly identified individuals that need to be hospitalized due to severe cases. The maximum number of individuals is 198.
 
 From Dataset 3:
 
