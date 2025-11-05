@@ -1,0 +1,164 @@
+---
+title: "Milestone #3 for Infectious disease outbreak"
+author: "Carli Boyd, Esther Kong, Pamela Pichon"
+date: 'today'
+editor: visual
+format: html
+---
+
+```{r}
+#| results: 'hide'
+ 
+#Load required packages
+library(tidyverse)
+library(readr)
+
+```
+
+## Dataset 1: Simulated Novel Infection Disease case reporting for California
+
+We can assume that the data source is simulated data of infectious disease cases for each county in California reported from public health agencies and organizations such as county health departments during 2023.
+
+Our research question explores if the current outbreak is disproportionately affecting certain demographic or geographic populations to inform departments and agencies how to allocate prevention and treatment resources.
+
+```{r}
+#| code-overflow: wrap
+sim_novelid_CA <- read_csv("https://raw.githubusercontent.com//PHW290/phw251_projectdata/main/scenario_1/sim_novelid_CA.csv")
+
+sim_novelid_CA
+
+unique(sim_novelid_CA$dt_diagnosis)
+
+#Our importing process involves using the proper package to use a function that imports CSV files and locating the file path (or link) of the file on GITHUB.
+
+
+str(sim_novelid_CA$time_int)
+summary(sim_novelid_CA$time_int)
+
+
+str(sim_novelid_CA$new_infections)
+summary(sim_novelid_CA$new_infections)
+
+
+str(sim_novelid_CA$new_severe)
+summary(sim_novelid_CA$new_severe)
+
+# We might need to convert county, age_cat, sex, race_ethnicity from character into factor data if we are going to do a regression later, for example. It would be helpful to remove the columns that the codebook states are a result of the simulation and not needed for analysis (e.g., new_unrecovered, cumulative_unrecovered).
+
+```
+
+## Dataset 2: Simulated Novel Infectious Disease case reporting for Los Angeles County
+
+Description of the dataset:
+
+This is a simulated dataset containing reported cases of a disease categorized by date of diagnoses, patient demographics, and cumulative totals for infected, unrecovered, and severe cases, for the county of Los Angeles.
+
+Relation of data to problem statement:
+
+The data provides patient demogrpahics of age group, binary gender, race and ethnicity which will help to answer if there are disparities in the rate of infection among different populations.
+
+```{r}
+#| code-overflow: wrap
+# The dataset was imported using read.csv from the class github and assigned to an object
+novelid_LAcounty <- read.csv(
+  "https://raw.githubusercontent.com//PHW290/phw251_projectdata/main/scenario_1/sim_novelid_LACounty.csv")
+
+# Column names were updated to lower case below and reassigned to a new object
+la_county_cases <- novelid_LAcounty
+names(la_county_cases) <- tolower(names(la_county_cases))
+
+names(la_county_cases)
+
+#Understanding the range of severe cases in each demographic area would be useful. Before we can get the ranges, we need to determine the data types
+
+str(la_county_cases)
+# the data elements are all classified as they should be
+
+# We need to know the different race/ethnicity groups in the dataset
+unique(la_county_cases$race_eth)
+
+# This gives us "White, Non-Hispanic", "Black, Non-Hispanic", "American Indian or Alaska Native, Non-Hispanic", "Asian, Non-Hispanic", "Native Hawaiian or Pacific Islander, Non-Hispanic", "Multiracial (two or more of above races), Non-Hispanic" and "Hispanic (any race)"
+
+# Then we can summarize each grouping to get the number of cases per group and the range and average of new severe cases.
+
+la_county_cases %>% group_by(
+  race_eth) %>%
+  summarise(
+    count = n(),
+    severe_new_min = min(severe_new, na.rm = T),
+    severe_new_max = max(severe_new, na.rm = T),
+    severe_new_mean = mean(severe_new, na.rm = T),
+    severe_cumulative_mean = mean(severe_cumulative, na.rm = T)
+)
+
+# It would be a good idea to remove the column dt_report as part of cleaning as this column only contains NA values. 
+```
+
+## Dataset 3: California estimated population for 2023
+
+Desription of dataset: This dataset is simulated, but approximates what population data from the State of California might look like. It includes population estimates by the CA Dept of Finance for 2023 by CA county and demographic categories (age, race, and sex).
+
+Relation of data to problem statement: This population dataset provides information on the general Californian population which can be stratified according to the demographic or geographic categories of interest, which will be useful for standardizing between groups for comparison.
+
+```{r}
+#| code-overflow: wrap
+#import the dataset and assign to an object
+filepath_ca_pop_2023 <- "https://raw.githubusercontent.com/PHW290/phw251_projectdata/main/scenario_1/ca_pop_2023.csv"
+ca_pop_2023 <- read_csv(filepath_ca_pop_2023)
+
+#see data types for each column
+str(ca_pop_2023)
+
+#check for any NA values in the dataset
+any(is.na(ca_pop_2023))
+
+#see the unique values for some columns
+unique(ca_pop_2023$health_officer_region)
+unique(ca_pop_2023$age_cat)
+unique(ca_pop_2023$race7)
+
+#mean, median, range for pop column
+summary(ca_pop_2023$pop)
+
+#quick summary of population numbers (summed up the rows) across race and age groups
+ca_pop_2023 |> 
+  group_by(race7, age_cat) |> 
+  summarise(
+    count = n(),
+    total = sum(pop)
+  )
+
+# Most variables are currently character fields, but to properly manipulate them, it will make sense to convert them to factors. eg. county, health_officer_region, age_cat, sex, and race. Also a number of these character fields are inconsistently capitalized, so we'd likely want to standardise all the data. age_cat would also likely be more useful if set up as an ordered factor.
+
+# There also appear to be rows of data where all demographic and geographic values are the same, but have different population estimates listed. These may represent collection of count data from individual areas within each geographic area, stratified by age, so these fields will require combining to give one population number estimate per geographic area per demographic group.
+```
+
+## Data element descriptions:
+
+From Dataset 1:
+
+-   time_int: contains numeric values. This represents the standard 7-day period (Sunday to Saturday) used by the Centers for Disease Control and Prevention (CDC) to report public health data. The format is YYYY+\<2-digit MMWR week and ranges from 202322 to 202352.
+
+-   new_infections: is numeric data and shows the number of new infections or cases in a specific county and belonging to other demographics category. The maximum number of new infection is 7142.
+
+-   new_severe: is numeric data and shows newly identified individuals that need to be hospitalized due to severe cases. The maximum number of individuals is 198.
+
+From Dataset 3:
+
+-   health_officer_region: contains character data, unique values of "Bay Area", "Greater Sierra Sacramento","Central California", "Rural North", "Southern California", "Los Angeles". It aggregates counties into more general buckets.
+
+-   age_cat: contains character data, with unique values "0-4", "5-11", "12-17", "18-49", "50-64", "65+". These haven't been set up as ordered levels yet.
+
+-   sex: character data with only two unique values "FEMALE" and "MALE".
+
+-   race7: contains character data, with values that correspond to race category codes (according to the codebook). Unique values are: "WhiteTE NH" "Black NH" "AIAN NH" "Asian NH" "NHPI NH" "MR NH" "Hispanic". These correspond to the following:\
+    WhiteTE NH = White, Non-Hispanic; Black NH = Black, Non-Hispanic;AIAN NH = American Indian or Alaska Native, Non-Hispanic; Asian NH = Asian, Non-Hispanic; NHPI NH = Native Hawaiian or Pacific Islander, Non-Hispanic; MR NH = Multiracial (two or more of above races), Non-Hispanic; Hispanic = Hispanic (any race)
+
+-   pop: contains numeric data which indicate the number of people in each strata. Mean, median, and range from this column:\
+    Mean 433.9\
+    Median 15.0\
+    Range 0.0 to 45227.0
+
+```{r}
+
+```
