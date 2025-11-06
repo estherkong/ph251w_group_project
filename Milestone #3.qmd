@@ -164,6 +164,7 @@ From Dataset 3:
 ## Morbidity data sets (CA and LA County)
 
 ```{r}
+## Carli 
 # recode column names, values, or formats that are in discordant (dates, etc.)
 # I saved these as new objects so that I wouldn't overwrite existing data
 # We can change the code once confirmed all correct
@@ -178,6 +179,40 @@ la_county_clean <-la_county_cases %>% rename(
   diagnosis_date = dmy(diagnosis_date)
 )
 
+# updated column names to match the novelid_CA set
+la_county_clean <- la_county_clean %>% rename(
+  cumulative_infected = infected_cumulative,
+  new_unrecovered = unrecovered_new,
+  cumulative_unrecovered = unrecovered_cumulative,
+  new_severe = severe_new,
+  cumulative_severe = severe_cumulative
+)
+
+# there isnt a county column in the la_county set so I added one
+la_county_clean <- la_county_clean %>%
+  mutate(county = "Los Angeles County")
+
+# dropped the dt_report column, added the epi week column, and put in the same order
+la_county_clean <- la_county_clean %>% select(
+  -dt_report) %>% mutate(
+    epi_week = epiweek(diagnosis_date),
+    new_infections = dx_new
+  ) %>% select(
+    county,
+    diagnosis_date,
+    epi_week,
+    age_category,
+    sex,
+    race_ethnicity,
+    new_infections,
+    cumulative_infected,
+    new_unrecovered,
+    cumulative_unrecovered,
+    new_severe,
+    cumulative_severe
+  )
+
+
 # checking the column names and date format
 head(la_county_clean)
 
@@ -190,6 +225,8 @@ novelid_clean <- sim_novelid_CA %>% rename(
 ) %>% mutate(
   diagnosis_date = ymd(diagnosis_date)
 ) 
+
+
 
 # recoding the race and ethnicity from integers to the actual category to match
 novelid_clean <- novelid_clean %>% mutate(
@@ -205,6 +242,24 @@ novelid_clean <- novelid_clean %>% mutate(
     TRUE ~ NA_character_  
   )
 )
+# Convert time_int to epi week number and reordered the columns to be consistent
+novelid_clean <- novelid_clean %>%
+  mutate(epi_week = as.integer(substr(time_int, 5, 6))) %>%
+  select(
+    county,
+    diagnosis_date,
+    epi_week,
+    age_category,         
+    sex,
+    race_ethnicity,
+    new_infections,
+    cumulative_infected,
+    new_unrecovered,
+    cumulative_unrecovered,
+    new_severe,
+    cumulative_severe
+  )
+
 
 # checking the column names and dates
 head(novelid_clean)
