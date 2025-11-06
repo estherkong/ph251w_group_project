@@ -159,6 +159,112 @@ From Dataset 3:
     Median 15.0\
     Range 0.0 to 45227.0
 
+# Milestone #3
+
+## Morbidity data sets (CA and LA County)
+
+```{r}
+# recode column names, values, or formats that are in discordant (dates, etc.)
+# I saved these as new objects so that I wouldn't overwrite existing data
+# We can change the code once confirmed all correct
+
+library(dplyr)
+library(lubridate)
+# renaming column names and dates to match across all 3 datasets 
+la_county_clean <-la_county_cases %>% rename(
+  race_ethnicity = race_eth,
+  diagnosis_date = dt_dx
+) %>% mutate(
+  diagnosis_date = dmy(diagnosis_date)
+)
+
+# checking the column names and date format
+head(la_county_clean)
+
+
+
+# renaming column names to match across all 3 datasets 
+novelid_clean <- sim_novelid_CA %>% rename(
+  age_category = age_cat,
+  diagnosis_date = dt_diagnosis
+) %>% mutate(
+  diagnosis_date = ymd(diagnosis_date)
+) 
+
+# recoding the race and ethnicity from integers to the actual category to match
+novelid_clean <- novelid_clean %>% mutate(
+  race_ethnicity = case_when(
+    race_ethnicity == 1 ~ "White, Non-Hispanic",
+    race_ethnicity == 2 ~ "Black, Non-Hispanic",
+    race_ethnicity == 3 ~ "American Indian or Alaska Native, Non-Hispanic",
+    race_ethnicity == 4 ~ "Asian, Non-Hispanic",
+    race_ethnicity == 5 ~ "Native Hawaiian or Pacific Islander, Non-Hispanic",
+    race_ethnicity == 6 ~ "Multiracial (two or more of above races), Non-Hispanic",
+    race_ethnicity == 7 ~ "Hispanic (any race)",
+    race_ethnicity == 9 ~ "Unknown",
+    TRUE ~ NA_character_  
+  )
+)
+
+# checking the column names and dates
+head(novelid_clean)
+```
+
+```{r}
+# combine morbidity datasets into a single data set
+
+
+```
+
+```{r}
+# Select demographic and geographic strata(s) of interest
+
+
+```
+
+```{r}
+# aggregate the data into a new dataframe to include only one row per strata of interest
+
+
+```
+
+## Population data set 
+
 ```{r}
 
+# renamed columns to match the morbidity data sets
+
+ca_pop_clean<- ca_pop_2023 %>% rename(
+  race_ethnicity = race7,
+  age_category = age_cat
+)
+
+# recoding the race_ethnicity to match across all the data sets
+
+ca_pop_clean <- ca_pop_clean %>% mutate(
+  race_ethnicity = case_when(
+    race_ethnicity == "WhiteTE NH" ~ "White, Non-Hispanic",
+    race_ethnicity == "Black NH" ~ "Black, Non-Hispanic",
+    race_ethnicity == "AIAN NH" ~ "American Indian or Alaska Native, Non-Hispanic",
+    race_ethnicity == "Asian NH" ~ "Asian, Non-Hispanic",
+    race_ethnicity == "NHPI NH" ~ "Native Hawaiian or Pacific Islander, Non-Hispanic",
+    race_ethnicity == "MR NH" ~ "Multiracial (two or more of above races), Non-Hispanic",
+    race_ethnicity == "Hispanic" ~ "Hispanic (any race)",
+    TRUE ~ NA_character_
+  )
+)
+  
+
+# combining the first 3 age categories because the other two data sets are 0-17 and this one is 0-4, 5-11, and 12-17
+
+ca_pop_clean <- ca_pop_clean %>% mutate(
+  age_category = case_when(
+    age_category %in% c("0-4", "5-11", "12-17") ~ "0-17",
+    TRUE ~ NA_character_
+  )
+)
+
+
+# checking column names
+head(ca_pop_clean)
 ```
