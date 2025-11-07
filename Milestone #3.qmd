@@ -245,7 +245,6 @@ head(novelid_clean)
 # combine morbidity datasets into a single data set
 morbidity_combined <- left_join(x=novelid_clean, y=la_county_clean, by="county")
 
-#test test
 #test
 
 ```
