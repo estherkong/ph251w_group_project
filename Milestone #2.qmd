@@ -96,11 +96,9 @@ la_county_cases %>% group_by(
 
 ## Dataset 3: California estimated population for 2023
 
-Desription of dataset:
-This dataset is simulated, but approximates what population data from the State of California might look like. It includes population estimates by the CA Dept of Finance for 2023 by CA county and demographic categories (age, race, and sex).
+Desription of dataset: This dataset is simulated, but approximates what population data from the State of California might look like. It includes population estimates by the CA Dept of Finance for 2023 by CA county and demographic categories (age, race, and sex).
 
-Relation of data to problem statement:
-This population dataset provides information on the general Californian population which can be stratified according to the demographic or geographic categories of interest, which will be useful for standardizing between groups for comparison.
+Relation of data to problem statement: This population dataset provides information on the general Californian population which can be stratified according to the demographic or geographic categories of interest, which will be useful for standardizing between groups for comparison.
 
 ```{r}
 #| code-overflow: wrap
