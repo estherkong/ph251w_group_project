@@ -284,7 +284,8 @@ str(morbidity_combined)
 
 stratified_morbidity_infections <- morbidity_combined %>% 
   group_by(county, race_ethnicity) %>% 
-  summarise("new infections" = sum(new_infections)) %>% 
+  summarise("new infections" = sum(new_infections),
+            "new severe" = sum(new_severe)) %>% 
   ungroup()
 
 stratified_morbidity_infections
@@ -318,7 +319,7 @@ ca_pop_clean <- ca_pop_clean %>% mutate(
     TRUE ~ NA_character_
   )
 )
-  
+
 
 # combining the first 3 age categories because the other two data sets are 0-17 and this one is 0-4, 5-11, and 12-17
 
@@ -329,6 +330,11 @@ ca_pop_clean <- ca_pop_clean %>% mutate(
   )
 )
 
+#removing health_officer_region 
+ca_pop_clean <- ca_pop_clean %>%
+  select(-health_officer_region)
+
+#grouping - Esther feel free to add what you mentioned 
 
 # checking column names
 head(ca_pop_clean)
@@ -338,9 +344,8 @@ head(ca_pop_clean)
 
 ```{r}
 # Join the morbidity & population datasets
-all_three_joined <- 
-  left_join(morbidity_combined, ca_pop_clean, 
-             by = c("county","age_category", "sex","race_ethnicity"))
+all_three_joined <- left_join(stratified_morbidity_infections, ca_pop_clean, 
+             by = c("county","race_ethnicity"))
 
 head(all_three_joined)
 
