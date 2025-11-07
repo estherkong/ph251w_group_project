@@ -21,19 +21,16 @@ summary(sim_novelid_CA\$new_unrecovered)
 
 ```{r}
 
-# We can assume that the data source is simulated data of infectious disease cases for each county in California reported from public health agencies and organizations such as county health departments during 2023. 
-
-# Our research question explores if the current outbreak is disproportionately affecting certain demographic or geographic populations to inform departments and agencies how to allocate prevention and treatment resources. 
-
-
 sim_novelid_CA <- read_csv("https://raw.githubusercontent.com//PHW290/phw251_projectdata/main/scenario_1/sim_novelid_CA.csv")
-
 sim_novelid_CA
 
 unique(sim_novelid_CA$dt_diagnosis)
 
-#Our importing process involves using the proper package to use a function that imports CSV files and locating the file path (or link) of the file on GITHUB.
+# We can assume that the data source is simulated data of infectious disease cases for each county in California reported from public health agencies and organizations such as county health departments during 2023. 
 
+# Our research question explores if the current outbreak is disproportionately affecting certain demographic or geographic populations to inform departments and agencies how to allocate prevention and treatment resources. 
+
+#Our importing process involves using the proper package to use a function that imports CSV files and locating the file path (or link) of the file on GITHUB.
 
 str(sim_novelid_CA$time_int)
 summary(sim_novelid_CA$time_int)
