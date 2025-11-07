@@ -164,6 +164,7 @@ From Dataset 3:
 # Milestone #3
 
 ## Morbidity data sets (CA and LA County)
+
 ### Cleaning
 
 ```{r}
@@ -267,7 +268,9 @@ novelid_clean <- novelid_clean %>%
 # checking the column names and dates
 head(novelid_clean)
 ```
-###Joining
+
+### Joining
+
 ```{r}
 # checking whether all the column names match
 identical(names(la_county_clean),names(novelid_clean))
@@ -294,9 +297,10 @@ stratified_morbidity_infections
 
 ```
 
-
 ## Population data set
+
 ### Cleaning
+
 ```{r}
 
 # renamed columns to match the morbidity data sets
