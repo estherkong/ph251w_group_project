@@ -186,8 +186,6 @@ la_county_clean <-la_county_cases %>% rename(
 # updated column names to match the novelid_CA set
 la_county_clean <- la_county_clean %>% rename(
   cumulative_infected = infected_cumulative,
-  new_unrecovered = unrecovered_new,
-  cumulative_unrecovered = unrecovered_cumulative,
   new_severe = severe_new,
   cumulative_severe = severe_cumulative
 )
@@ -210,8 +208,6 @@ la_county_clean <- la_county_clean %>% select(
     race_ethnicity,
     new_infections,
     cumulative_infected,
-    new_unrecovered,
-    cumulative_unrecovered,
     new_severe,
     cumulative_severe
   )
@@ -258,8 +254,6 @@ novelid_clean <- novelid_clean %>%
     race_ethnicity,
     new_infections,
     cumulative_infected,
-    new_unrecovered,
-    cumulative_unrecovered,
     new_severe,
     cumulative_severe
   )
