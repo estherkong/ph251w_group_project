@@ -364,3 +364,27 @@ check_na <- all_three_joined %>%
   filter(if_any(everything(), is.na))
 
 ```
+
+```{r}
+
+#rate metric attempt 
+
+rate_infections <- all_three_joined %>%
+  group_by(county, race_ethnicity) %>% 
+  mutate(`infection rate` = (`new infections` / `pop`) * 100 )
+
+#county strata of interest 
+
+#add pop of all counties into one row and final rate metric
+
+rate_infections_stratified <- rate_infections %>%
+  group_by(county) %>% 
+  summarize(infections = sum(`new infections`),
+            pop = sum(pop)) %>%
+  mutate(`infection rate by county` = (`infections` / `pop`) * 100) 
+rate_infections_stratified
+
+
+
+
+```
