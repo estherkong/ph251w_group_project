@@ -272,7 +272,7 @@ morbidity_combined <- left_join(x=novelid_clean, y=la_county_clean, by="county")
 
 ```{r}
 # Select demographic and geographic strata(s) of interest
-
+# which demographics do we want? maybe by age group?
 
 ```
 
