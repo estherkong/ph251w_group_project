@@ -305,6 +305,8 @@ ca_pop_clean<- ca_pop_2023 %>% rename(
   age_category = age_cat
 )
 
+unique(ca_pop_2023$age_cat)
+
 # recoding the race_ethnicity to match across all the data sets
 
 ca_pop_clean <- ca_pop_clean %>% mutate(
@@ -344,7 +346,16 @@ head(ca_pop_clean)
 
 ```{r}
 # Join the morbidity & population datasets
-all_three_joined <- left_join(stratified_morbidity_infections, ca_pop_clean, 
+
+#group ca_pop_clean first before combining with stratified morbidity 
+
+ca_pop_clean_grp <- ca_pop_clean %>%
+  group_by(county, race_ethnicity) %>% 
+  summarize(pop = sum(pop))
+
+#shows county x race_ethnicity with breakdowns for new infections and severe cases out of total population (all the race_ethnicity category of each county)
+
+all_three_joined <- left_join(stratified_morbidity_infections, ca_pop_clean_grp, 
              by = c("county","race_ethnicity"))
 
 head(all_three_joined)
