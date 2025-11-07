@@ -20,7 +20,33 @@ We can assume that the data source is simulated data of infectious disease cases
 
 Our research question explores if the current outbreak is disproportionately affecting certain demographic or geographic populations to inform departments and agencies how to allocate prevention and treatment resources.
 
-```{}
+```{r}
+#| code-overflow: wrap
+
+sim_novelid_CA <- read_csv("https://raw.githubusercontent.com//PHW290/phw251_projectdata/main/scenario_1/sim_novelid_CA.csv")
+sim_novelid_CA
+
+unique(sim_novelid_CA$dt_diagnosis)
+
+# We can assume that the data source is simulated data of infectious disease cases for each county in California reported from public health agencies and organizations such as county health departments during 2023. 
+
+# Our research question explores if the current outbreak is disproportionately affecting certain demographic or geographic populations to inform departments and agencies how to allocate prevention and treatment resources. 
+
+#Our importing process involves using the proper package to use a function that imports CSV files and locating the file path (or link) of the file on GITHUB.
+
+str(sim_novelid_CA$time_int)
+summary(sim_novelid_CA$time_int)
+
+
+str(sim_novelid_CA$new_infections)
+summary(sim_novelid_CA$new_infections)
+
+
+str(sim_novelid_CA$new_severe)
+summary(sim_novelid_CA$new_severe)
+
+# We might need to convert county, age_cat, sex, race_ethnicity from character into factor data if we are going to do a regression later, for example. It would be helpful to remove the columns that the codebook states are a result of the simulation and not needed for analysis (e.g., new_unrecovered, cumulative_unrecovered).
+
 ```
 
 ## Dataset 2: Simulated Novel Infectious Disease case reporting for Los Angeles County
@@ -138,6 +164,7 @@ From Dataset 3:
 # Milestone #3
 
 ## Morbidity data sets (CA and LA County)
+### Cleaning
 
 ```{r}
 ## Carli 
@@ -240,29 +267,36 @@ novelid_clean <- novelid_clean %>%
 # checking the column names and dates
 head(novelid_clean)
 ```
-
+###Joining
 ```{r}
+# checking whether all the column names match
+identical(names(la_county_clean),names(novelid_clean))
+
 # combine morbidity datasets into a single data set
-morbidity_combined <- left_join(x=novelid_clean, y=la_county_clean, by="county")
+morbidity_combined <- bind_rows(la_county_clean, novelid_clean)
 
-#test
+# clean up county names for joining with the population dataset
+morbidity_combined$county <- gsub(" County","",morbidity_combined$county)
 
+str(morbidity_combined)
 ```
 
 ```{r}
-# Select demographic and geographic strata(s) of interest
-# which demographics do we want? maybe by age group?
+# Select demographic and geographic strata(s) of interest:
+# Grouping by county and then by race/ethnicity
+
+stratified_morbidity_infections <- morbidity_combined %>% 
+  group_by(county, race_ethnicity) %>% 
+  summarise("new infections" = sum(new_infections)) %>% 
+  ungroup()
+
+stratified_morbidity_infections
 
 ```
 
-```{r}
-# aggregate the data into a new dataframe to include only one row per strata of interest
-
-
-```
 
 ## Population data set
-
+### Cleaning
 ```{r}
 
 # renamed columns to match the morbidity data sets
@@ -300,4 +334,19 @@ ca_pop_clean <- ca_pop_clean %>% mutate(
 
 # checking column names
 head(ca_pop_clean)
+```
+
+## Joining Morbidity & Population
+
+```{r}
+# Join the morbidity & population datasets
+all_three_joined <- 
+  left_join(morbidity_combined, ca_pop_clean, 
+             by = c("county","age_category", "sex","race_ethnicity"))
+
+head(all_three_joined)
+
+check_na <- all_three_joined %>% 
+  filter(if_any(everything(), is.na))
+
 ```
