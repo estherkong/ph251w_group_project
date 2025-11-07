@@ -11,7 +11,6 @@ format: html
  
 #Load required packages
 library(tidyverse)
-library(readr)
 
 ```
 
@@ -55,7 +54,7 @@ This is a simulated dataset containing reported cases of a disease categorized b
 
 Relation of data to problem statement:
 
-The data provides patient demogrpahics of age group, binary gender, race and ethnicity which will help to answer if there are disparities in the rate of infection among different populations.
+The data provides patient demographics of age group, binary gender, race and ethnicity which will help to answer if there are disparities in the rate of infection among different populations.
 
 ```{r}
 #| code-overflow: wrap
@@ -268,7 +267,7 @@ head(novelid_clean)
 ```{r}
 # combine morbidity datasets into a single data set
 
-
+morbidity_combined <- left_join(x=novelid_clean, y=la_county_clean, by="county")
 ```
 
 ```{r}
@@ -283,7 +282,7 @@ head(novelid_clean)
 
 ```
 
-## Population data set 
+## Population data set
 
 ```{r}
 
