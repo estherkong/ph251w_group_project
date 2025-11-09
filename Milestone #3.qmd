@@ -407,9 +407,9 @@ data_dictionary <- tribble(
   "race_ethnicity", "Race/ethnicity group", "Character", "Standardized categories (White, Black, Asian, etc.)", "Recoded from integers or abbreviations",
   # Morbidity counts
   "new_infections", "Number of new infections", "numeric", "Count", "from dx_new or summed across strata",
-  "cumulative_infected", "Cumulative infections to date", "numeric", "count", "Renamed from infected_cumulative",
+  "cumulative_infected", "Number of Cumulative infections to date", "numeric", "count", "Renamed from infected_cumulative",
   "new_severe", "Number of new severe infections", "numeric", "Count", "Renamed from severe_new",
-  "cumulative_severe", "Cumulative severe infections to date", "numeric", "Count", "Renamed from severe_cumulative",
+  "cumulative_severe", "Number of Cumulative severe infections to date", "numeric", "Count", "Renamed from severe_cumulative",
   # Population
   "pop", "Population denominator for strata", "numeric", "Count", "Summed from ca_pop_clean by county * race_ethnicity",
   # Derived rates
@@ -422,7 +422,7 @@ data_dictionary <- tribble(
   "min_infections_per_capita", "Minimum infection rate across counties", "numeric", "Cases per 100 persons", "Grouped by race_ethnicity",
   "max_infections_per_capita", "Maximum infection rate across counties", "numeric", "Cases per 100 persons", "Grouped by race_ethnicity",
   "mean_severe_per_capita", "Mean severe infection rate across counties", "numeric", "Cases per 100 persons", "Grouped by race_ethnicity",
-  "severe_ratio_pct", "Severe-to-infection ratio", "numeric", "Percentage (%)", "Calculated as mean_severe / mean_infections *100"
+  "severe_ratio_pct", "Severe-to-infection ratio", "numeric", "Percentage (%)", "Rate of newly identified severe cases per capita divided by the rate of new infections per capita. This reflects the relative burden of severe disease compared to the overal infection incidence, not the proportion of infections that are severe "
 )
 
 ```
