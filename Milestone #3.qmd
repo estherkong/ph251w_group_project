@@ -62,11 +62,11 @@ The data provides patient demographics of age group, binary gender, race and eth
 ```{r}
 #| code-overflow: wrap
 # The dataset was imported using read.csv from the class github and assigned to an object
-novelid_LAcounty <- read.csv(
+la_county_cases <- read.csv(
   "https://raw.githubusercontent.com//PHW290/phw251_projectdata/main/scenario_1/sim_novelid_LACounty.csv")
 
 # Column names were updated to lower case below and reassigned to a new object
-la_county_cases <- novelid_LAcounty
+la_county_cases <- la_county_cases
 names(la_county_cases) <- tolower(names(la_county_cases))
 
 names(la_county_cases)
@@ -192,9 +192,9 @@ la_county_clean <- la_county_clean %>% rename(
 
 # there isnt a county column in the la_county set so I added one
 la_county_clean <- la_county_clean %>%
-  mutate(county = "Los Angeles County")
+  mutate(county = "Los Angeles")
 
-# dropped the dt_report column, added the epi week column, and put in the same order
+# dropped dt_report column, added the epi week column, and put in the same order
 la_county_clean <- la_county_clean %>% select(
   -dt_report) %>% mutate(
     epi_week = epiweek(diagnosis_date),
@@ -216,8 +216,6 @@ la_county_clean <- la_county_clean %>% select(
 # checking the column names and date format
 head(la_county_clean)
 
-
-
 # renaming column names to match across all 3 datasets 
 novelid_clean <- sim_novelid_CA %>% rename(
   age_category = age_cat,
@@ -225,8 +223,6 @@ novelid_clean <- sim_novelid_CA %>% rename(
 ) %>% mutate(
   diagnosis_date = ymd(diagnosis_date)
 ) 
-
-
 
 # recoding the race and ethnicity from integers to the actual category to match
 novelid_clean <- novelid_clean %>% mutate(
@@ -258,6 +254,8 @@ novelid_clean <- novelid_clean %>%
     cumulative_severe
   )
 
+# remove the word "County" from county names for joining with pop dataset
+novelid_clean$county <- gsub(" County","",novelid_clean$county)
 
 # checking the column names and dates
 head(novelid_clean)
@@ -272,11 +270,10 @@ identical(names(la_county_clean),names(novelid_clean))
 # combine morbidity datasets into a single data set
 morbidity_combined <- bind_rows(la_county_clean, novelid_clean)
 
-# clean up county names for joining with the population dataset
-morbidity_combined$county <- gsub(" County","",morbidity_combined$county)
-
 str(morbidity_combined)
 ```
+
+### Summarising Strata of Interest
 
 ```{r}
 # Select demographic and geographic strata(s) of interest:
@@ -288,7 +285,7 @@ stratified_morbidity_infections <- morbidity_combined %>%
             "new severe" = sum(new_severe)) %>% 
   ungroup()
 
-stratified_morbidity_infections
+head(stratified_morbidity_infections)
 
 ```
 
@@ -336,8 +333,6 @@ ca_pop_clean <- ca_pop_clean %>% mutate(
 ca_pop_clean <- ca_pop_clean %>%
   select(-health_officer_region)
 
-#grouping - Esther feel free to add what you mentioned 
-
 # checking column names
 head(ca_pop_clean)
 ```
@@ -345,46 +340,59 @@ head(ca_pop_clean)
 ## Joining Morbidity & Population
 
 ```{r}
-# Join the morbidity & population datasets
+#sum up the rows in ca_pop_clean to get proper stratified populations for join
 
-#group ca_pop_clean first before combining with stratified morbidity 
-
-ca_pop_clean_grp <- ca_pop_clean %>%
+stratified_ca_pop <- ca_pop_clean %>%
   group_by(county, race_ethnicity) %>% 
-  summarize(pop = sum(pop))
+  summarize(pop = sum(pop)) %>% 
+  ungroup()
 
-#shows county x race_ethnicity with breakdowns for new infections and severe cases out of total population (all the race_ethnicity category of each county)
+#join the two stratified data sets 
 
-all_three_joined <- left_join(stratified_morbidity_infections, ca_pop_clean_grp, 
-             by = c("county","race_ethnicity"))
+all_three_joined <- left_join(stratified_morbidity_infections,
+                              stratified_ca_pop, 
+                              by = c("county","race_ethnicity"))
 
 head(all_three_joined)
 
+#check for NAs
 check_na <- all_three_joined %>% 
   filter(if_any(everything(), is.na))
 
 ```
 
+## Stratified Per Capita Infection Rates
+
 ```{r}
 
-#rate metric attempt 
+#per capita rate metric per county & race
 
-rate_infections <- all_three_joined %>%
+stratified_rate_infections <- all_three_joined %>%
   group_by(county, race_ethnicity) %>% 
-  mutate(`infection rate` = (`new infections` / `pop`) * 100 )
+  mutate(`new_infections_per_capita` = (`new infections` / `pop`)*100,
+         severe_infections_per_capita = (`new severe`/`pop`)*100) %>% 
+  ungroup()
 
-#county strata of interest 
+#per capita rate metric per county
 
-#add pop of all counties into one row and final rate metric
-
-rate_infections_stratified <- rate_infections %>%
+rate_infections_per_county <- stratified_rate_infections %>%
   group_by(county) %>% 
   summarize(infections = sum(`new infections`),
             pop = sum(pop)) %>%
-  mutate(`infection rate by county` = (`infections` / `pop`) * 100) 
-rate_infections_stratified
+  mutate(`county_infection_rate` = (`infections` / `pop`)*100) %>% 
+  ungroup()
 
-
-
+# check for NAs
+any(is.na(stratified_rate_infections$new_infections_per_capita))
+any(is.na(stratified_rate_infections$severe_infections_per_capita))
+any(is.na(rate_infections_per_county$county_infection_rate))
 
 ```
+
+## Data Dictionary on Clean Dataset
+
+## Descriptive Statistics
+```{r}
+summary(stratified_rate_infections$new_infections_per_capita)
+```
+
