@@ -7,7 +7,9 @@ format: html
 ---
 
 ```{r}
-#| results: 'hide'
+#| results: "hide"
+#| warning: false
+#| message: false
  
 #Load required packages
 library(tidyverse)
@@ -21,7 +23,8 @@ We can assume that the data source is simulated data of infectious disease cases
 Our research question explores if the current outbreak is disproportionately affecting certain demographic or geographic populations to inform departments and agencies how to allocate prevention and treatment resources.
 
 ```{r}
-
+#| warning: false
+#| message: false
 sim_novelid_CA <- read_csv("https://raw.githubusercontent.com//PHW290/phw251_projectdata/main/scenario_1/sim_novelid_CA.csv")
 sim_novelid_CA
 
@@ -39,7 +42,8 @@ Relation of data to problem statement:
 The data provides patient demographics of age group, binary gender, race and ethnicity which will help to answer if there are disparities in the rate of infection among different populations.
 
 ```{r}
-
+#| warning: false
+#| message: false
 la_county_cases <- read.csv(
   "https://raw.githubusercontent.com//PHW290/phw251_projectdata/main/scenario_1/sim_novelid_LACounty.csv")
 
@@ -57,7 +61,8 @@ Desription of dataset: This dataset is simulated, but approximates what populati
 Relation of data to problem statement: This population dataset provides information on the general Californian population which can be stratified according to the demographic or geographic categories of interest, which will be useful for standardizing between groups for comparison.
 
 ```{r}
-
+#| warning: false
+#| message: false
 #import the dataset and assign to an object
 filepath_ca_pop_2023 <- "https://raw.githubusercontent.com/PHW290/phw251_projectdata/main/scenario_1/ca_pop_2023.csv"
 ca_pop_2023 <- read_csv(filepath_ca_pop_2023)
@@ -72,9 +77,6 @@ ca_pop_2023 |>
     total = sum(pop)
   )
 
-# Most variables are currently character fields, but to properly manipulate them, it will make sense to convert them to factors. eg. county, health_officer_region, age_cat, sex, and race. Also a number of these character fields are inconsistently capitalized, so we'd likely want to standardise all the data. age_cat would also likely be more useful if set up as an ordered factor.
-
-# There also appear to be rows of data where all demographic and geographic values are the same, but have different population estimates listed. These may represent collection of count data from individual areas within each geographic area, stratified by age, so these fields will require combining to give one population number estimate per geographic area per demographic group.
 ```
 
 ## Data element descriptions:
@@ -110,13 +112,8 @@ From Dataset 3:
 ### Cleaning
 
 ```{r}
-## Carli 
 # recode column names, values, or formats that are in discordant (dates, etc.)
-# I saved these as new objects so that I wouldn't overwrite existing data
-# We can change the code once confirmed all correct
 
-library(dplyr)
-library(lubridate)
 # renaming column names and dates to match across all 3 datasets 
 la_county_clean <-la_county_cases %>% rename(
   race_ethnicity = race_eth,
@@ -325,9 +322,12 @@ rate_infections_per_county <- stratified_rate_infections %>%
   ungroup()
 
 # check for NAs
-any(is.na(stratified_rate_infections$new_infections_per_capita))
-any(is.na(stratified_rate_infections$severe_infections_per_capita))
+sum(is.na(stratified_rate_infections$new_infections_per_capita))
+sum(is.na(stratified_rate_infections$severe_infections_per_capita))
 any(is.na(rate_infections_per_county$county_infection_rate))
+
+# replace the NaNs with 0
+stratified_rate_infections[is.na(stratified_rate_infections)] <- 0
 
 ```
 
@@ -340,33 +340,55 @@ library(tibble)
 data_dictionary <- tribble(
   ~variable, ~description, ~type, ~units_or_values, ~notes,
   # Core identifiers
-  "county", "California county", "character", "Text string", "Matches county boundaries; 'Los Angeles' added manually",
-  "diagnosis_date", "Date of diagnosis", "date", "YYYY-MM-DD", "Converted with lubridate (dmy/ymd)",
-  "epi_week", "Epidemiologic week number", "integer", "1–53", "Derived from diagnosis_date or time_int",
+  "county", "California county", "character", "Text string", 
+  "Matches county boundaries; 'Los Angeles' added manually",
+  "diagnosis_date", "Date of diagnosis", "date", "YYYY-MM-DD", 
+  "Converted with lubridate (dmy/ymd)", "epi_week", "Epidemiologic week number",
+  "integer", "1–53", "Derived from diagnosis_date or time_int",
   # Demographics
-  "age_category", "Age group category", "Character", "e.g., '0-17', '18-49', '50+'", "Recoded to align across datasets",
-  "sex", "Sex of case", "Character", "Male/Female", "N/A",
-  "race_ethnicity", "Race/ethnicity group", "Character", "Standardized categories (White, Black, Asian, etc.)", "Recoded from integers or abbreviations",
+  "age_category", "Age group category", "Character", "e.g., '0-17', '18-49', 
+  '50+'", "Recoded to align across datasets", "sex", "Sex of case", "Character",
+  "Male/Female", "N/A", "race_ethnicity", "Race/ethnicity group", "Character",
+  "Standardized categories (White, Black, Asian, etc.)",
+  "Recoded from integers or abbreviations",
   # Morbidity counts
-  "new_infections", "Number of new infections", "numeric", "Count", "from dx_new or summed across strata",
-  "cumulative_infected", "Number of Cumulative infections to date", "numeric", "count", "Renamed from infected_cumulative",
-  "new_severe", "Number of new severe infections", "numeric", "Count", "Renamed from severe_new",
-  "cumulative_severe", "Number of Cumulative severe infections to date", "numeric", "Count", "Renamed from severe_cumulative",
+  "new_infections", "Number of new infections", "numeric", "Count",
+  "from dx_new or summed across strata", "cumulative_infected",
+  "Number of Cumulative infections to date", "numeric", "count",
+  "Renamed from infected_cumulative", "new_severe",
+  "Number of new severe infections", "numeric", "Count",
+  "Renamed from severe_new", "cumulative_severe", 
+  "Number of Cumulative severe infections to date", "numeric", "Count", 
+  "Renamed from severe_cumulative",
   # Population
-  "pop", "Population denominator for strata", "numeric", "Count", "Summed from ca_pop_clean by county * race_ethnicity",
+  "pop", "Population denominator for strata", "numeric", "Count",
+  "Summed from ca_pop_clean by county * race_ethnicity",
   # Derived rates
-  "new_infections_per_capita", "New infections per capita", "numeric", "Cases per 100 persons", "Calculated as new_infections / pop * 100",
-  "severe_infections_per_capita", "Severe infections per capita", "numeric", "Cases per 100 persons", "Calculated as new_severe / pop * 100",
-  "county_infection_rate", "Overall infection rate per county", "numeric", "Cases per 100 persons", "Calculated as infections / pop * 100",
+  "new_infections_per_capita", "New infections per capita", "numeric", 
+  "Cases per 100 persons", "Calculated as new_infections / pop * 100",
+  "severe_infections_per_capita", "Severe infections per capita", "numeric", 
+  "Cases per 100 persons", "Calculated as new_severe / pop * 100",
+  "county_infection_rate", "Overall infection rate per county", "numeric", 
+  "Cases per 100 persons", "Calculated as infections / pop * 100",
   # Summary statistics
-  "mean_infections_per_capita", "Mean infection rate across counties", "numeric", "Cases per 100 persons", "Grouped by race_ethnicity",
-  "median_infections_per_capita", "Median infection rate across counties", "numeric", "Cases per 100 persons", "Grouped by race_ethnicity",
-  "min_infections_per_capita", "Minimum infection rate across counties", "numeric", "Cases per 100 persons", "Grouped by race_ethnicity",
-  "max_infections_per_capita", "Maximum infection rate across counties", "numeric", "Cases per 100 persons", "Grouped by race_ethnicity",
-  "mean_severe_per_capita", "Mean severe infection rate across counties", "numeric", "Cases per 100 persons", "Grouped by race_ethnicity",
-  "severe_ratio_pct", "Severe-to-infection ratio", "numeric", "Percentage (%)", "Rate of newly identified severe cases per capita divided by the rate of new infections per capita. This reflects the relative burden of severe disease compared to the overal infection incidence, not the proportion of infections that are severe "
+  "mean_infections_per_capita", "Mean infection rate across counties", "numeric",
+  "Cases per 100 persons", "Grouped by race_ethnicity",
+  "median_infections_per_capita", "Median infection rate across counties",
+  "numeric", "Cases per 100 persons", "Grouped by race_ethnicity",
+  "min_infections_per_capita", "Minimum infection rate across counties", 
+  "numeric", "Cases per 100 persons", "Grouped by race_ethnicity",
+  "max_infections_per_capita", "Maximum infection rate across counties", 
+  "numeric", "Cases per 100 persons", "Grouped by race_ethnicity",
+  "mean_severe_per_capita", "Mean severe infection rate across counties", 
+  "numeric", "Cases per 100 persons", "Grouped by race_ethnicity",
+  "severe_ratio_pct", "Severe-to-infection ratio", "numeric", "Percentage (%)",
+  "Rate of newly identified severe cases per capita divided by the rate of new
+  infections per capita. This reflects the relative burden of severe disease 
+  compared to the overal infection incidence, not the proportion of infections
+  that are severe "
 )
 
+data_dictionary
 ```
 
 ## Descriptive Statistics
@@ -386,5 +408,5 @@ summary_table <- stratified_rate_infections %>%
   ) %>% arrange(
     desc(severe_ratio_pct)
   )
-
+summary_table
 ```
