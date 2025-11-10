@@ -7,8 +7,7 @@ format: html
 ---
 
 ```{r}
-#| results: 'hide'
- 
+
 #Load required packages
 library(tidyverse)
 
@@ -23,7 +22,7 @@ Our research question explores if the current outbreak is disproportionately aff
 ```{r}
 
 sim_novelid_CA <- read_csv("https://raw.githubusercontent.com//PHW290/phw251_projectdata/main/scenario_1/sim_novelid_CA.csv")
-sim_novelid_CA
+
 
 
 ```
@@ -62,19 +61,6 @@ Relation of data to problem statement: This population dataset provides informat
 filepath_ca_pop_2023 <- "https://raw.githubusercontent.com/PHW290/phw251_projectdata/main/scenario_1/ca_pop_2023.csv"
 ca_pop_2023 <- read_csv(filepath_ca_pop_2023)
 
-
-
-#quick summary of population numbers (summed up the rows) across race and age groups
-ca_pop_2023 |> 
-  group_by(race7, age_cat) |> 
-  summarise(
-    count = n(),
-    total = sum(pop)
-  )
-
-# Most variables are currently character fields, but to properly manipulate them, it will make sense to convert them to factors. eg. county, health_officer_region, age_cat, sex, and race. Also a number of these character fields are inconsistently capitalized, so we'd likely want to standardise all the data. age_cat would also likely be more useful if set up as an ordered factor.
-
-# There also appear to be rows of data where all demographic and geographic values are the same, but have different population estimates listed. These may represent collection of count data from individual areas within each geographic area, stratified by age, so these fields will require combining to give one population number estimate per geographic area per demographic group.
 ```
 
 ## Data element descriptions:
@@ -110,13 +96,10 @@ From Dataset 3:
 ### Cleaning
 
 ```{r}
-## Carli 
-# recode column names, values, or formats that are in discordant (dates, etc.)
-# I saved these as new objects so that I wouldn't overwrite existing data
-# We can change the code once confirmed all correct
 
 library(dplyr)
 library(lubridate)
+
 # renaming column names and dates to match across all 3 datasets 
 la_county_clean <-la_county_cases %>% rename(
   race_ethnicity = race_eth,
@@ -132,7 +115,7 @@ la_county_clean <- la_county_clean %>% rename(
   cumulative_severe = severe_cumulative
 )
 
-# there isnt a county column in the la_county set so I added one
+# added a county column in the la_county set 
 la_county_clean <- la_county_clean %>%
   mutate(county = "Los Angeles")
 
