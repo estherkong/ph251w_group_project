@@ -14,11 +14,14 @@ editor: visual
 library(tidyverse)
 library(readr)
 library(readxl)
+library(tidyr)
 library(ggplot2)
 library(dplyr)
 library(sf)
 install.packages("maps")
 library(maps)
+install.packages("formattable")
+library(formattable)
 ```
 
 # Milestone #4
@@ -89,4 +92,38 @@ ggplot(map_data, aes(long, lat, group = group, fill = new_infections_per_capita)
 
 summary(map_data$new_infections_per_capita)
 
+```
+
+```{r}
+
+#table 
+
+race_infections_tbl <- stratified_rate_infections %>%
+  pivot_wider(
+    id_cols = county,
+    names_from = race_ethnicity,
+    values_from = c("new infections", "pop")
+  )
+#renaming columns 
+
+colnames(race_infections_tbl) <- c("County", "American Indian or Alaska Native Non-Hispanic", "Asian Non-Hispanic", "Black Non-Hispanic", "Hispanic (Any Race)", "Multiracial (Two or More of Above Races)", "Native Hawaiian or Pacific Islander Non-Hispanic", "White Non-Hispanic", "American Indian or Alaska Native Non-Hispanic Pop", "Asian Non-Hispanic Pop",  "Black Non-Hispanic Pop", "Hispanic (Any Race) Pop", "Multiracial (Two or More of Above Races) Pop", "Native Hawaiian or Pacific Islander Non-Hispanic Pop", "White Non-Hispanic Pop") 
+
+#rearrange the columns 
+
+race_infections_clean <- race_infections_tbl %>%
+  select(County, `American Indian or Alaska Native Non-Hispanic`, `American Indian or Alaska Native Non-Hispanic Pop`,`Asian Non-Hispanic`, `Asian Non-Hispanic Pop`, `Black Non-Hispanic`, `Black Non-Hispanic Pop`,`Hispanic (Any Race)`, `Hispanic (Any Race) Pop`, `Multiracial (Two or More of Above Races)`,`Multiracial (Two or More of Above Races) Pop`, `Native Hawaiian or Pacific Islander Non-Hispanic`, `Native Hawaiian or Pacific Islander Non-Hispanic Pop`, `White Non-Hispanic`, `White Non-Hispanic Pop`)
+
+#add column of urban / rural? 
+
+#add rates ?
+
+#table attempt - will continue working on this - 
+
+as.datatable(
+  formattable(race_infections_clean, 
+    align = c("l", rep("r", NCOL(race_infections_clean)))
+  ),
+  options = list(pageLength = 10),
+  caption = "New Infection Cases by Race/Ethnicity over Population"
+)
 ```
