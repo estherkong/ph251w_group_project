@@ -14,6 +14,11 @@ editor: visual
 library(tidyverse)
 library(readr)
 library(readxl)
+library(ggplot2)
+library(dplyr)
+library(sf)
+install.packages("maps")
+library(maps)
 ```
 
 # Milestone #4
@@ -53,15 +58,35 @@ morbidity_combined <- read_csv(data_file9)
 
 ```{r}
 
-# compares new infections across racial/ethnic groups within each county
-
-ggplot(stratified_morbidity_infections, 
-       aes(
-         x= race_ethnicity, 
-         y = "new infections",
-         fill = county
-       )) + geom_bar(stat="identity", position = "dodge")
+# map of new infections by county
 
 
+ca_counties <- map_data("county") %>%
+  filter(region == "california")
+
+stratified_rate_infections <- stratified_rate_infections %>%
+  mutate(county = str_to_lower(county))
+
+map_data <- ca_counties %>%
+  left_join(stratified_rate_infections, by = c("subregion" = "county"))
+
+# map
+ggplot(map_data, aes(long, lat, group = group, fill = new_infections_per_capita)) +
+  geom_polygon(color = "white") +
+  scale_fill_viridis_c(option = "magma", limits = c(0,50), na.value = "grey") +
+  labs(title = "Heat Map of New Infections per Capita by County, 2023", fill = "Infection Rate") +
+  theme_void() + 
+  theme(
+  plot.title = element_text(hjust = 0.5, margin = margin(b = 10)),
+  legend.position = "right",
+  legend.title = element_text(size = 10),
+  legend.text = element_text(size = 8),
+  plot.margin = margin(t = 20, r = 20, b = 20, l = 20)
+)
+
+
+
+
+summary(map_data$new_infections_per_capita)
 
 ```
