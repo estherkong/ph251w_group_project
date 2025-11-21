@@ -1,0 +1,407 @@
+"county","race_ethnicity","pop"
+"Alameda","American Indian or Alaska Native, Non-Hispanic",4569
+"Alameda","Asian, Non-Hispanic",568612
+"Alameda","Black, Non-Hispanic",157817
+"Alameda","Hispanic (any race)",335452
+"Alameda","Multiracial (two or more of above races), Non-Hispanic",88937
+"Alameda","Native Hawaiian or Pacific Islander, Non-Hispanic",14710
+"Alameda","White, Non-Hispanic",485940
+"Alpine","American Indian or Alaska Native, Non-Hispanic",209
+"Alpine","Asian, Non-Hispanic",13
+"Alpine","Black, Non-Hispanic",14
+"Alpine","Hispanic (any race)",116
+"Alpine","Multiracial (two or more of above races), Non-Hispanic",78
+"Alpine","Native Hawaiian or Pacific Islander, Non-Hispanic",0
+"Alpine","White, Non-Hispanic",735
+"Amador","American Indian or Alaska Native, Non-Hispanic",614
+"Amador","Asian, Non-Hispanic",586
+"Amador","Black, Non-Hispanic",1360
+"Amador","Hispanic (any race)",6736
+"Amador","Multiracial (two or more of above races), Non-Hispanic",2050
+"Amador","Native Hawaiian or Pacific Islander, Non-Hispanic",83
+"Amador","White, Non-Hispanic",28693
+"Butte","American Indian or Alaska Native, Non-Hispanic",3005
+"Butte","Asian, Non-Hispanic",10722
+"Butte","Black, Non-Hispanic",3709
+"Butte","Hispanic (any race)",47570
+"Butte","Multiracial (two or more of above races), Non-Hispanic",13569
+"Butte","Native Hawaiian or Pacific Islander, Non-Hispanic",833
+"Butte","White, Non-Hispanic",126452
+"Calaveras","American Indian or Alaska Native, Non-Hispanic",475
+"Calaveras","Asian, Non-Hispanic",699
+"Calaveras","Black, Non-Hispanic",350
+"Calaveras","Hispanic (any race)",8314
+"Calaveras","Multiracial (two or more of above races), Non-Hispanic",2676
+"Calaveras","Native Hawaiian or Pacific Islander, Non-Hispanic",91
+"Calaveras","White, Non-Hispanic",32000
+"Colusa","American Indian or Alaska Native, Non-Hispanic",272
+"Colusa","Asian, Non-Hispanic",239
+"Colusa","Black, Non-Hispanic",189
+"Colusa","Hispanic (any race)",14325
+"Colusa","Multiracial (two or more of above races), Non-Hispanic",500
+"Colusa","Native Hawaiian or Pacific Islander, Non-Hispanic",83
+"Colusa","White, Non-Hispanic",6297
+"Contra Costa","American Indian or Alaska Native, Non-Hispanic",2717
+"Contra Costa","Asian, Non-Hispanic",229086
+"Contra Costa","Black, Non-Hispanic",102468
+"Contra Costa","Hispanic (any race)",271722
+"Contra Costa","Multiracial (two or more of above races), Non-Hispanic",66910
+"Contra Costa","Native Hawaiian or Pacific Islander, Non-Hispanic",6816
+"Contra Costa","White, Non-Hispanic",466817
+"Del Norte","American Indian or Alaska Native, Non-Hispanic",2032
+"Del Norte","Asian, Non-Hispanic",827
+"Del Norte","Black, Non-Hispanic",1095
+"Del Norte","Hispanic (any race)",5672
+"Del Norte","Multiracial (two or more of above races), Non-Hispanic",2132
+"Del Norte","Native Hawaiian or Pacific Islander, Non-Hispanic",24
+"Del Norte","White, Non-Hispanic",14600
+"El Dorado","American Indian or Alaska Native, Non-Hispanic",1330
+"El Dorado","Asian, Non-Hispanic",9075
+"El Dorado","Black, Non-Hispanic",1585
+"El Dorado","Hispanic (any race)",29332
+"El Dorado","Multiracial (two or more of above races), Non-Hispanic",10778
+"El Dorado","Native Hawaiian or Pacific Islander, Non-Hispanic",346
+"El Dorado","White, Non-Hispanic",134839
+"Fresno","American Indian or Alaska Native, Non-Hispanic",5860
+"Fresno","Asian, Non-Hispanic",107158
+"Fresno","Black, Non-Hispanic",41696
+"Fresno","Hispanic (any race)",579387
+"Fresno","Multiracial (two or more of above races), Non-Hispanic",26072
+"Fresno","Native Hawaiian or Pacific Islander, Non-Hispanic",1489
+"Fresno","White, Non-Hispanic",250762
+"Glenn","American Indian or Alaska Native, Non-Hispanic",493
+"Glenn","Asian, Non-Hispanic",619
+"Glenn","Black, Non-Hispanic",153
+"Glenn","Hispanic (any race)",12889
+"Glenn","Multiracial (two or more of above races), Non-Hispanic",957
+"Glenn","Native Hawaiian or Pacific Islander, Non-Hispanic",36
+"Glenn","White, Non-Hispanic",12892
+"Humboldt","American Indian or Alaska Native, Non-Hispanic",7062
+"Humboldt","Asian, Non-Hispanic",3508
+"Humboldt","Black, Non-Hispanic",1724
+"Humboldt","Hispanic (any race)",25729
+"Humboldt","Multiracial (two or more of above races), Non-Hispanic",9783
+"Humboldt","Native Hawaiian or Pacific Islander, Non-Hispanic",495
+"Humboldt","White, Non-Hispanic",86087
+"Imperial","American Indian or Alaska Native, Non-Hispanic",1863
+"Imperial","Asian, Non-Hispanic",3194
+"Imperial","Black, Non-Hispanic",3270
+"Imperial","Hispanic (any race)",153907
+"Imperial","Multiracial (two or more of above races), Non-Hispanic",1727
+"Imperial","Native Hawaiian or Pacific Islander, Non-Hispanic",91
+"Imperial","White, Non-Hispanic",15587
+"Inyo","American Indian or Alaska Native, Non-Hispanic",2089
+"Inyo","Asian, Non-Hispanic",289
+"Inyo","Black, Non-Hispanic",91
+"Inyo","Hispanic (any race)",4948
+"Inyo","Multiracial (two or more of above races), Non-Hispanic",938
+"Inyo","Native Hawaiian or Pacific Islander, Non-Hispanic",15
+"Inyo","White, Non-Hispanic",10361
+"Kern","American Indian or Alaska Native, Non-Hispanic",4784
+"Kern","Asian, Non-Hispanic",41543
+"Kern","Black, Non-Hispanic",46276
+"Kern","Hispanic (any race)",529286
+"Kern","Multiracial (two or more of above races), Non-Hispanic",25730
+"Kern","Native Hawaiian or Pacific Islander, Non-Hispanic",1168
+"Kern","White, Non-Hispanic",254585
+"Kings","American Indian or Alaska Native, Non-Hispanic",1351
+"Kings","Asian, Non-Hispanic",4214
+"Kings","Black, Non-Hispanic",7100
+"Kings","Hispanic (any race)",102516
+"Kings","Multiracial (two or more of above races), Non-Hispanic",3946
+"Kings","Native Hawaiian or Pacific Islander, Non-Hispanic",344
+"Kings","White, Non-Hispanic",32934
+"Lake","American Indian or Alaska Native, Non-Hispanic",1643
+"Lake","Asian, Non-Hispanic",927
+"Lake","Black, Non-Hispanic",1089
+"Lake","Hispanic (any race)",18994
+"Lake","Multiracial (two or more of above races), Non-Hispanic",3918
+"Lake","Native Hawaiian or Pacific Islander, Non-Hispanic",113
+"Lake","White, Non-Hispanic",39762
+"Lassen","American Indian or Alaska Native, Non-Hispanic",845
+"Lassen","Asian, Non-Hispanic",474
+"Lassen","Black, Non-Hispanic",2423
+"Lassen","Hispanic (any race)",8451
+"Lassen","Multiracial (two or more of above races), Non-Hispanic",1416
+"Lassen","Native Hawaiian or Pacific Islander, Non-Hispanic",257
+"Lassen","White, Non-Hispanic",14366
+"Los Angeles","American Indian or Alaska Native, Non-Hispanic",21809
+"Los Angeles","Asian, Non-Hispanic",1637181
+"Los Angeles","Black, Non-Hispanic",840522
+"Los Angeles","Hispanic (any race)",4089110
+"Los Angeles","Multiracial (two or more of above races), Non-Hispanic",333522
+"Los Angeles","Native Hawaiian or Pacific Islander, Non-Hispanic",24396
+"Los Angeles","White, Non-Hispanic",2879168
+"Madera","American Indian or Alaska Native, Non-Hispanic",1632
+"Madera","Asian, Non-Hispanic",3514
+"Madera","Black, Non-Hispanic",3984
+"Madera","Hispanic (any race)",100894
+"Madera","Multiracial (two or more of above races), Non-Hispanic",3902
+"Madera","Native Hawaiian or Pacific Islander, Non-Hispanic",147
+"Madera","White, Non-Hispanic",44384
+"Marin","American Indian or Alaska Native, Non-Hispanic",729
+"Marin","Asian, Non-Hispanic",17379
+"Marin","Black, Non-Hispanic",8116
+"Marin","Hispanic (any race)",39764
+"Marin","Multiracial (two or more of above races), Non-Hispanic",14388
+"Marin","Native Hawaiian or Pacific Islander, Non-Hispanic",587
+"Marin","White, Non-Hispanic",173781
+"Mariposa","American Indian or Alaska Native, Non-Hispanic",418
+"Mariposa","Asian, Non-Hispanic",289
+"Mariposa","Black, Non-Hispanic",134
+"Mariposa","Hispanic (any race)",2761
+"Mariposa","Multiracial (two or more of above races), Non-Hispanic",1189
+"Mariposa","Native Hawaiian or Pacific Islander, Non-Hispanic",17
+"Mariposa","White, Non-Hispanic",12052
+"Mendocino","American Indian or Alaska Native, Non-Hispanic",3436
+"Mendocino","Asian, Non-Hispanic",1803
+"Mendocino","Black, Non-Hispanic",615
+"Mendocino","Hispanic (any race)",25975
+"Mendocino","Multiracial (two or more of above races), Non-Hispanic",4697
+"Mendocino","Native Hawaiian or Pacific Islander, Non-Hispanic",125
+"Mendocino","White, Non-Hispanic",52665
+"Merced","American Indian or Alaska Native, Non-Hispanic",1126
+"Merced","Asian, Non-Hispanic",18152
+"Merced","Black, Non-Hispanic",7355
+"Merced","Hispanic (any race)",193125
+"Merced","Multiracial (two or more of above races), Non-Hispanic",5990
+"Merced","Native Hawaiian or Pacific Islander, Non-Hispanic",560
+"Merced","White, Non-Hispanic",59292
+"Modoc","American Indian or Alaska Native, Non-Hispanic",344
+"Modoc","Asian, Non-Hispanic",63
+"Modoc","Black, Non-Hispanic",81
+"Modoc","Hispanic (any race)",2341
+"Modoc","Multiracial (two or more of above races), Non-Hispanic",354
+"Modoc","Native Hawaiian or Pacific Islander, Non-Hispanic",12
+"Modoc","White, Non-Hispanic",5251
+"Mono","American Indian or Alaska Native, Non-Hispanic",193
+"Mono","Asian, Non-Hispanic",202
+"Mono","Black, Non-Hispanic",83
+"Mono","Hispanic (any race)",3636
+"Mono","Multiracial (two or more of above races), Non-Hispanic",528
+"Mono","Native Hawaiian or Pacific Islander, Non-Hispanic",28
+"Mono","White, Non-Hispanic",8603
+"Monterey","American Indian or Alaska Native, Non-Hispanic",1508
+"Monterey","Asian, Non-Hispanic",26280
+"Monterey","Black, Non-Hispanic",10611
+"Monterey","Hispanic (any race)",256581
+"Monterey","Multiracial (two or more of above races), Non-Hispanic",14254
+"Monterey","Native Hawaiian or Pacific Islander, Non-Hispanic",2072
+"Monterey","White, Non-Hispanic",125170
+"Napa","American Indian or Alaska Native, Non-Hispanic",555
+"Napa","Asian, Non-Hispanic",11244
+"Napa","Black, Non-Hispanic",2797
+"Napa","Hispanic (any race)",43155
+"Napa","Multiracial (two or more of above races), Non-Hispanic",6035
+"Napa","Native Hawaiian or Pacific Islander, Non-Hispanic",416
+"Napa","White, Non-Hispanic",70282
+"Nevada","American Indian or Alaska Native, Non-Hispanic",689
+"Nevada","Asian, Non-Hispanic",1387
+"Nevada","Black, Non-Hispanic",500
+"Nevada","Hispanic (any race)",13551
+"Nevada","Multiracial (two or more of above races), Non-Hispanic",5552
+"Nevada","Native Hawaiian or Pacific Islander, Non-Hispanic",134
+"Nevada","White, Non-Hispanic",78587
+"Orange","American Indian or Alaska Native, Non-Hispanic",5767
+"Orange","Asian, Non-Hispanic",733549
+"Orange","Black, Non-Hispanic",52335
+"Orange","Hispanic (any race)",983926
+"Orange","Multiracial (two or more of above races), Non-Hispanic",127552
+"Orange","Native Hawaiian or Pacific Islander, Non-Hispanic",8615
+"Orange","White, Non-Hispanic",1230533
+"Placer","American Indian or Alaska Native, Non-Hispanic",1961
+"Placer","Asian, Non-Hispanic",36629
+"Placer","Black, Non-Hispanic",7010
+"Placer","Hispanic (any race)",75401
+"Placer","Multiracial (two or more of above races), Non-Hispanic",24142
+"Placer","Native Hawaiian or Pacific Islander, Non-Hispanic",1001
+"Placer","White, Non-Hispanic",264562
+"Plumas","American Indian or Alaska Native, Non-Hispanic",338
+"Plumas","Asian, Non-Hispanic",164
+"Plumas","Black, Non-Hispanic",129
+"Plumas","Hispanic (any race)",3282
+"Plumas","Multiracial (two or more of above races), Non-Hispanic",993
+"Plumas","Native Hawaiian or Pacific Islander, Non-Hispanic",44
+"Plumas","White, Non-Hispanic",14005
+"Riverside","American Indian or Alaska Native, Non-Hispanic",12197
+"Riverside","Asian, Non-Hispanic",173488
+"Riverside","Black, Non-Hispanic",149476
+"Riverside","Hispanic (any race)",1218453
+"Riverside","Multiracial (two or more of above races), Non-Hispanic",83935
+"Riverside","Native Hawaiian or Pacific Islander, Non-Hispanic",7422
+"Riverside","White, Non-Hispanic",786283
+"Sacramento","American Indian or Alaska Native, Non-Hispanic",7290
+"Sacramento","Asian, Non-Hispanic",280808
+"Sacramento","Black, Non-Hispanic",141965
+"Sacramento","Hispanic (any race)",400494
+"Sacramento","Multiracial (two or more of above races), Non-Hispanic",98450
+"Sacramento","Native Hawaiian or Pacific Islander, Non-Hispanic",19528
+"Sacramento","White, Non-Hispanic",633296
+"San Benito","American Indian or Alaska Native, Non-Hispanic",233
+"San Benito","Asian, Non-Hispanic",2180
+"San Benito","Black, Non-Hispanic",522
+"San Benito","Hispanic (any race)",42732
+"San Benito","Multiracial (two or more of above races), Non-Hispanic",1553
+"San Benito","Native Hawaiian or Pacific Islander, Non-Hispanic",146
+"San Benito","White, Non-Hispanic",17716
+"San Bernardino","American Indian or Alaska Native, Non-Hispanic",8356
+"San Bernardino","Asian, Non-Hispanic",180526
+"San Bernardino","Black, Non-Hispanic",172238
+"San Bernardino","Hispanic (any race)",1186707
+"San Bernardino","Multiracial (two or more of above races), Non-Hispanic",66067
+"San Bernardino","Native Hawaiian or Pacific Islander, Non-Hispanic",6617
+"San Bernardino","White, Non-Hispanic",550082
+"San Diego","American Indian or Alaska Native, Non-Hispanic",12802
+"San Diego","Asian, Non-Hispanic",398764
+"San Diego","Black, Non-Hispanic",144900
+"San Diego","Hispanic (any race)",1172906
+"San Diego","Multiracial (two or more of above races), Non-Hispanic",160037
+"San Diego","Native Hawaiian or Pacific Islander, Non-Hispanic",13238
+"San Diego","White, Non-Hispanic",1395213
+"San Francisco","American Indian or Alaska Native, Non-Hispanic",1626
+"San Francisco","Asian, Non-Hispanic",289633
+"San Francisco","Black, Non-Hispanic",42699
+"San Francisco","Hispanic (any race)",117117
+"San Francisco","Multiracial (two or more of above races), Non-Hispanic",44105
+"San Francisco","Native Hawaiian or Pacific Islander, Non-Hispanic",3745
+"San Francisco","White, Non-Hispanic",349094
+"San Joaquin","American Indian or Alaska Native, Non-Hispanic",3119
+"San Joaquin","Asian, Non-Hispanic",132600
+"San Joaquin","Black, Non-Hispanic",56382
+"San Joaquin","Hispanic (any race)",351184
+"San Joaquin","Multiracial (two or more of above races), Non-Hispanic",31789
+"San Joaquin","Native Hawaiian or Pacific Islander, Non-Hispanic",4988
+"San Joaquin","White, Non-Hispanic",204466
+"San Luis Obispo","American Indian or Alaska Native, Non-Hispanic",1120
+"San Luis Obispo","Asian, Non-Hispanic",10631
+"San Luis Obispo","Black, Non-Hispanic",4524
+"San Luis Obispo","Hispanic (any race)",73640
+"San Luis Obispo","Multiracial (two or more of above races), Non-Hispanic",12892
+"San Luis Obispo","Native Hawaiian or Pacific Islander, Non-Hispanic",370
+"San Luis Obispo","White, Non-Hispanic",177074
+"San Mateo","American Indian or Alaska Native, Non-Hispanic",1226
+"San Mateo","Asian, Non-Hispanic",245408
+"San Mateo","Black, Non-Hispanic",17549
+"San Mateo","Hispanic (any race)",138184
+"San Mateo","Multiracial (two or more of above races), Non-Hispanic",40542
+"San Mateo","Native Hawaiian or Pacific Islander, Non-Hispanic",10209
+"San Mateo","White, Non-Hispanic",295957
+"Santa Barbara","American Indian or Alaska Native, Non-Hispanic",1682
+"Santa Barbara","Asian, Non-Hispanic",27481
+"Santa Barbara","Black, Non-Hispanic",6845
+"Santa Barbara","Hispanic (any race)",210441
+"Santa Barbara","Multiracial (two or more of above races), Non-Hispanic",15829
+"Santa Barbara","Native Hawaiian or Pacific Islander, Non-Hispanic",537
+"Santa Barbara","White, Non-Hispanic",179799
+"Santa Clara","American Indian or Alaska Native, Non-Hispanic",3470
+"Santa Clara","Asian, Non-Hispanic",797454
+"Santa Clara","Black, Non-Hispanic",46100
+"Santa Clara","Hispanic (any race)",399861
+"Santa Clara","Multiracial (two or more of above races), Non-Hispanic",78219
+"Santa Clara","Native Hawaiian or Pacific Islander, Non-Hispanic",6671
+"Santa Clara","White, Non-Hispanic",579974
+"Santa Cruz","American Indian or Alaska Native, Non-Hispanic",818
+"Santa Cruz","Asian, Non-Hispanic",12794
+"Santa Cruz","Black, Non-Hispanic",2822
+"Santa Cruz","Hispanic (any race)",94327
+"Santa Cruz","Multiracial (two or more of above races), Non-Hispanic",12336
+"Santa Cruz","Native Hawaiian or Pacific Islander, Non-Hispanic",298
+"Santa Cruz","White, Non-Hispanic",139706
+"Shasta","American Indian or Alaska Native, Non-Hispanic",3852
+"Shasta","Asian, Non-Hispanic",5890
+"Shasta","Black, Non-Hispanic",1881
+"Shasta","Hispanic (any race)",28647
+"Shasta","Multiracial (two or more of above races), Non-Hispanic",11840
+"Shasta","Native Hawaiian or Pacific Islander, Non-Hispanic",340
+"Shasta","White, Non-Hispanic",126508
+"Sierra","American Indian or Alaska Native, Non-Hispanic",18
+"Sierra","Asian, Non-Hispanic",10
+"Sierra","Black, Non-Hispanic",11
+"Sierra","Hispanic (any race)",495
+"Sierra","Multiracial (two or more of above races), Non-Hispanic",183
+"Sierra","Native Hawaiian or Pacific Islander, Non-Hispanic",1
+"Sierra","White, Non-Hispanic",2434
+"Siskiyou","American Indian or Alaska Native, Non-Hispanic",1628
+"Siskiyou","Asian, Non-Hispanic",890
+"Siskiyou","Black, Non-Hispanic",486
+"Siskiyou","Hispanic (any race)",7676
+"Siskiyou","Multiracial (two or more of above races), Non-Hispanic",2910
+"Siskiyou","Native Hawaiian or Pacific Islander, Non-Hispanic",37
+"Siskiyou","White, Non-Hispanic",29334
+"Solano","American Indian or Alaska Native, Non-Hispanic",1674
+"Solano","Asian, Non-Hispanic",70519
+"Solano","Black, Non-Hispanic",61101
+"Solano","Hispanic (any race)",126522
+"Solano","Multiracial (two or more of above races), Non-Hispanic",30448
+"Solano","Native Hawaiian or Pacific Islander, Non-Hispanic",4172
+"Solano","White, Non-Hispanic",152309
+"Sonoma","American Indian or Alaska Native, Non-Hispanic",3080
+"Sonoma","Asian, Non-Hispanic",23151
+"Sonoma","Black, Non-Hispanic",8110
+"Sonoma","Hispanic (any race)",136305
+"Sonoma","Multiracial (two or more of above races), Non-Hispanic",24595
+"Sonoma","Native Hawaiian or Pacific Islander, Non-Hispanic",2060
+"Sonoma","White, Non-Hispanic",282525
+"Stanislaus","American Indian or Alaska Native, Non-Hispanic",2609
+"Stanislaus","Asian, Non-Hispanic",34221
+"Stanislaus","Black, Non-Hispanic",14391
+"Stanislaus","Hispanic (any race)",273663
+"Stanislaus","Multiracial (two or more of above races), Non-Hispanic",21209
+"Stanislaus","Native Hawaiian or Pacific Islander, Non-Hispanic",4108
+"Stanislaus","White, Non-Hispanic",195503
+"Sutter","American Indian or Alaska Native, Non-Hispanic",822
+"Sutter","Asian, Non-Hispanic",17208
+"Sutter","Black, Non-Hispanic",1691
+"Sutter","Hispanic (any race)",37310
+"Sutter","Multiracial (two or more of above races), Non-Hispanic",4105
+"Sutter","Native Hawaiian or Pacific Islander, Non-Hispanic",316
+"Sutter","White, Non-Hispanic",36699
+"Tehama","American Indian or Alaska Native, Non-Hispanic",1234
+"Tehama","Asian, Non-Hispanic",923
+"Tehama","Black, Non-Hispanic",403
+"Tehama","Hispanic (any race)",21091
+"Tehama","Multiracial (two or more of above races), Non-Hispanic",3266
+"Tehama","Native Hawaiian or Pacific Islander, Non-Hispanic",103
+"Tehama","White, Non-Hispanic",37657
+"Trinity","American Indian or Alaska Native, Non-Hispanic",409
+"Trinity","Asian, Non-Hispanic",2219
+"Trinity","Black, Non-Hispanic",72
+"Trinity","Hispanic (any race)",1278
+"Trinity","Multiracial (two or more of above races), Non-Hispanic",1000
+"Trinity","Native Hawaiian or Pacific Islander, Non-Hispanic",28
+"Trinity","White, Non-Hispanic",10864
+"Tulare","American Indian or Alaska Native, Non-Hispanic",3075
+"Tulare","Asian, Non-Hispanic",14830
+"Tulare","Black, Non-Hispanic",5450
+"Tulare","Hispanic (any race)",331992
+"Tulare","Multiracial (two or more of above races), Non-Hispanic",9053
+"Tulare","Native Hawaiian or Pacific Islander, Non-Hispanic",493
+"Tulare","White, Non-Hispanic",109899
+"Tuolumne","American Indian or Alaska Native, Non-Hispanic",800
+"Tuolumne","Asian, Non-Hispanic",913
+"Tuolumne","Black, Non-Hispanic",817
+"Tuolumne","Hispanic (any race)",9193
+"Tuolumne","Multiracial (two or more of above races), Non-Hispanic",3125
+"Tuolumne","Native Hawaiian or Pacific Islander, Non-Hispanic",119
+"Tuolumne","White, Non-Hispanic",38420
+"Ventura","American Indian or Alaska Native, Non-Hispanic",2049
+"Ventura","Asian, Non-Hispanic",65502
+"Ventura","Black, Non-Hispanic",15560
+"Ventura","Hispanic (any race)",352151
+"Ventura","Multiracial (two or more of above races), Non-Hispanic",32185
+"Ventura","Native Hawaiian or Pacific Islander, Non-Hispanic",1537
+"Ventura","White, Non-Hispanic",356953
+"Yolo","American Indian or Alaska Native, Non-Hispanic",868
+"Yolo","Asian, Non-Hispanic",32574
+"Yolo","Black, Non-Hispanic",6318
+"Yolo","Hispanic (any race)",76907
+"Yolo","Multiracial (two or more of above races), Non-Hispanic",11205
+"Yolo","Native Hawaiian or Pacific Islander, Non-Hispanic",1151
+"Yolo","White, Non-Hispanic",91358
+"Yuba","American Indian or Alaska Native, Non-Hispanic",897
+"Yuba","Asian, Non-Hispanic",5182
+"Yuba","Black, Non-Hispanic",2524
+"Yuba","Hispanic (any race)",31822
+"Yuba","Multiracial (two or more of above races), Non-Hispanic",5410
+"Yuba","Native Hawaiian or Pacific Islander, Non-Hispanic",347
+"Yuba","White, Non-Hispanic",37115
