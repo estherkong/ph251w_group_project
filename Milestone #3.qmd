@@ -410,3 +410,21 @@ summary_table <- stratified_rate_infections %>%
   )
 summary_table
 ```
+
+# Export
+
+```{r}
+
+
+# export
+library(utils)
+
+write.csv(la_county_clean, file = "la_county_clean.csv", row.names = F)
+write.csv(novelid_clean, file = "novelid_clean.csv", row.names = F)
+write.csv(ca_pop_clean, file = "ca_pop_clean.csv", row.names = F)
+write.csv(stratified_rate_infections, file = "stratified_rate_infections.csv", row.names = F)
+write.csv(stratified_morbidity_infections, file = "stratified_morbidity_infections.csv", row.names = F)
+write.csv(stratified_ca_pop, file = "stratified_ca_pop.csv", row.names = F)
+write.csv(summary_table, file = "summary_table.csv")
+write.csv(data_dictionary, file = "data_dictionary.csv", row.names = F)
+```

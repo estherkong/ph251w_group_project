@@ -1,0 +1,407 @@
+"county","race_ethnicity","new infections","new severe","pop","new_infections_per_capita","severe_infections_per_capita"
+"Alameda","American Indian or Alaska Native, Non-Hispanic",444,12,4569,9.71766250820749,0.262639527248851
+"Alameda","Asian, Non-Hispanic",39069,1108,568612,6.8709418724895,0.194860467243041
+"Alameda","Black, Non-Hispanic",17161,510,157817,10.8739869595798,0.323159101997884
+"Alameda","Hispanic (any race)",33568,661,335452,10.0067967995421,0.197047565672585
+"Alameda","Multiracial (two or more of above races), Non-Hispanic",5719,100,88937,6.43039454895038,0.112439142314222
+"Alameda","Native Hawaiian or Pacific Islander, Non-Hispanic",1183,31,14710,8.04214819850442,0.210740992522094
+"Alameda","White, Non-Hispanic",51897,1719,485940,10.6797135448821,0.353747376219286
+"Alpine","American Indian or Alaska Native, Non-Hispanic",23,1,209,11.0047846889952,0.478468899521531
+"Alpine","Asian, Non-Hispanic",2,0,13,15.3846153846154,0
+"Alpine","Black, Non-Hispanic",0,0,14,0,0
+"Alpine","Hispanic (any race)",8,0,116,6.89655172413793,0
+"Alpine","Multiracial (two or more of above races), Non-Hispanic",4,0,78,5.12820512820513,0
+"Alpine","Native Hawaiian or Pacific Islander, Non-Hispanic",0,0,0,0,0
+"Alpine","White, Non-Hispanic",91,3,735,12.3809523809524,0.408163265306122
+"Amador","American Indian or Alaska Native, Non-Hispanic",60,3,614,9.77198697068404,0.488599348534202
+"Amador","Asian, Non-Hispanic",53,4,586,9.04436860068259,0.68259385665529
+"Amador","Black, Non-Hispanic",94,1,1360,6.91176470588235,0.0735294117647059
+"Amador","Hispanic (any race)",467,15,6736,6.93289786223278,0.222684085510689
+"Amador","Multiracial (two or more of above races), Non-Hispanic",101,1,2050,4.92682926829268,0.048780487804878
+"Amador","Native Hawaiian or Pacific Islander, Non-Hispanic",5,0,83,6.02409638554217,0
+"Amador","White, Non-Hispanic",2751,116,28693,9.58770431812637,0.404279789495696
+"Butte","American Indian or Alaska Native, Non-Hispanic",296,9,3005,9.85024958402662,0.299500831946755
+"Butte","Asian, Non-Hispanic",890,18,10722,8.30069016974445,0.167879127028539
+"Butte","Black, Non-Hispanic",344,9,3709,9.27473712590995,0.242653006201132
+"Butte","Hispanic (any race)",3202,67,47570,6.73113306705907,0.140845070422535
+"Butte","Multiracial (two or more of above races), Non-Hispanic",768,15,13569,5.65996020340482,0.11054609772275
+"Butte","Native Hawaiian or Pacific Islander, Non-Hispanic",42,0,833,5.04201680672269,0
+"Butte","White, Non-Hispanic",15299,566,126452,12.0986619428716,0.447600670610192
+"Calaveras","American Indian or Alaska Native, Non-Hispanic",64,2,475,13.4736842105263,0.421052631578947
+"Calaveras","Asian, Non-Hispanic",69,1,699,9.87124463519313,0.143061516452074
+"Calaveras","Black, Non-Hispanic",39,0,350,11.1428571428571,0
+"Calaveras","Hispanic (any race)",505,15,8314,6.07409189319221,0.180418571084917
+"Calaveras","Multiracial (two or more of above races), Non-Hispanic",127,4,2676,4.74588938714499,0.149476831091181
+"Calaveras","Native Hawaiian or Pacific Islander, Non-Hispanic",10,0,91,10.989010989011,0
+"Calaveras","White, Non-Hispanic",3862,178,32000,12.06875,0.55625
+"Colusa","American Indian or Alaska Native, Non-Hispanic",51,4,272,18.75,1.47058823529412
+"Colusa","Asian, Non-Hispanic",58,4,239,24.2677824267782,1.67364016736402
+"Colusa","Black, Non-Hispanic",36,2,189,19.047619047619,1.05820105820106
+"Colusa","Hispanic (any race)",2592,52,14325,18.0942408376963,0.363001745200698
+"Colusa","Multiracial (two or more of above races), Non-Hispanic",66,2,500,13.2,0.4
+"Colusa","Native Hawaiian or Pacific Islander, Non-Hispanic",15,0,83,18.0722891566265,0
+"Colusa","White, Non-Hispanic",1809,71,6297,28.7279656979514,1.12752104176592
+"Contra Costa","American Indian or Alaska Native, Non-Hispanic",278,11,2717,10.2318733897681,0.404858299595142
+"Contra Costa","Asian, Non-Hispanic",16155,501,229086,7.05193682721773,0.218695162515387
+"Contra Costa","Black, Non-Hispanic",9188,266,102468,8.96670179958621,0.259593238864816
+"Contra Costa","Hispanic (any race)",24671,482,271722,9.07950037170343,0.177387182487984
+"Contra Costa","Multiracial (two or more of above races), Non-Hispanic",3801,85,66910,5.68076520699447,0.127036317441339
+"Contra Costa","Native Hawaiian or Pacific Islander, Non-Hispanic",472,21,6816,6.92488262910798,0.308098591549296
+"Contra Costa","White, Non-Hispanic",48477,1829,466817,10.3845832521095,0.391802355098465
+"Del Norte","American Indian or Alaska Native, Non-Hispanic",169,4,2032,8.31692913385827,0.196850393700787
+"Del Norte","Asian, Non-Hispanic",95,4,827,11.4873035066505,0.483675937122128
+"Del Norte","Black, Non-Hispanic",106,1,1095,9.68036529680365,0.091324200913242
+"Del Norte","Hispanic (any race)",550,2,5672,9.69675599435825,0.0352609308885755
+"Del Norte","Multiracial (two or more of above races), Non-Hispanic",96,1,2132,4.50281425891182,0.0469043151969981
+"Del Norte","Native Hawaiian or Pacific Islander, Non-Hispanic",1,0,24,4.16666666666667,0
+"Del Norte","White, Non-Hispanic",1715,69,14600,11.7465753424658,0.472602739726027
+"El Dorado","American Indian or Alaska Native, Non-Hispanic",176,4,1330,13.2330827067669,0.300751879699248
+"El Dorado","Asian, Non-Hispanic",732,22,9075,8.06611570247934,0.242424242424242
+"El Dorado","Black, Non-Hispanic",123,1,1585,7.7602523659306,0.0630914826498423
+"El Dorado","Hispanic (any race)",2444,63,29332,8.33219691804173,0.214782490113187
+"El Dorado","Multiracial (two or more of above races), Non-Hispanic",550,12,10778,5.10298756726665,0.111337910558545
+"El Dorado","Native Hawaiian or Pacific Islander, Non-Hispanic",30,1,346,8.67052023121387,0.289017341040462
+"El Dorado","White, Non-Hispanic",14863,603,134839,11.0227753098139,0.447199994066998
+"Fresno","American Indian or Alaska Native, Non-Hispanic",551,26,5860,9.40273037542662,0.443686006825939
+"Fresno","Asian, Non-Hispanic",8175,218,107158,7.62892177905523,0.203437914108139
+"Fresno","Black, Non-Hispanic",4224,96,41696,10.1304681504221,0.230237912509593
+"Fresno","Hispanic (any race)",44076,886,579387,7.60735052736772,0.152920241565655
+"Fresno","Multiracial (two or more of above races), Non-Hispanic",1514,26,26072,5.80699601104633,0.0997238416692237
+"Fresno","Native Hawaiian or Pacific Islander, Non-Hispanic",116,1,1489,7.79046339825386,0.0671591672263264
+"Fresno","White, Non-Hispanic",27303,964,250762,10.8880133353538,0.384428262655426
+"Glenn","American Indian or Alaska Native, Non-Hispanic",48,1,493,9.73630831643002,0.202839756592292
+"Glenn","Asian, Non-Hispanic",75,2,619,12.1163166397415,0.323101777059774
+"Glenn","Black, Non-Hispanic",23,1,153,15.0326797385621,0.65359477124183
+"Glenn","Hispanic (any race)",948,20,12889,7.35510900768097,0.155171076111413
+"Glenn","Multiracial (two or more of above races), Non-Hispanic",44,0,957,4.59770114942529,0
+"Glenn","Native Hawaiian or Pacific Islander, Non-Hispanic",1,0,36,2.77777777777778,0
+"Glenn","White, Non-Hispanic",1399,59,12892,10.8516909711449,0.457648153893888
+"Humboldt","American Indian or Alaska Native, Non-Hispanic",628,13,7062,8.89266496743132,0.184083828943642
+"Humboldt","Asian, Non-Hispanic",257,7,3508,7.32611174458381,0.199543899657925
+"Humboldt","Black, Non-Hispanic",170,2,1724,9.86078886310905,0.116009280742459
+"Humboldt","Hispanic (any race)",1409,24,25729,5.47631077772164,0.0932799564693537
+"Humboldt","Multiracial (two or more of above races), Non-Hispanic",503,9,9783,5.14157211489318,0.0919963201471941
+"Humboldt","Native Hawaiian or Pacific Islander, Non-Hispanic",19,0,495,3.83838383838384,0
+"Humboldt","White, Non-Hispanic",9799,366,86087,11.382671018853,0.425151300428636
+"Imperial","American Indian or Alaska Native, Non-Hispanic",739,11,1863,39.6672034353194,0.59044551798175
+"Imperial","Asian, Non-Hispanic",1049,29,3194,32.8428303068253,0.907952410770194
+"Imperial","Black, Non-Hispanic",2179,37,3270,66.6360856269113,1.13149847094801
+"Imperial","Hispanic (any race)",63833,1457,153907,41.4750466190622,0.946675589804233
+"Imperial","Multiracial (two or more of above races), Non-Hispanic",503,20,1727,29.125651418645,1.15807759119861
+"Imperial","Native Hawaiian or Pacific Islander, Non-Hispanic",43,0,91,47.2527472527472,0
+"Imperial","White, Non-Hispanic",10277,405,15587,65.933149419388,2.59831911208058
+"Inyo","American Indian or Alaska Native, Non-Hispanic",471,16,2089,22.5466730493059,0.765916706558162
+"Inyo","Asian, Non-Hispanic",76,3,289,26.2975778546713,1.03806228373702
+"Inyo","Black, Non-Hispanic",33,0,91,36.2637362637363,0
+"Inyo","Hispanic (any race)",1028,26,4948,20.7760711398545,0.525464834276475
+"Inyo","Multiracial (two or more of above races), Non-Hispanic",120,3,938,12.7931769722815,0.319829424307036
+"Inyo","Native Hawaiian or Pacific Islander, Non-Hispanic",8,0,15,53.3333333333333,0
+"Inyo","White, Non-Hispanic",3301,159,10361,31.8598590869607,1.53460090724834
+"Kern","American Indian or Alaska Native, Non-Hispanic",1540,50,4784,32.190635451505,1.04515050167224
+"Kern","Asian, Non-Hispanic",8728,257,41543,21.0095563632862,0.618636111980358
+"Kern","Black, Non-Hispanic",11872,261,46276,25.6547670498747,0.564007260783127
+"Kern","Hispanic (any race)",110592,1844,529286,20.8945636196688,0.348393874011404
+"Kern","Multiracial (two or more of above races), Non-Hispanic",4042,83,25730,15.7092887679751,0.32258064516129
+"Kern","Native Hawaiian or Pacific Islander, Non-Hispanic",282,4,1168,24.1438356164384,0.342465753424658
+"Kern","White, Non-Hispanic",81498,2529,254585,32.0120981204706,0.993381385391912
+"Kings","American Indian or Alaska Native, Non-Hispanic",317,11,1351,23.4641006661732,0.81421169504071
+"Kings","Asian, Non-Hispanic",1288,43,4214,30.5647840531561,1.02040816326531
+"Kings","Black, Non-Hispanic",2341,48,7100,32.9718309859155,0.676056338028169
+"Kings","Hispanic (any race)",18072,343,102516,17.6284677513754,0.334581918919973
+"Kings","Multiracial (two or more of above races), Non-Hispanic",783,10,3946,19.8428788646731,0.253421186011151
+"Kings","Native Hawaiian or Pacific Islander, Non-Hispanic",65,1,344,18.8953488372093,0.290697674418605
+"Kings","White, Non-Hispanic",11949,347,32934,36.281654217526,1.05362239630777
+"Lake","American Indian or Alaska Native, Non-Hispanic",181,0,1643,11.0164333536214,0
+"Lake","Asian, Non-Hispanic",91,3,927,9.81661272923409,0.323624595469256
+"Lake","Black, Non-Hispanic",109,4,1089,10.0091827364555,0.367309458218549
+"Lake","Hispanic (any race)",1273,36,18994,6.70211645782879,0.189533536906391
+"Lake","Multiracial (two or more of above races), Non-Hispanic",215,8,3918,5.48749361919347,0.204185809086269
+"Lake","Native Hawaiian or Pacific Islander, Non-Hispanic",9,0,113,7.9646017699115,0
+"Lake","White, Non-Hispanic",5045,212,39762,12.6879935616921,0.533172375635028
+"Lassen","American Indian or Alaska Native, Non-Hispanic",80,3,845,9.46745562130178,0.355029585798817
+"Lassen","Asian, Non-Hispanic",38,1,474,8.0168776371308,0.210970464135021
+"Lassen","Black, Non-Hispanic",271,5,2423,11.1844820470491,0.206355757325629
+"Lassen","Hispanic (any race)",525,16,8451,6.21228257011005,0.189326706898592
+"Lassen","Multiracial (two or more of above races), Non-Hispanic",90,4,1416,6.35593220338983,0.282485875706215
+"Lassen","Native Hawaiian or Pacific Islander, Non-Hispanic",14,0,257,5.44747081712062,0
+"Lassen","White, Non-Hispanic",1957,73,14366,13.6224418766532,0.5081442294306
+"Los Angeles","American Indian or Alaska Native, Non-Hispanic",1745,64,21809,8.00128387363015,0.293456829749186
+"Los Angeles","Asian, Non-Hispanic",121970,4176,1637181,7.45000094674932,0.255072591240675
+"Los Angeles","Black, Non-Hispanic",72283,2136,840522,8.59977490178722,0.254127792014962
+"Los Angeles","Hispanic (any race)",429165,9482,4089110,10.4953156065745,0.231884199740286
+"Los Angeles","Multiracial (two or more of above races), Non-Hispanic",17181,352,333522,5.15138431647687,0.105540264210457
+"Los Angeles","Native Hawaiian or Pacific Islander, Non-Hispanic",2090,53,24396,8.56697819314642,0.217248729299885
+"Los Angeles","White, Non-Hispanic",241722,8846,2879168,8.39555038122124,0.307241536443862
+"Madera","American Indian or Alaska Native, Non-Hispanic",187,7,1632,11.4583333333333,0.428921568627451
+"Madera","Asian, Non-Hispanic",307,8,3514,8.73648264086511,0.22766078542971
+"Madera","Black, Non-Hispanic",568,11,3984,14.2570281124498,0.276104417670683
+"Madera","Hispanic (any race)",9382,163,100894,9.298868119016,0.161555692112514
+"Madera","Multiracial (two or more of above races), Non-Hispanic",243,4,3902,6.22757560225525,0.102511532547412
+"Madera","Native Hawaiian or Pacific Islander, Non-Hispanic",12,2,147,8.16326530612245,1.36054421768707
+"Madera","White, Non-Hispanic",6244,253,44384,14.0681326604182,0.570025234318673
+"Marin","American Indian or Alaska Native, Non-Hispanic",55,2,729,7.54458161865569,0.274348422496571
+"Marin","Asian, Non-Hispanic",1414,52,17379,8.13625640140399,0.299211692272283
+"Marin","Black, Non-Hispanic",665,11,8116,8.19369147363233,0.135534746180384
+"Marin","Hispanic (any race)",3803,55,39764,9.5639271703048,0.138316064782215
+"Marin","Multiracial (two or more of above races), Non-Hispanic",643,11,14388,4.46900194606617,0.0764525993883792
+"Marin","Native Hawaiian or Pacific Islander, Non-Hispanic",34,2,587,5.79216354344123,0.340715502555366
+"Marin","White, Non-Hispanic",17704,793,173781,10.1875348858621,0.456321462070077
+"Mariposa","American Indian or Alaska Native, Non-Hispanic",48,1,418,11.4832535885167,0.239234449760766
+"Mariposa","Asian, Non-Hispanic",22,0,289,7.61245674740484,0
+"Mariposa","Black, Non-Hispanic",19,0,134,14.1791044776119,0
+"Mariposa","Hispanic (any race)",179,3,2761,6.48315827598696,0.108656283955089
+"Mariposa","Multiracial (two or more of above races), Non-Hispanic",55,0,1189,4.62573591253154,0
+"Mariposa","Native Hawaiian or Pacific Islander, Non-Hispanic",5,0,17,29.4117647058824,0
+"Mariposa","White, Non-Hispanic",1572,73,12052,13.0434782608696,0.605708596083638
+"Mendocino","American Indian or Alaska Native, Non-Hispanic",346,18,3436,10.069848661234,0.523864959254948
+"Mendocino","Asian, Non-Hispanic",130,7,1803,7.210205213533,0.388241819190239
+"Mendocino","Black, Non-Hispanic",54,1,615,8.78048780487805,0.16260162601626
+"Mendocino","Hispanic (any race)",2026,44,25975,7.79980750721848,0.16939364773821
+"Mendocino","Multiracial (two or more of above races), Non-Hispanic",254,9,4697,5.40770704705131,0.191611667021503
+"Mendocino","Native Hawaiian or Pacific Islander, Non-Hispanic",15,0,125,12,0
+"Mendocino","White, Non-Hispanic",6263,260,52665,11.8921484857116,0.493686509066743
+"Merced","American Indian or Alaska Native, Non-Hispanic",306,12,1126,27.1758436944938,1.06571936056838
+"Merced","Asian, Non-Hispanic",4916,113,18152,27.0824151608638,0.622520934332305
+"Merced","Black, Non-Hispanic",2270,56,7355,30.8633582596873,0.761386811692726
+"Merced","Hispanic (any race)",36158,664,193125,18.7225889967638,0.343818770226537
+"Merced","Multiracial (two or more of above races), Non-Hispanic",1110,15,5990,18.5308848080134,0.250417362270451
+"Merced","Native Hawaiian or Pacific Islander, Non-Hispanic",118,3,560,21.0714285714286,0.535714285714286
+"Merced","White, Non-Hispanic",19713,673,59292,33.247318356608,1.13506037914052
+"Modoc","American Indian or Alaska Native, Non-Hispanic",31,1,344,9.01162790697674,0.290697674418605
+"Modoc","Asian, Non-Hispanic",9,0,63,14.2857142857143,0
+"Modoc","Black, Non-Hispanic",8,0,81,9.87654320987654,0
+"Modoc","Hispanic (any race)",146,3,2341,6.23665100384451,0.128150363092695
+"Modoc","Multiracial (two or more of above races), Non-Hispanic",31,1,354,8.75706214689266,0.282485875706215
+"Modoc","Native Hawaiian or Pacific Islander, Non-Hispanic",3,0,12,25,0
+"Modoc","White, Non-Hispanic",783,31,5251,14.911445438964,0.590363740239954
+"Mono","American Indian or Alaska Native, Non-Hispanic",17,0,193,8.80829015544041,0
+"Mono","Asian, Non-Hispanic",15,0,202,7.42574257425743,0
+"Mono","Black, Non-Hispanic",5,0,83,6.02409638554217,0
+"Mono","Hispanic (any race)",346,7,3636,9.51595159515952,0.192519251925193
+"Mono","Multiracial (two or more of above races), Non-Hispanic",21,1,528,3.97727272727273,0.189393939393939
+"Mono","Native Hawaiian or Pacific Islander, Non-Hispanic",1,0,28,3.57142857142857,0
+"Mono","White, Non-Hispanic",839,33,8603,9.75241194932,0.383587120771824
+"Monterey","American Indian or Alaska Native, Non-Hispanic",159,4,1508,10.5437665782493,0.26525198938992
+"Monterey","Asian, Non-Hispanic",2521,102,26280,9.59284627092846,0.388127853881278
+"Monterey","Black, Non-Hispanic",1215,36,10611,11.4503816793893,0.339270568278202
+"Monterey","Hispanic (any race)",24821,553,256581,9.67374825103963,0.215526480916358
+"Monterey","Multiracial (two or more of above races), Non-Hispanic",977,20,14254,6.85421636031991,0.140311491511155
+"Monterey","Native Hawaiian or Pacific Islander, Non-Hispanic",202,2,2072,9.74903474903475,0.0965250965250965
+"Monterey","White, Non-Hispanic",14241,590,125170,11.3773268355037,0.471358951825517
+"Napa","American Indian or Alaska Native, Non-Hispanic",59,1,555,10.6306306306306,0.18018018018018
+"Napa","Asian, Non-Hispanic",909,40,11244,8.08431163287086,0.355745286374956
+"Napa","Black, Non-Hispanic",219,3,2797,7.82981766178048,0.107257776188774
+"Napa","Hispanic (any race)",4211,87,43155,9.75784961186421,0.201598887730275
+"Napa","Multiracial (two or more of above races), Non-Hispanic",278,4,6035,4.60646230323115,0.0662800331400166
+"Napa","Native Hawaiian or Pacific Islander, Non-Hispanic",22,1,416,5.28846153846154,0.240384615384615
+"Napa","White, Non-Hispanic",6975,266,70282,9.92430494294414,0.378475285279303
+"Nevada","American Indian or Alaska Native, Non-Hispanic",105,7,689,15.2394775036284,1.01596516690856
+"Nevada","Asian, Non-Hispanic",114,8,1387,8.21917808219178,0.576784426820476
+"Nevada","Black, Non-Hispanic",46,3,500,9.2,0.6
+"Nevada","Hispanic (any race)",918,26,13551,6.77440779278282,0.191867758836986
+"Nevada","Multiracial (two or more of above races), Non-Hispanic",256,1,5552,4.61095100864553,0.0180115273775216
+"Nevada","Native Hawaiian or Pacific Islander, Non-Hispanic",12,0,134,8.95522388059701,0
+"Nevada","White, Non-Hispanic",8425,354,78587,10.7206026442032,0.450456182320231
+"Orange","American Indian or Alaska Native, Non-Hispanic",597,15,5767,10.3520027744061,0.260100572221259
+"Orange","Asian, Non-Hispanic",50863,1522,733549,6.93382446162424,0.207484435259267
+"Orange","Black, Non-Hispanic",4304,89,52335,8.22394191267794,0.170058278398777
+"Orange","Hispanic (any race)",93764,1916,983926,9.52957844390737,0.19473009149062
+"Orange","Multiracial (two or more of above races), Non-Hispanic",6712,134,127552,5.26216758655293,0.105055193176116
+"Orange","Native Hawaiian or Pacific Islander, Non-Hispanic",801,13,8615,9.29773650609402,0.150899593731863
+"Orange","White, Non-Hispanic",120473,4421,1230533,9.79031037769812,0.359275208385309
+"Placer","American Indian or Alaska Native, Non-Hispanic",227,1,1961,11.5757266700663,0.0509943906170321
+"Placer","Asian, Non-Hispanic",2363,65,36629,6.45117256818368,0.177455021977122
+"Placer","Black, Non-Hispanic",474,10,7010,6.76176890156919,0.14265335235378
+"Placer","Hispanic (any race)",4738,97,75401,6.28373628996963,0.128645508680256
+"Placer","Multiracial (two or more of above races), Non-Hispanic",995,17,24142,4.12144809874907,0.0704167011846574
+"Placer","Native Hawaiian or Pacific Islander, Non-Hispanic",73,4,1001,7.29270729270729,0.3996003996004
+"Placer","White, Non-Hispanic",27809,979,264562,10.5113357171476,0.370045584777859
+"Plumas","American Indian or Alaska Native, Non-Hispanic",47,1,338,13.905325443787,0.29585798816568
+"Plumas","Asian, Non-Hispanic",19,3,164,11.5853658536585,1.82926829268293
+"Plumas","Black, Non-Hispanic",22,0,129,17.0542635658915,0
+"Plumas","Hispanic (any race)",199,4,3282,6.06337599024985,0.12187690432663
+"Plumas","Multiracial (two or more of above races), Non-Hispanic",72,0,993,7.25075528700906,0
+"Plumas","Native Hawaiian or Pacific Islander, Non-Hispanic",4,0,44,9.09090909090909,0
+"Plumas","White, Non-Hispanic",2055,87,14005,14.673330953231,0.621206711888611
+"Riverside","American Indian or Alaska Native, Non-Hispanic",1099,27,12197,9.01041239649094,0.221365909649914
+"Riverside","Asian, Non-Hispanic",13512,445,173488,7.78843493498109,0.256501890620677
+"Riverside","Black, Non-Hispanic",13129,332,149476,8.78334983542508,0.222109234927346
+"Riverside","Hispanic (any race)",97748,2050,1218453,8.02230369164834,0.168246128492441
+"Riverside","Multiracial (two or more of above races), Non-Hispanic",4669,97,83935,5.56263775540597,0.11556561625067
+"Riverside","Native Hawaiian or Pacific Islander, Non-Hispanic",588,14,7422,7.92239288601455,0.188628402047966
+"Riverside","White, Non-Hispanic",85864,3426,786283,10.9202411854256,0.435720980868212
+"Sacramento","American Indian or Alaska Native, Non-Hispanic",1734,53,7290,23.7860082304527,0.727023319615912
+"Sacramento","Asian, Non-Hispanic",44776,1154,280808,15.945414660551,0.410956952793368
+"Sacramento","Black, Non-Hispanic",30461,740,141965,21.4566970732223,0.521255238967351
+"Sacramento","Hispanic (any race)",68404,1285,400494,17.0799063157001,0.320853745624154
+"Sacramento","Multiracial (two or more of above races), Non-Hispanic",13014,213,98450,13.2188928390046,0.216353478923311
+"Sacramento","Native Hawaiian or Pacific Islander, Non-Hispanic",3044,73,19528,15.587873822204,0.373822204014748
+"Sacramento","White, Non-Hispanic",145855,4805,633296,23.0310944645158,0.758728935600414
+"San Benito","American Indian or Alaska Native, Non-Hispanic",22,0,233,9.44206008583691,0
+"San Benito","Asian, Non-Hispanic",120,4,2180,5.5045871559633,0.18348623853211
+"San Benito","Black, Non-Hispanic",43,0,522,8.23754789272031,0
+"San Benito","Hispanic (any race)",3000,73,42732,7.02049985959,0.170832163250023
+"San Benito","Multiracial (two or more of above races), Non-Hispanic",92,3,1553,5.92401802962009,0.193174500965873
+"San Benito","Native Hawaiian or Pacific Islander, Non-Hispanic",10,0,146,6.84931506849315,0
+"San Benito","White, Non-Hispanic",2004,80,17716,11.3118085346579,0.451569202980357
+"San Bernardino","American Indian or Alaska Native, Non-Hispanic",2044,73,8356,24.4614648157013,0.873623743417903
+"San Bernardino","Asian, Non-Hispanic",30740,883,180526,17.028018124813,0.489126220045866
+"San Bernardino","Black, Non-Hispanic",41066,965,172238,23.8425899046668,0.56027125256912
+"San Bernardino","Hispanic (any race)",244773,4729,1186707,20.6262371419398,0.398497691511047
+"San Bernardino","Multiracial (two or more of above races), Non-Hispanic",10315,201,66067,15.6129383807347,0.304236608291583
+"San Bernardino","Native Hawaiian or Pacific Islander, Non-Hispanic",1429,26,6617,21.5958893758501,0.392927308447937
+"San Bernardino","White, Non-Hispanic",157490,5167,550082,28.6302769405289,0.93931450220149
+"San Diego","American Indian or Alaska Native, Non-Hispanic",1387,39,12802,10.8342446492736,0.304639900015623
+"San Diego","Asian, Non-Hispanic",31346,904,398764,7.86078984060748,0.226700504559088
+"San Diego","Black, Non-Hispanic",13725,323,144900,9.47204968944099,0.222912353347136
+"San Diego","Hispanic (any race)",93549,2008,1172906,7.97583097025678,0.171198714986538
+"San Diego","Multiracial (two or more of above races), Non-Hispanic",8908,172,160037,5.56621281328693,0.107475146372401
+"San Diego","Native Hawaiian or Pacific Islander, Non-Hispanic",1295,36,13238,9.78244447801783,0.271944402477716
+"San Diego","White, Non-Hispanic",137046,4766,1395213,9.82258622876937,0.341596587761152
+"San Francisco","American Indian or Alaska Native, Non-Hispanic",198,1,1626,12.1771217712177,0.0615006150061501
+"San Francisco","Asian, Non-Hispanic",27228,885,289633,9.40086247078199,0.305559104107612
+"San Francisco","Black, Non-Hispanic",4327,126,42699,10.1337267851706,0.295088877959671
+"San Francisco","Hispanic (any race)",12379,257,117117,10.5697721082336,0.219438680977143
+"San Francisco","Multiracial (two or more of above races), Non-Hispanic",2760,47,44105,6.25779390091826,0.106563881646072
+"San Francisco","Native Hawaiian or Pacific Islander, Non-Hispanic",351,8,3745,9.37249666221629,0.213618157543391
+"San Francisco","White, Non-Hispanic",37873,1055,349094,10.8489404000069,0.302210865841292
+"San Joaquin","American Indian or Alaska Native, Non-Hispanic",750,25,3119,24.0461686437961,0.801538954793203
+"San Joaquin","Asian, Non-Hispanic",21620,597,132600,16.3046757164404,0.450226244343891
+"San Joaquin","Black, Non-Hispanic",11013,285,56382,19.5328296264765,0.505480472491221
+"San Joaquin","Hispanic (any race)",59240,1067,351184,16.8686500523942,0.303829331632421
+"San Joaquin","Multiracial (two or more of above races), Non-Hispanic",4826,73,31789,15.1813520400138,0.229639183365315
+"San Joaquin","Native Hawaiian or Pacific Islander, Non-Hispanic",802,19,4988,16.0785886126704,0.380914194065758
+"San Joaquin","White, Non-Hispanic",52010,1769,204466,25.436991969325,0.865180519010496
+"San Luis Obispo","American Indian or Alaska Native, Non-Hispanic",189,2,1120,16.875,0.178571428571429
+"San Luis Obispo","Asian, Non-Hispanic",1147,29,10631,10.789201392155,0.272787131972533
+"San Luis Obispo","Black, Non-Hispanic",641,7,4524,14.1688770999116,0.15473032714412
+"San Luis Obispo","Hispanic (any race)",7409,190,73640,10.0611080934275,0.258011950027159
+"San Luis Obispo","Multiracial (two or more of above races), Non-Hispanic",774,22,12892,6.00372323921812,0.170648464163823
+"San Luis Obispo","Native Hawaiian or Pacific Islander, Non-Hispanic",35,1,370,9.45945945945946,0.27027027027027
+"San Luis Obispo","White, Non-Hispanic",25099,999,177074,14.1743000101652,0.564170911596282
+"San Mateo","American Indian or Alaska Native, Non-Hispanic",107,4,1226,8.72756933115824,0.32626427406199
+"San Mateo","Asian, Non-Hispanic",17297,546,245408,7.04826248533055,0.222486634502543
+"San Mateo","Black, Non-Hispanic",1844,53,17549,10.5077212376774,0.302011510627386
+"San Mateo","Hispanic (any race)",17343,359,138184,12.550657094888,0.259798529496903
+"San Mateo","Multiracial (two or more of above races), Non-Hispanic",2141,36,40542,5.28094321937744,0.0887968033150807
+"San Mateo","Native Hawaiian or Pacific Islander, Non-Hispanic",994,26,10209,9.73650700362425,0.254677245567636
+"San Mateo","White, Non-Hispanic",28260,1128,295957,9.54868443726622,0.381136448876019
+"Santa Barbara","American Indian or Alaska Native, Non-Hispanic",175,6,1682,10.4042806183115,0.356718192627824
+"Santa Barbara","Asian, Non-Hispanic",1937,52,27481,7.04850624067538,0.189221644044977
+"Santa Barbara","Black, Non-Hispanic",715,16,6845,10.445580715851,0.233747260774288
+"Santa Barbara","Hispanic (any race)",17513,373,210441,8.32204750975333,0.177246829277565
+"Santa Barbara","Multiracial (two or more of above races), Non-Hispanic",864,14,15829,5.4583359656327,0.0884452587023817
+"Santa Barbara","Native Hawaiian or Pacific Islander, Non-Hispanic",74,3,537,13.780260707635,0.558659217877095
+"Santa Barbara","White, Non-Hispanic",18872,689,179799,10.4961651622089,0.38320569079917
+"Santa Clara","American Indian or Alaska Native, Non-Hispanic",410,11,3470,11.8155619596542,0.31700288184438
+"Santa Clara","Asian, Non-Hispanic",56993,1611,797454,7.14686991349971,0.202017922036882
+"Santa Clara","Black, Non-Hispanic",4243,119,46100,9.20390455531453,0.258134490238612
+"Santa Clara","Hispanic (any race)",45289,919,399861,11.3261858495827,0.229829865878393
+"Santa Clara","Multiracial (two or more of above races), Non-Hispanic",4971,84,78219,6.35523338319334,0.107390787404595
+"Santa Clara","Native Hawaiian or Pacific Islander, Non-Hispanic",607,13,6671,9.09908559436366,0.194873332333983
+"Santa Clara","White, Non-Hispanic",60561,2226,579974,10.4420198146813,0.383810308737978
+"Santa Cruz","American Indian or Alaska Native, Non-Hispanic",102,2,818,12.4694376528117,0.244498777506112
+"Santa Cruz","Asian, Non-Hispanic",1148,43,12794,8.97295607315929,0.336095044552134
+"Santa Cruz","Black, Non-Hispanic",237,8,2822,8.39829907866761,0.283486888731396
+"Santa Cruz","Hispanic (any race)",8542,181,94327,9.05573165689569,0.191885674303222
+"Santa Cruz","Multiracial (two or more of above races), Non-Hispanic",713,17,12336,5.77983138780804,0.13780804150454
+"Santa Cruz","Native Hawaiian or Pacific Islander, Non-Hispanic",28,0,298,9.39597315436242,0
+"Santa Cruz","White, Non-Hispanic",15563,590,139706,11.1398221980445,0.422315433839635
+"Shasta","American Indian or Alaska Native, Non-Hispanic",396,13,3852,10.2803738317757,0.33748701973001
+"Shasta","Asian, Non-Hispanic",423,15,5890,7.18166383701188,0.254668930390492
+"Shasta","Black, Non-Hispanic",148,3,1881,7.86815523657629,0.159489633173844
+"Shasta","Hispanic (any race)",1451,29,28647,5.06510280308584,0.101232240723287
+"Shasta","Multiracial (two or more of above races), Non-Hispanic",557,8,11840,4.70439189189189,0.0675675675675676
+"Shasta","Native Hawaiian or Pacific Islander, Non-Hispanic",24,0,340,7.05882352941176,0
+"Shasta","White, Non-Hispanic",13215,518,126508,10.4459797008885,0.409460271287191
+"Sierra","American Indian or Alaska Native, Non-Hispanic",4,0,18,22.2222222222222,0
+"Sierra","Asian, Non-Hispanic",1,0,10,10,0
+"Sierra","Black, Non-Hispanic",0,0,11,0,0
+"Sierra","Hispanic (any race)",44,2,495,8.88888888888889,0.404040404040404
+"Sierra","Multiracial (two or more of above races), Non-Hispanic",7,0,183,3.82513661202186,0
+"Sierra","Native Hawaiian or Pacific Islander, Non-Hispanic",0,0,1,0,0
+"Sierra","White, Non-Hispanic",348,19,2434,14.2974527526705,0.780608052588332
+"Siskiyou","American Indian or Alaska Native, Non-Hispanic",155,3,1628,9.52088452088452,0.184275184275184
+"Siskiyou","Asian, Non-Hispanic",65,5,890,7.30337078651685,0.561797752808989
+"Siskiyou","Black, Non-Hispanic",52,1,486,10.6995884773663,0.205761316872428
+"Siskiyou","Hispanic (any race)",527,11,7676,6.86555497655029,0.143303804064617
+"Siskiyou","Multiracial (two or more of above races), Non-Hispanic",206,8,2910,7.07903780068728,0.274914089347079
+"Siskiyou","Native Hawaiian or Pacific Islander, Non-Hispanic",10,0,37,27.027027027027,0
+"Siskiyou","White, Non-Hispanic",3727,161,29334,12.7053930592487,0.54885116247358
+"Solano","American Indian or Alaska Native, Non-Hispanic",430,9,1674,25.6869772998805,0.537634408602151
+"Solano","Asian, Non-Hispanic",12389,413,70519,17.5683149222195,0.585657765992144
+"Solano","Black, Non-Hispanic",11995,329,61101,19.6314299274971,0.538452725814635
+"Solano","Hispanic (any race)",20917,399,126522,16.5323026825374,0.315360174515104
+"Solano","Multiracial (two or more of above races), Non-Hispanic",4145,67,30448,13.6133736205991,0.220047293746716
+"Solano","Native Hawaiian or Pacific Islander, Non-Hispanic",691,12,4172,16.5627996164909,0.287631831255992
+"Solano","White, Non-Hispanic",33761,1248,152309,22.1661228161172,0.819386904253852
+"Sonoma","American Indian or Alaska Native, Non-Hispanic",348,15,3080,11.2987012987013,0.487012987012987
+"Sonoma","Asian, Non-Hispanic",1830,68,23151,7.90462615005831,0.293723813226211
+"Sonoma","Black, Non-Hispanic",709,20,8110,8.7422934648582,0.246609124537608
+"Sonoma","Hispanic (any race)",11328,216,136305,8.31077363266204,0.158468141300759
+"Sonoma","Multiracial (two or more of above races), Non-Hispanic",1159,24,24595,4.71233990648506,0.0975808091075422
+"Sonoma","Native Hawaiian or Pacific Islander, Non-Hispanic",135,5,2060,6.55339805825243,0.242718446601942
+"Sonoma","White, Non-Hispanic",30813,1266,282525,10.9062914786302,0.448101937881603
+"Stanislaus","American Indian or Alaska Native, Non-Hispanic",620,19,2609,23.7638942123419,0.728248371023381
+"Stanislaus","Asian, Non-Hispanic",5591,158,34221,16.3379211595219,0.461704801145495
+"Stanislaus","Black, Non-Hispanic",2942,67,14391,20.4433326384546,0.465568758251685
+"Stanislaus","Hispanic (any race)",47285,902,273663,17.2785506261351,0.329602467268136
+"Stanislaus","Multiracial (two or more of above races), Non-Hispanic",2718,71,21209,12.815314253383,0.334763543778585
+"Stanislaus","Native Hawaiian or Pacific Islander, Non-Hispanic",648,19,4108,15.7740993184031,0.462512171372931
+"Stanislaus","White, Non-Hispanic",49068,1646,195503,25.0983360869143,0.841930814360905
+"Sutter","American Indian or Alaska Native, Non-Hispanic",197,4,822,23.9659367396594,0.48661800486618
+"Sutter","Asian, Non-Hispanic",2811,73,17208,16.3354253835425,0.424221292422129
+"Sutter","Black, Non-Hispanic",343,11,1691,20.2838557066824,0.65050266114725
+"Sutter","Hispanic (any race)",5713,104,37310,15.3122487268829,0.278745644599303
+"Sutter","Multiracial (two or more of above races), Non-Hispanic",588,13,4105,14.3239951278928,0.316686967113276
+"Sutter","Native Hawaiian or Pacific Islander, Non-Hispanic",62,4,316,19.620253164557,1.26582278481013
+"Sutter","White, Non-Hispanic",9080,310,36699,24.7418185781629,0.844709665113491
+"Tehama","American Indian or Alaska Native, Non-Hispanic",252,10,1234,20.4213938411669,0.810372771474878
+"Tehama","Asian, Non-Hispanic",118,4,923,12.7843986998917,0.433369447453954
+"Tehama","Black, Non-Hispanic",71,2,403,17.6178660049628,0.496277915632754
+"Tehama","Hispanic (any race)",2970,62,21091,14.0818358541558,0.293964250154094
+"Tehama","Multiracial (two or more of above races), Non-Hispanic",323,11,3266,9.88977342314758,0.33680342927128
+"Tehama","Native Hawaiian or Pacific Islander, Non-Hispanic",15,1,103,14.5631067961165,0.970873786407767
+"Tehama","White, Non-Hispanic",8896,317,37657,23.6237618503864,0.841808959821547
+"Trinity","American Indian or Alaska Native, Non-Hispanic",51,0,409,12.4694376528117,0
+"Trinity","Asian, Non-Hispanic",12,1,2219,0.540784136998648,0.0450653447498873
+"Trinity","Black, Non-Hispanic",3,0,72,4.16666666666667,0
+"Trinity","Hispanic (any race)",111,2,1278,8.68544600938967,0.156494522691706
+"Trinity","Multiracial (two or more of above races), Non-Hispanic",58,2,1000,5.8,0.2
+"Trinity","Native Hawaiian or Pacific Islander, Non-Hispanic",1,0,28,3.57142857142857,0
+"Trinity","White, Non-Hispanic",1007,47,10864,9.26914580265096,0.432621502209131
+"Tulare","American Indian or Alaska Native, Non-Hispanic",832,16,3075,27.0569105691057,0.520325203252033
+"Tulare","Asian, Non-Hispanic",3861,107,14830,26.0350640593392,0.721510451786918
+"Tulare","Black, Non-Hispanic",1398,35,5450,25.651376146789,0.642201834862385
+"Tulare","Hispanic (any race)",69661,1283,331992,20.9827345237235,0.386455095303501
+"Tulare","Multiracial (two or more of above races), Non-Hispanic",1496,21,9053,16.5249088699879,0.231967303656247
+"Tulare","Native Hawaiian or Pacific Islander, Non-Hispanic",93,4,493,18.8640973630832,0.811359026369168
+"Tulare","White, Non-Hispanic",35158,1198,109899,31.9911919125743,1.09009181157244
+"Tuolumne","American Indian or Alaska Native, Non-Hispanic",71,3,800,8.875,0.375
+"Tuolumne","Asian, Non-Hispanic",61,1,913,6.68127053669222,0.109529025191676
+"Tuolumne","Black, Non-Hispanic",102,1,817,12.484700122399,0.122399020807834
+"Tuolumne","Hispanic (any race)",680,12,9193,7.3969324486022,0.130534102034156
+"Tuolumne","Multiracial (two or more of above races), Non-Hispanic",148,9,3125,4.736,0.288
+"Tuolumne","Native Hawaiian or Pacific Islander, Non-Hispanic",7,0,119,5.88235294117647,0
+"Tuolumne","White, Non-Hispanic",4378,181,38420,11.3951067152525,0.471108797501301
+"Ventura","American Indian or Alaska Native, Non-Hispanic",219,3,2049,10.688140556369,0.146412884333821
+"Ventura","Asian, Non-Hispanic",5050,176,65502,7.70968825379378,0.268694085676773
+"Ventura","Black, Non-Hispanic",1186,44,15560,7.62210796915167,0.282776349614396
+"Ventura","Hispanic (any race)",30740,633,352151,8.72920991279309,0.179752435744894
+"Ventura","Multiracial (two or more of above races), Non-Hispanic",1637,41,32185,5.08622028895448,0.127388535031847
+"Ventura","Native Hawaiian or Pacific Islander, Non-Hispanic",111,2,1537,7.22186076772934,0.130123617436565
+"Ventura","White, Non-Hispanic",35437,1348,356953,9.92763753211207,0.377640753824733
+"Yolo","American Indian or Alaska Native, Non-Hispanic",114,6,868,13.1336405529954,0.691244239631336
+"Yolo","Asian, Non-Hispanic",3165,50,32574,9.71633818382759,0.153496653772948
+"Yolo","Black, Non-Hispanic",567,13,6318,8.97435897435897,0.205761316872428
+"Yolo","Hispanic (any race)",6774,164,76907,8.80804088054403,0.213244568114736
+"Yolo","Multiracial (two or more of above races), Non-Hispanic",773,7,11205,6.89870593485051,0.0624721106648817
+"Yolo","Native Hawaiian or Pacific Islander, Non-Hispanic",119,4,1151,10.3388357949609,0.347523892267593
+"Yolo","White, Non-Hispanic",10958,323,91358,11.9945708093435,0.35355414960923
+"Yuba","American Indian or Alaska Native, Non-Hispanic",244,12,897,27.2017837235229,1.33779264214047
+"Yuba","Asian, Non-Hispanic",1057,23,5182,20.3975299112312,0.443844075646469
+"Yuba","Black, Non-Hispanic",411,18,2524,16.283676703645,0.713153724247227
+"Yuba","Hispanic (any race)",3687,61,31822,11.5863239268431,0.191691282760354
+"Yuba","Multiracial (two or more of above races), Non-Hispanic",655,14,5410,12.1072088724584,0.258780036968577
+"Yuba","Native Hawaiian or Pacific Islander, Non-Hispanic",41,1,347,11.8155619596542,0.288184438040346
+"Yuba","White, Non-Hispanic",8321,239,37115,22.4195069378957,0.643944496834164

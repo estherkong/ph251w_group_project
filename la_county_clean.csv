@@ -1,0 +1,1737 @@
+"county","diagnosis_date","epi_week","age_category","sex","race_ethnicity","new_infections","cumulative_infected","new_severe","cumulative_severe"
+"Los Angeles",2023-05-29,22,"0-17","FEMALE","White, Non-Hispanic",15,15,0,0
+"Los Angeles",2023-06-05,23,"0-17","FEMALE","White, Non-Hispanic",17,32,0,0
+"Los Angeles",2023-06-12,24,"0-17","FEMALE","White, Non-Hispanic",23,55,0,0
+"Los Angeles",2023-06-19,25,"0-17","FEMALE","White, Non-Hispanic",51,106,0,0
+"Los Angeles",2023-06-26,26,"0-17","FEMALE","White, Non-Hispanic",67,173,0,0
+"Los Angeles",2023-07-03,27,"0-17","FEMALE","White, Non-Hispanic",75,248,0,0
+"Los Angeles",2023-07-10,28,"0-17","FEMALE","White, Non-Hispanic",106,354,0,0
+"Los Angeles",2023-07-17,29,"0-17","FEMALE","White, Non-Hispanic",83,437,1,1
+"Los Angeles",2023-07-24,30,"0-17","FEMALE","White, Non-Hispanic",91,528,0,1
+"Los Angeles",2023-07-31,31,"0-17","FEMALE","White, Non-Hispanic",173,701,0,1
+"Los Angeles",2023-08-07,32,"0-17","FEMALE","White, Non-Hispanic",162,863,0,1
+"Los Angeles",2023-08-14,33,"0-17","FEMALE","White, Non-Hispanic",238,1101,0,1
+"Los Angeles",2023-08-21,34,"0-17","FEMALE","White, Non-Hispanic",312,1413,0,1
+"Los Angeles",2023-08-28,35,"0-17","FEMALE","White, Non-Hispanic",497,1910,0,1
+"Los Angeles",2023-09-04,36,"0-17","FEMALE","White, Non-Hispanic",508,2418,0,1
+"Los Angeles",2023-09-11,37,"0-17","FEMALE","White, Non-Hispanic",468,2886,0,1
+"Los Angeles",2023-09-18,38,"0-17","FEMALE","White, Non-Hispanic",513,3399,0,1
+"Los Angeles",2023-09-25,39,"0-17","FEMALE","White, Non-Hispanic",472,3871,0,1
+"Los Angeles",2023-10-02,40,"0-17","FEMALE","White, Non-Hispanic",396,4267,1,2
+"Los Angeles",2023-10-09,41,"0-17","FEMALE","White, Non-Hispanic",444,4711,2,4
+"Los Angeles",2023-10-16,42,"0-17","FEMALE","White, Non-Hispanic",437,5148,0,4
+"Los Angeles",2023-10-23,43,"0-17","FEMALE","White, Non-Hispanic",365,5513,0,4
+"Los Angeles",2023-10-30,44,"0-17","FEMALE","White, Non-Hispanic",268,5781,1,5
+"Los Angeles",2023-11-06,45,"0-17","FEMALE","White, Non-Hispanic",164,5945,0,5
+"Los Angeles",2023-11-13,46,"0-17","FEMALE","White, Non-Hispanic",60,6005,0,5
+"Los Angeles",2023-11-20,47,"0-17","FEMALE","White, Non-Hispanic",15,6020,0,5
+"Los Angeles",2023-11-27,48,"0-17","FEMALE","White, Non-Hispanic",7,6027,0,5
+"Los Angeles",2023-12-04,49,"0-17","FEMALE","White, Non-Hispanic",0,6027,0,5
+"Los Angeles",2023-12-11,50,"0-17","FEMALE","White, Non-Hispanic",11,6038,0,5
+"Los Angeles",2023-12-18,51,"0-17","FEMALE","White, Non-Hispanic",0,6038,0,5
+"Los Angeles",2023-12-25,52,"0-17","FEMALE","White, Non-Hispanic",0,6038,0,5
+"Los Angeles",2023-05-29,22,"0-17","FEMALE","Black, Non-Hispanic",8,8,0,0
+"Los Angeles",2023-06-05,23,"0-17","FEMALE","Black, Non-Hispanic",3,11,0,0
+"Los Angeles",2023-06-12,24,"0-17","FEMALE","Black, Non-Hispanic",5,16,0,0
+"Los Angeles",2023-06-19,25,"0-17","FEMALE","Black, Non-Hispanic",16,32,0,0
+"Los Angeles",2023-06-26,26,"0-17","FEMALE","Black, Non-Hispanic",22,54,0,0
+"Los Angeles",2023-07-03,27,"0-17","FEMALE","Black, Non-Hispanic",42,96,0,0
+"Los Angeles",2023-07-10,28,"0-17","FEMALE","Black, Non-Hispanic",40,136,0,0
+"Los Angeles",2023-07-17,29,"0-17","FEMALE","Black, Non-Hispanic",33,169,0,0
+"Los Angeles",2023-07-24,30,"0-17","FEMALE","Black, Non-Hispanic",31,200,1,1
+"Los Angeles",2023-07-31,31,"0-17","FEMALE","Black, Non-Hispanic",68,268,0,1
+"Los Angeles",2023-08-07,32,"0-17","FEMALE","Black, Non-Hispanic",58,326,0,1
+"Los Angeles",2023-08-14,33,"0-17","FEMALE","Black, Non-Hispanic",85,411,0,1
+"Los Angeles",2023-08-21,34,"0-17","FEMALE","Black, Non-Hispanic",124,535,0,1
+"Los Angeles",2023-08-28,35,"0-17","FEMALE","Black, Non-Hispanic",170,705,0,1
+"Los Angeles",2023-09-04,36,"0-17","FEMALE","Black, Non-Hispanic",174,879,0,1
+"Los Angeles",2023-09-11,37,"0-17","FEMALE","Black, Non-Hispanic",163,1042,1,2
+"Los Angeles",2023-09-18,38,"0-17","FEMALE","Black, Non-Hispanic",184,1226,0,2
+"Los Angeles",2023-09-25,39,"0-17","FEMALE","Black, Non-Hispanic",169,1395,0,2
+"Los Angeles",2023-10-02,40,"0-17","FEMALE","Black, Non-Hispanic",163,1558,0,2
+"Los Angeles",2023-10-09,41,"0-17","FEMALE","Black, Non-Hispanic",170,1728,1,3
+"Los Angeles",2023-10-16,42,"0-17","FEMALE","Black, Non-Hispanic",186,1914,0,3
+"Los Angeles",2023-10-23,43,"0-17","FEMALE","Black, Non-Hispanic",145,2059,0,3
+"Los Angeles",2023-10-30,44,"0-17","FEMALE","Black, Non-Hispanic",78,2137,0,3
+"Los Angeles",2023-11-06,45,"0-17","FEMALE","Black, Non-Hispanic",59,2196,0,3
+"Los Angeles",2023-11-13,46,"0-17","FEMALE","Black, Non-Hispanic",30,2226,0,3
+"Los Angeles",2023-11-20,47,"0-17","FEMALE","Black, Non-Hispanic",0,2226,1,4
+"Los Angeles",2023-11-27,48,"0-17","FEMALE","Black, Non-Hispanic",6,2232,0,4
+"Los Angeles",2023-12-04,49,"0-17","FEMALE","Black, Non-Hispanic",0,2232,0,4
+"Los Angeles",2023-12-11,50,"0-17","FEMALE","Black, Non-Hispanic",3,2235,0,4
+"Los Angeles",2023-12-18,51,"0-17","FEMALE","Black, Non-Hispanic",0,2235,0,4
+"Los Angeles",2023-12-25,52,"0-17","FEMALE","Black, Non-Hispanic",0,2235,0,4
+"Los Angeles",2023-05-29,22,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-06-05,23,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-06-12,24,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-06-19,25,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-06-26,26,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-07-03,27,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",1,1,0,0
+"Los Angeles",2023-07-10,28,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",2,3,0,0
+"Los Angeles",2023-07-17,29,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",1,4,0,0
+"Los Angeles",2023-07-24,30,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,4,0,0
+"Los Angeles",2023-07-31,31,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",3,7,0,0
+"Los Angeles",2023-08-07,32,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",1,8,0,0
+"Los Angeles",2023-08-14,33,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",2,10,0,0
+"Los Angeles",2023-08-21,34,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",5,15,0,0
+"Los Angeles",2023-08-28,35,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",6,21,0,0
+"Los Angeles",2023-09-04,36,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",5,26,0,0
+"Los Angeles",2023-09-11,37,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",9,35,1,1
+"Los Angeles",2023-09-18,38,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",14,49,0,1
+"Los Angeles",2023-09-25,39,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",4,53,0,1
+"Los Angeles",2023-10-02,40,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",6,59,0,1
+"Los Angeles",2023-10-09,41,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",4,63,0,1
+"Los Angeles",2023-10-16,42,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",3,66,0,1
+"Los Angeles",2023-10-23,43,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",1,67,0,1
+"Los Angeles",2023-10-30,44,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",2,69,0,1
+"Los Angeles",2023-11-06,45,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",1,70,0,1
+"Los Angeles",2023-11-13,46,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,70,0,1
+"Los Angeles",2023-11-20,47,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,70,0,1
+"Los Angeles",2023-11-27,48,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,70,0,1
+"Los Angeles",2023-12-04,49,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,70,0,1
+"Los Angeles",2023-12-11,50,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,70,0,1
+"Los Angeles",2023-12-18,51,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,70,0,1
+"Los Angeles",2023-12-25,52,"0-17","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,70,0,1
+"Los Angeles",2023-05-29,22,"0-17","FEMALE","Asian, Non-Hispanic",5,5,0,0
+"Los Angeles",2023-06-05,23,"0-17","FEMALE","Asian, Non-Hispanic",13,18,0,0
+"Los Angeles",2023-06-12,24,"0-17","FEMALE","Asian, Non-Hispanic",8,26,0,0
+"Los Angeles",2023-06-19,25,"0-17","FEMALE","Asian, Non-Hispanic",24,50,0,0
+"Los Angeles",2023-06-26,26,"0-17","FEMALE","Asian, Non-Hispanic",38,88,0,0
+"Los Angeles",2023-07-03,27,"0-17","FEMALE","Asian, Non-Hispanic",53,141,0,0
+"Los Angeles",2023-07-10,28,"0-17","FEMALE","Asian, Non-Hispanic",65,206,0,0
+"Los Angeles",2023-07-17,29,"0-17","FEMALE","Asian, Non-Hispanic",46,252,0,0
+"Los Angeles",2023-07-24,30,"0-17","FEMALE","Asian, Non-Hispanic",60,312,0,0
+"Los Angeles",2023-07-31,31,"0-17","FEMALE","Asian, Non-Hispanic",99,411,0,0
+"Los Angeles",2023-08-07,32,"0-17","FEMALE","Asian, Non-Hispanic",70,481,0,0
+"Los Angeles",2023-08-14,33,"0-17","FEMALE","Asian, Non-Hispanic",108,589,0,0
+"Los Angeles",2023-08-21,34,"0-17","FEMALE","Asian, Non-Hispanic",193,782,0,0
+"Los Angeles",2023-08-28,35,"0-17","FEMALE","Asian, Non-Hispanic",277,1059,0,0
+"Los Angeles",2023-09-04,36,"0-17","FEMALE","Asian, Non-Hispanic",221,1280,0,0
+"Los Angeles",2023-09-11,37,"0-17","FEMALE","Asian, Non-Hispanic",241,1521,0,0
+"Los Angeles",2023-09-18,38,"0-17","FEMALE","Asian, Non-Hispanic",295,1816,0,0
+"Los Angeles",2023-09-25,39,"0-17","FEMALE","Asian, Non-Hispanic",229,2045,1,1
+"Los Angeles",2023-10-02,40,"0-17","FEMALE","Asian, Non-Hispanic",220,2265,0,1
+"Los Angeles",2023-10-09,41,"0-17","FEMALE","Asian, Non-Hispanic",251,2516,0,1
+"Los Angeles",2023-10-16,42,"0-17","FEMALE","Asian, Non-Hispanic",234,2750,0,1
+"Los Angeles",2023-10-23,43,"0-17","FEMALE","Asian, Non-Hispanic",183,2933,0,1
+"Los Angeles",2023-10-30,44,"0-17","FEMALE","Asian, Non-Hispanic",134,3067,1,2
+"Los Angeles",2023-11-06,45,"0-17","FEMALE","Asian, Non-Hispanic",87,3154,2,4
+"Los Angeles",2023-11-13,46,"0-17","FEMALE","Asian, Non-Hispanic",33,3187,0,4
+"Los Angeles",2023-11-20,47,"0-17","FEMALE","Asian, Non-Hispanic",5,3192,0,4
+"Los Angeles",2023-11-27,48,"0-17","FEMALE","Asian, Non-Hispanic",7,3199,1,5
+"Los Angeles",2023-12-04,49,"0-17","FEMALE","Asian, Non-Hispanic",0,3199,0,5
+"Los Angeles",2023-12-11,50,"0-17","FEMALE","Asian, Non-Hispanic",7,3206,0,5
+"Los Angeles",2023-12-18,51,"0-17","FEMALE","Asian, Non-Hispanic",0,3206,0,5
+"Los Angeles",2023-12-25,52,"0-17","FEMALE","Asian, Non-Hispanic",0,3206,0,5
+"Los Angeles",2023-05-29,22,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-06-05,23,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-06-12,24,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-06-19,25,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",2,2,0,0
+"Los Angeles",2023-06-26,26,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,2,0,0
+"Los Angeles",2023-07-03,27,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",1,3,0,0
+"Los Angeles",2023-07-10,28,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",4,7,0,0
+"Los Angeles",2023-07-17,29,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,7,0,0
+"Los Angeles",2023-07-24,30,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",2,9,0,0
+"Los Angeles",2023-07-31,31,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",2,11,0,0
+"Los Angeles",2023-08-07,32,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,11,0,0
+"Los Angeles",2023-08-14,33,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",1,12,0,0
+"Los Angeles",2023-08-21,34,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",2,14,0,0
+"Los Angeles",2023-08-28,35,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",5,19,0,0
+"Los Angeles",2023-09-04,36,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",6,25,0,0
+"Los Angeles",2023-09-11,37,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",6,31,0,0
+"Los Angeles",2023-09-18,38,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",4,35,0,0
+"Los Angeles",2023-09-25,39,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",10,45,0,0
+"Los Angeles",2023-10-02,40,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",4,49,0,0
+"Los Angeles",2023-10-09,41,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",3,52,0,0
+"Los Angeles",2023-10-16,42,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",3,55,0,0
+"Los Angeles",2023-10-23,43,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",4,59,0,0
+"Los Angeles",2023-10-30,44,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",2,61,0,0
+"Los Angeles",2023-11-06,45,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",3,64,0,0
+"Los Angeles",2023-11-13,46,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,64,0,0
+"Los Angeles",2023-11-20,47,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,64,0,0
+"Los Angeles",2023-11-27,48,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,64,0,0
+"Los Angeles",2023-12-04,49,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,64,0,0
+"Los Angeles",2023-12-11,50,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,64,0,0
+"Los Angeles",2023-12-18,51,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,64,0,0
+"Los Angeles",2023-12-25,52,"0-17","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,64,0,0
+"Los Angeles",2023-05-29,22,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",3,3,0,0
+"Los Angeles",2023-06-05,23,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",1,4,0,0
+"Los Angeles",2023-06-12,24,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",6,10,0,0
+"Los Angeles",2023-06-19,25,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",7,17,0,0
+"Los Angeles",2023-06-26,26,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",9,26,0,0
+"Los Angeles",2023-07-03,27,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",10,36,0,0
+"Los Angeles",2023-07-10,28,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",19,55,0,0
+"Los Angeles",2023-07-17,29,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",27,82,0,0
+"Los Angeles",2023-07-24,30,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",21,103,0,0
+"Los Angeles",2023-07-31,31,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",27,130,0,0
+"Los Angeles",2023-08-07,32,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",25,155,0,0
+"Los Angeles",2023-08-14,33,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",36,191,0,0
+"Los Angeles",2023-08-21,34,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",51,242,0,0
+"Los Angeles",2023-08-28,35,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",86,328,0,0
+"Los Angeles",2023-09-04,36,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",94,422,0,0
+"Los Angeles",2023-09-11,37,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",75,497,0,0
+"Los Angeles",2023-09-18,38,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",70,567,0,0
+"Los Angeles",2023-09-25,39,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",75,642,0,0
+"Los Angeles",2023-10-02,40,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",77,719,0,0
+"Los Angeles",2023-10-09,41,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",78,797,0,0
+"Los Angeles",2023-10-16,42,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",71,868,0,0
+"Los Angeles",2023-10-23,43,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",72,940,0,0
+"Los Angeles",2023-10-30,44,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",39,979,0,0
+"Los Angeles",2023-11-06,45,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",36,1015,0,0
+"Los Angeles",2023-11-13,46,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",7,1022,0,0
+"Los Angeles",2023-11-20,47,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",3,1025,0,0
+"Los Angeles",2023-11-27,48,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",2,1027,0,0
+"Los Angeles",2023-12-04,49,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",0,1027,0,0
+"Los Angeles",2023-12-11,50,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",5,1032,0,0
+"Los Angeles",2023-12-18,51,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",0,1032,0,0
+"Los Angeles",2023-12-25,52,"0-17","FEMALE","Multiracial (two or more of above races), Non-Hispanic",0,1032,0,0
+"Los Angeles",2023-05-29,22,"0-17","FEMALE","Hispanic (any race)",41,41,0,0
+"Los Angeles",2023-06-05,23,"0-17","FEMALE","Hispanic (any race)",42,83,0,0
+"Los Angeles",2023-06-12,24,"0-17","FEMALE","Hispanic (any race)",42,125,1,1
+"Los Angeles",2023-06-19,25,"0-17","FEMALE","Hispanic (any race)",142,267,0,1
+"Los Angeles",2023-06-26,26,"0-17","FEMALE","Hispanic (any race)",189,456,0,1
+"Los Angeles",2023-07-03,27,"0-17","FEMALE","Hispanic (any race)",239,695,0,1
+"Los Angeles",2023-07-10,28,"0-17","FEMALE","Hispanic (any race)",312,1007,0,1
+"Los Angeles",2023-07-17,29,"0-17","FEMALE","Hispanic (any race)",239,1246,0,1
+"Los Angeles",2023-07-24,30,"0-17","FEMALE","Hispanic (any race)",255,1501,0,1
+"Los Angeles",2023-07-31,31,"0-17","FEMALE","Hispanic (any race)",431,1932,1,2
+"Los Angeles",2023-08-07,32,"0-17","FEMALE","Hispanic (any race)",491,2423,0,2
+"Los Angeles",2023-08-14,33,"0-17","FEMALE","Hispanic (any race)",588,3011,0,2
+"Los Angeles",2023-08-21,34,"0-17","FEMALE","Hispanic (any race)",876,3887,0,2
+"Los Angeles",2023-08-28,35,"0-17","FEMALE","Hispanic (any race)",1387,5274,2,4
+"Los Angeles",2023-09-04,36,"0-17","FEMALE","Hispanic (any race)",1394,6668,0,4
+"Los Angeles",2023-09-11,37,"0-17","FEMALE","Hispanic (any race)",1280,7948,3,7
+"Los Angeles",2023-09-18,38,"0-17","FEMALE","Hispanic (any race)",1424,9372,2,9
+"Los Angeles",2023-09-25,39,"0-17","FEMALE","Hispanic (any race)",1296,10668,1,10
+"Los Angeles",2023-10-02,40,"0-17","FEMALE","Hispanic (any race)",1272,11940,1,11
+"Los Angeles",2023-10-09,41,"0-17","FEMALE","Hispanic (any race)",1221,13161,0,11
+"Los Angeles",2023-10-16,42,"0-17","FEMALE","Hispanic (any race)",1239,14400,2,13
+"Los Angeles",2023-10-23,43,"0-17","FEMALE","Hispanic (any race)",1005,15405,0,13
+"Los Angeles",2023-10-30,44,"0-17","FEMALE","Hispanic (any race)",683,16088,1,14
+"Los Angeles",2023-11-06,45,"0-17","FEMALE","Hispanic (any race)",487,16575,1,15
+"Los Angeles",2023-11-13,46,"0-17","FEMALE","Hispanic (any race)",197,16772,0,15
+"Los Angeles",2023-11-20,47,"0-17","FEMALE","Hispanic (any race)",19,16791,0,15
+"Los Angeles",2023-11-27,48,"0-17","FEMALE","Hispanic (any race)",26,16817,0,15
+"Los Angeles",2023-12-04,49,"0-17","FEMALE","Hispanic (any race)",0,16817,0,15
+"Los Angeles",2023-12-11,50,"0-17","FEMALE","Hispanic (any race)",23,16840,0,15
+"Los Angeles",2023-12-18,51,"0-17","FEMALE","Hispanic (any race)",0,16840,0,15
+"Los Angeles",2023-12-25,52,"0-17","FEMALE","Hispanic (any race)",0,16840,0,15
+"Los Angeles",2023-05-29,22,"0-17","MALE","White, Non-Hispanic",20,20,0,0
+"Los Angeles",2023-06-05,23,"0-17","MALE","White, Non-Hispanic",14,34,0,0
+"Los Angeles",2023-06-12,24,"0-17","MALE","White, Non-Hispanic",14,48,0,0
+"Los Angeles",2023-06-19,25,"0-17","MALE","White, Non-Hispanic",42,90,0,0
+"Los Angeles",2023-06-26,26,"0-17","MALE","White, Non-Hispanic",92,182,0,0
+"Los Angeles",2023-07-03,27,"0-17","MALE","White, Non-Hispanic",105,287,0,0
+"Los Angeles",2023-07-10,28,"0-17","MALE","White, Non-Hispanic",111,398,0,0
+"Los Angeles",2023-07-17,29,"0-17","MALE","White, Non-Hispanic",93,491,0,0
+"Los Angeles",2023-07-24,30,"0-17","MALE","White, Non-Hispanic",99,590,0,0
+"Los Angeles",2023-07-31,31,"0-17","MALE","White, Non-Hispanic",159,749,0,0
+"Los Angeles",2023-08-07,32,"0-17","MALE","White, Non-Hispanic",184,933,0,0
+"Los Angeles",2023-08-14,33,"0-17","MALE","White, Non-Hispanic",177,1110,0,0
+"Los Angeles",2023-08-21,34,"0-17","MALE","White, Non-Hispanic",351,1461,0,0
+"Los Angeles",2023-08-28,35,"0-17","MALE","White, Non-Hispanic",504,1965,0,0
+"Los Angeles",2023-09-04,36,"0-17","MALE","White, Non-Hispanic",532,2497,1,1
+"Los Angeles",2023-09-11,37,"0-17","MALE","White, Non-Hispanic",457,2954,0,1
+"Los Angeles",2023-09-18,38,"0-17","MALE","White, Non-Hispanic",569,3523,0,1
+"Los Angeles",2023-09-25,39,"0-17","MALE","White, Non-Hispanic",451,3974,0,1
+"Los Angeles",2023-10-02,40,"0-17","MALE","White, Non-Hispanic",456,4430,0,1
+"Los Angeles",2023-10-09,41,"0-17","MALE","White, Non-Hispanic",445,4875,2,3
+"Los Angeles",2023-10-16,42,"0-17","MALE","White, Non-Hispanic",510,5385,0,3
+"Los Angeles",2023-10-23,43,"0-17","MALE","White, Non-Hispanic",384,5769,1,4
+"Los Angeles",2023-10-30,44,"0-17","MALE","White, Non-Hispanic",262,6031,3,7
+"Los Angeles",2023-11-06,45,"0-17","MALE","White, Non-Hispanic",168,6199,1,8
+"Los Angeles",2023-11-13,46,"0-17","MALE","White, Non-Hispanic",62,6261,0,8
+"Los Angeles",2023-11-20,47,"0-17","MALE","White, Non-Hispanic",11,6272,0,8
+"Los Angeles",2023-11-27,48,"0-17","MALE","White, Non-Hispanic",7,6279,0,8
+"Los Angeles",2023-12-04,49,"0-17","MALE","White, Non-Hispanic",0,6279,0,8
+"Los Angeles",2023-12-11,50,"0-17","MALE","White, Non-Hispanic",8,6287,0,8
+"Los Angeles",2023-12-18,51,"0-17","MALE","White, Non-Hispanic",0,6287,0,8
+"Los Angeles",2023-12-25,52,"0-17","MALE","White, Non-Hispanic",0,6287,0,8
+"Los Angeles",2023-05-29,22,"0-17","MALE","Black, Non-Hispanic",4,4,0,0
+"Los Angeles",2023-06-05,23,"0-17","MALE","Black, Non-Hispanic",8,12,0,0
+"Los Angeles",2023-06-12,24,"0-17","MALE","Black, Non-Hispanic",4,16,0,0
+"Los Angeles",2023-06-19,25,"0-17","MALE","Black, Non-Hispanic",15,31,0,0
+"Los Angeles",2023-06-26,26,"0-17","MALE","Black, Non-Hispanic",29,60,0,0
+"Los Angeles",2023-07-03,27,"0-17","MALE","Black, Non-Hispanic",25,85,0,0
+"Los Angeles",2023-07-10,28,"0-17","MALE","Black, Non-Hispanic",46,131,0,0
+"Los Angeles",2023-07-17,29,"0-17","MALE","Black, Non-Hispanic",29,160,0,0
+"Los Angeles",2023-07-24,30,"0-17","MALE","Black, Non-Hispanic",39,199,0,0
+"Los Angeles",2023-07-31,31,"0-17","MALE","Black, Non-Hispanic",62,261,0,0
+"Los Angeles",2023-08-07,32,"0-17","MALE","Black, Non-Hispanic",76,337,0,0
+"Los Angeles",2023-08-14,33,"0-17","MALE","Black, Non-Hispanic",86,423,0,0
+"Los Angeles",2023-08-21,34,"0-17","MALE","Black, Non-Hispanic",103,526,0,0
+"Los Angeles",2023-08-28,35,"0-17","MALE","Black, Non-Hispanic",189,715,0,0
+"Los Angeles",2023-09-04,36,"0-17","MALE","Black, Non-Hispanic",182,897,0,0
+"Los Angeles",2023-09-11,37,"0-17","MALE","Black, Non-Hispanic",180,1077,0,0
+"Los Angeles",2023-09-18,38,"0-17","MALE","Black, Non-Hispanic",203,1280,0,0
+"Los Angeles",2023-09-25,39,"0-17","MALE","Black, Non-Hispanic",194,1474,0,0
+"Los Angeles",2023-10-02,40,"0-17","MALE","Black, Non-Hispanic",199,1673,0,0
+"Los Angeles",2023-10-09,41,"0-17","MALE","Black, Non-Hispanic",164,1837,0,0
+"Los Angeles",2023-10-16,42,"0-17","MALE","Black, Non-Hispanic",154,1991,0,0
+"Los Angeles",2023-10-23,43,"0-17","MALE","Black, Non-Hispanic",144,2135,1,1
+"Los Angeles",2023-10-30,44,"0-17","MALE","Black, Non-Hispanic",93,2228,0,1
+"Los Angeles",2023-11-06,45,"0-17","MALE","Black, Non-Hispanic",73,2301,0,1
+"Los Angeles",2023-11-13,46,"0-17","MALE","Black, Non-Hispanic",19,2320,0,1
+"Los Angeles",2023-11-20,47,"0-17","MALE","Black, Non-Hispanic",1,2321,0,1
+"Los Angeles",2023-11-27,48,"0-17","MALE","Black, Non-Hispanic",4,2325,0,1
+"Los Angeles",2023-12-04,49,"0-17","MALE","Black, Non-Hispanic",0,2325,0,1
+"Los Angeles",2023-12-11,50,"0-17","MALE","Black, Non-Hispanic",8,2333,0,1
+"Los Angeles",2023-12-18,51,"0-17","MALE","Black, Non-Hispanic",0,2333,0,1
+"Los Angeles",2023-12-25,52,"0-17","MALE","Black, Non-Hispanic",0,2333,0,1
+"Los Angeles",2023-05-29,22,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-06-05,23,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-06-12,24,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-06-19,25,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-06-26,26,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-07-03,27,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-07-10,28,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-07-17,29,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-07-24,30,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-07-31,31,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",2,2,0,0
+"Los Angeles",2023-08-07,32,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",2,4,0,0
+"Los Angeles",2023-08-14,33,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",1,5,0,0
+"Los Angeles",2023-08-21,34,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",3,8,0,0
+"Los Angeles",2023-08-28,35,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",5,13,0,0
+"Los Angeles",2023-09-04,36,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",4,17,0,0
+"Los Angeles",2023-09-11,37,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",3,20,0,0
+"Los Angeles",2023-09-18,38,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",4,24,0,0
+"Los Angeles",2023-09-25,39,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",3,27,0,0
+"Los Angeles",2023-10-02,40,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",3,30,0,0
+"Los Angeles",2023-10-09,41,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",5,35,0,0
+"Los Angeles",2023-10-16,42,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",6,41,0,0
+"Los Angeles",2023-10-23,43,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",3,44,1,1
+"Los Angeles",2023-10-30,44,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",1,45,0,1
+"Los Angeles",2023-11-06,45,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",3,48,0,1
+"Los Angeles",2023-11-13,46,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",0,48,0,1
+"Los Angeles",2023-11-20,47,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",0,48,0,1
+"Los Angeles",2023-11-27,48,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",0,48,0,1
+"Los Angeles",2023-12-04,49,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",0,48,0,1
+"Los Angeles",2023-12-11,50,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",0,48,0,1
+"Los Angeles",2023-12-18,51,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",0,48,0,1
+"Los Angeles",2023-12-25,52,"0-17","MALE","American Indian or Alaska Native, Non-Hispanic",0,48,0,1
+"Los Angeles",2023-05-29,22,"0-17","MALE","Asian, Non-Hispanic",7,7,0,0
+"Los Angeles",2023-06-05,23,"0-17","MALE","Asian, Non-Hispanic",6,13,0,0
+"Los Angeles",2023-06-12,24,"0-17","MALE","Asian, Non-Hispanic",8,21,0,0
+"Los Angeles",2023-06-19,25,"0-17","MALE","Asian, Non-Hispanic",24,45,0,0
+"Los Angeles",2023-06-26,26,"0-17","MALE","Asian, Non-Hispanic",45,90,0,0
+"Los Angeles",2023-07-03,27,"0-17","MALE","Asian, Non-Hispanic",55,145,0,0
+"Los Angeles",2023-07-10,28,"0-17","MALE","Asian, Non-Hispanic",68,213,0,0
+"Los Angeles",2023-07-17,29,"0-17","MALE","Asian, Non-Hispanic",38,251,0,0
+"Los Angeles",2023-07-24,30,"0-17","MALE","Asian, Non-Hispanic",52,303,0,0
+"Los Angeles",2023-07-31,31,"0-17","MALE","Asian, Non-Hispanic",105,408,0,0
+"Los Angeles",2023-08-07,32,"0-17","MALE","Asian, Non-Hispanic",94,502,0,0
+"Los Angeles",2023-08-14,33,"0-17","MALE","Asian, Non-Hispanic",128,630,0,0
+"Los Angeles",2023-08-21,34,"0-17","MALE","Asian, Non-Hispanic",183,813,0,0
+"Los Angeles",2023-08-28,35,"0-17","MALE","Asian, Non-Hispanic",259,1072,0,0
+"Los Angeles",2023-09-04,36,"0-17","MALE","Asian, Non-Hispanic",277,1349,0,0
+"Los Angeles",2023-09-11,37,"0-17","MALE","Asian, Non-Hispanic",261,1610,0,0
+"Los Angeles",2023-09-18,38,"0-17","MALE","Asian, Non-Hispanic",281,1891,0,0
+"Los Angeles",2023-09-25,39,"0-17","MALE","Asian, Non-Hispanic",256,2147,0,0
+"Los Angeles",2023-10-02,40,"0-17","MALE","Asian, Non-Hispanic",213,2360,0,0
+"Los Angeles",2023-10-09,41,"0-17","MALE","Asian, Non-Hispanic",212,2572,0,0
+"Los Angeles",2023-10-16,42,"0-17","MALE","Asian, Non-Hispanic",251,2823,0,0
+"Los Angeles",2023-10-23,43,"0-17","MALE","Asian, Non-Hispanic",214,3037,0,0
+"Los Angeles",2023-10-30,44,"0-17","MALE","Asian, Non-Hispanic",129,3166,1,1
+"Los Angeles",2023-11-06,45,"0-17","MALE","Asian, Non-Hispanic",123,3289,0,1
+"Los Angeles",2023-11-13,46,"0-17","MALE","Asian, Non-Hispanic",34,3323,0,1
+"Los Angeles",2023-11-20,47,"0-17","MALE","Asian, Non-Hispanic",0,3323,0,1
+"Los Angeles",2023-11-27,48,"0-17","MALE","Asian, Non-Hispanic",10,3333,0,1
+"Los Angeles",2023-12-04,49,"0-17","MALE","Asian, Non-Hispanic",0,3333,0,1
+"Los Angeles",2023-12-11,50,"0-17","MALE","Asian, Non-Hispanic",8,3341,0,1
+"Los Angeles",2023-12-18,51,"0-17","MALE","Asian, Non-Hispanic",0,3341,0,1
+"Los Angeles",2023-12-25,52,"0-17","MALE","Asian, Non-Hispanic",0,3341,0,1
+"Los Angeles",2023-05-29,22,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",1,1,0,0
+"Los Angeles",2023-06-05,23,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",1,2,0,0
+"Los Angeles",2023-06-12,24,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,2,0,0
+"Los Angeles",2023-06-19,25,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,2,0,0
+"Los Angeles",2023-06-26,26,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,2,0,0
+"Los Angeles",2023-07-03,27,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,2,0,0
+"Los Angeles",2023-07-10,28,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",1,3,0,0
+"Los Angeles",2023-07-17,29,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",1,4,0,0
+"Los Angeles",2023-07-24,30,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",1,5,0,0
+"Los Angeles",2023-07-31,31,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",1,6,0,0
+"Los Angeles",2023-08-07,32,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",1,7,0,0
+"Los Angeles",2023-08-14,33,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",1,8,0,0
+"Los Angeles",2023-08-21,34,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",7,15,0,0
+"Los Angeles",2023-08-28,35,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",8,23,0,0
+"Los Angeles",2023-09-04,36,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",8,31,0,0
+"Los Angeles",2023-09-11,37,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",4,35,0,0
+"Los Angeles",2023-09-18,38,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",3,38,0,0
+"Los Angeles",2023-09-25,39,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",4,42,0,0
+"Los Angeles",2023-10-02,40,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",5,47,0,0
+"Los Angeles",2023-10-09,41,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",6,53,0,0
+"Los Angeles",2023-10-16,42,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",5,58,0,0
+"Los Angeles",2023-10-23,43,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",4,62,0,0
+"Los Angeles",2023-10-30,44,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",3,65,0,0
+"Los Angeles",2023-11-06,45,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",3,68,0,0
+"Los Angeles",2023-11-13,46,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,68,0,0
+"Los Angeles",2023-11-20,47,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,68,0,0
+"Los Angeles",2023-11-27,48,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,68,0,0
+"Los Angeles",2023-12-04,49,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,68,0,0
+"Los Angeles",2023-12-11,50,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",1,69,0,0
+"Los Angeles",2023-12-18,51,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,69,0,0
+"Los Angeles",2023-12-25,52,"0-17","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,69,0,0
+"Los Angeles",2023-05-29,22,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",2,2,0,0
+"Los Angeles",2023-06-05,23,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",1,3,0,0
+"Los Angeles",2023-06-12,24,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",1,4,0,0
+"Los Angeles",2023-06-19,25,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",13,17,0,0
+"Los Angeles",2023-06-26,26,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",11,28,0,0
+"Los Angeles",2023-07-03,27,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",23,51,0,0
+"Los Angeles",2023-07-10,28,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",21,72,0,0
+"Los Angeles",2023-07-17,29,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",20,92,0,0
+"Los Angeles",2023-07-24,30,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",16,108,0,0
+"Los Angeles",2023-07-31,31,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",28,136,0,0
+"Los Angeles",2023-08-07,32,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",26,162,0,0
+"Los Angeles",2023-08-14,33,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",30,192,0,0
+"Los Angeles",2023-08-21,34,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",66,258,0,0
+"Los Angeles",2023-08-28,35,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",77,335,0,0
+"Los Angeles",2023-09-04,36,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",80,415,0,0
+"Los Angeles",2023-09-11,37,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",84,499,0,0
+"Los Angeles",2023-09-18,38,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",79,578,0,0
+"Los Angeles",2023-09-25,39,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",85,663,1,1
+"Los Angeles",2023-10-02,40,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",89,752,0,1
+"Los Angeles",2023-10-09,41,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",60,812,0,1
+"Los Angeles",2023-10-16,42,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",66,878,0,1
+"Los Angeles",2023-10-23,43,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",75,953,0,1
+"Los Angeles",2023-10-30,44,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",45,998,0,1
+"Los Angeles",2023-11-06,45,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",24,1022,0,1
+"Los Angeles",2023-11-13,46,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",9,1031,0,1
+"Los Angeles",2023-11-20,47,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",2,1033,0,1
+"Los Angeles",2023-11-27,48,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",3,1036,0,1
+"Los Angeles",2023-12-04,49,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",0,1036,0,1
+"Los Angeles",2023-12-11,50,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",2,1038,0,1
+"Los Angeles",2023-12-18,51,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",0,1038,0,1
+"Los Angeles",2023-12-25,52,"0-17","MALE","Multiracial (two or more of above races), Non-Hispanic",0,1038,0,1
+"Los Angeles",2023-05-29,22,"0-17","MALE","Hispanic (any race)",56,56,0,0
+"Los Angeles",2023-06-05,23,"0-17","MALE","Hispanic (any race)",41,97,0,0
+"Los Angeles",2023-06-12,24,"0-17","MALE","Hispanic (any race)",47,144,0,0
+"Los Angeles",2023-06-19,25,"0-17","MALE","Hispanic (any race)",130,274,1,1
+"Los Angeles",2023-06-26,26,"0-17","MALE","Hispanic (any race)",185,459,0,1
+"Los Angeles",2023-07-03,27,"0-17","MALE","Hispanic (any race)",257,716,0,1
+"Los Angeles",2023-07-10,28,"0-17","MALE","Hispanic (any race)",318,1034,0,1
+"Los Angeles",2023-07-17,29,"0-17","MALE","Hispanic (any race)",251,1285,0,1
+"Los Angeles",2023-07-24,30,"0-17","MALE","Hispanic (any race)",277,1562,0,1
+"Los Angeles",2023-07-31,31,"0-17","MALE","Hispanic (any race)",493,2055,0,1
+"Los Angeles",2023-08-07,32,"0-17","MALE","Hispanic (any race)",492,2547,1,2
+"Los Angeles",2023-08-14,33,"0-17","MALE","Hispanic (any race)",593,3140,0,2
+"Los Angeles",2023-08-21,34,"0-17","MALE","Hispanic (any race)",908,4048,1,3
+"Los Angeles",2023-08-28,35,"0-17","MALE","Hispanic (any race)",1466,5514,1,4
+"Los Angeles",2023-09-04,36,"0-17","MALE","Hispanic (any race)",1448,6962,0,4
+"Los Angeles",2023-09-11,37,"0-17","MALE","Hispanic (any race)",1322,8284,3,7
+"Los Angeles",2023-09-18,38,"0-17","MALE","Hispanic (any race)",1538,9822,2,9
+"Los Angeles",2023-09-25,39,"0-17","MALE","Hispanic (any race)",1236,11058,0,9
+"Los Angeles",2023-10-02,40,"0-17","MALE","Hispanic (any race)",1339,12397,1,10
+"Los Angeles",2023-10-09,41,"0-17","MALE","Hispanic (any race)",1299,13696,3,13
+"Los Angeles",2023-10-16,42,"0-17","MALE","Hispanic (any race)",1290,14986,3,16
+"Los Angeles",2023-10-23,43,"0-17","MALE","Hispanic (any race)",1055,16041,0,16
+"Los Angeles",2023-10-30,44,"0-17","MALE","Hispanic (any race)",730,16771,1,17
+"Los Angeles",2023-11-06,45,"0-17","MALE","Hispanic (any race)",524,17295,0,17
+"Los Angeles",2023-11-13,46,"0-17","MALE","Hispanic (any race)",191,17486,1,18
+"Los Angeles",2023-11-20,47,"0-17","MALE","Hispanic (any race)",24,17510,1,19
+"Los Angeles",2023-11-27,48,"0-17","MALE","Hispanic (any race)",37,17547,0,19
+"Los Angeles",2023-12-04,49,"0-17","MALE","Hispanic (any race)",0,17547,0,19
+"Los Angeles",2023-12-11,50,"0-17","MALE","Hispanic (any race)",28,17575,0,19
+"Los Angeles",2023-12-18,51,"0-17","MALE","Hispanic (any race)",0,17575,0,19
+"Los Angeles",2023-12-25,52,"0-17","MALE","Hispanic (any race)",0,17575,0,19
+"Los Angeles",2023-05-29,22,"18-49","FEMALE","White, Non-Hispanic",132,132,0,0
+"Los Angeles",2023-06-05,23,"18-49","FEMALE","White, Non-Hispanic",119,251,0,0
+"Los Angeles",2023-06-12,24,"18-49","FEMALE","White, Non-Hispanic",130,381,3,3
+"Los Angeles",2023-06-19,25,"18-49","FEMALE","White, Non-Hispanic",387,768,2,5
+"Los Angeles",2023-06-26,26,"18-49","FEMALE","White, Non-Hispanic",617,1385,1,6
+"Los Angeles",2023-07-03,27,"18-49","FEMALE","White, Non-Hispanic",739,2124,5,11
+"Los Angeles",2023-07-10,28,"18-49","FEMALE","White, Non-Hispanic",914,3038,5,16
+"Los Angeles",2023-07-17,29,"18-49","FEMALE","White, Non-Hispanic",744,3782,9,25
+"Los Angeles",2023-07-24,30,"18-49","FEMALE","White, Non-Hispanic",810,4592,10,35
+"Los Angeles",2023-07-31,31,"18-49","FEMALE","White, Non-Hispanic",1397,5989,9,44
+"Los Angeles",2023-08-07,32,"18-49","FEMALE","White, Non-Hispanic",1454,7443,9,53
+"Los Angeles",2023-08-14,33,"18-49","FEMALE","White, Non-Hispanic",1778,9221,14,67
+"Los Angeles",2023-08-21,34,"18-49","FEMALE","White, Non-Hispanic",2601,11822,18,85
+"Los Angeles",2023-08-28,35,"18-49","FEMALE","White, Non-Hispanic",4142,15964,26,111
+"Los Angeles",2023-09-04,36,"18-49","FEMALE","White, Non-Hispanic",4078,20042,31,142
+"Los Angeles",2023-09-11,37,"18-49","FEMALE","White, Non-Hispanic",3772,23814,44,186
+"Los Angeles",2023-09-18,38,"18-49","FEMALE","White, Non-Hispanic",4385,28199,41,227
+"Los Angeles",2023-09-25,39,"18-49","FEMALE","White, Non-Hispanic",3617,31816,46,273
+"Los Angeles",2023-10-02,40,"18-49","FEMALE","White, Non-Hispanic",3697,35513,60,333
+"Los Angeles",2023-10-09,41,"18-49","FEMALE","White, Non-Hispanic",3578,39091,49,382
+"Los Angeles",2023-10-16,42,"18-49","FEMALE","White, Non-Hispanic",3680,42771,49,431
+"Los Angeles",2023-10-23,43,"18-49","FEMALE","White, Non-Hispanic",2883,45654,43,474
+"Los Angeles",2023-10-30,44,"18-49","FEMALE","White, Non-Hispanic",1989,47643,32,506
+"Los Angeles",2023-11-06,45,"18-49","FEMALE","White, Non-Hispanic",1450,49093,36,542
+"Los Angeles",2023-11-13,46,"18-49","FEMALE","White, Non-Hispanic",492,49585,21,563
+"Los Angeles",2023-11-20,47,"18-49","FEMALE","White, Non-Hispanic",62,49647,26,589
+"Los Angeles",2023-11-27,48,"18-49","FEMALE","White, Non-Hispanic",98,49745,10,599
+"Los Angeles",2023-12-04,49,"18-49","FEMALE","White, Non-Hispanic",0,49745,1,600
+"Los Angeles",2023-12-11,50,"18-49","FEMALE","White, Non-Hispanic",81,49826,1,601
+"Los Angeles",2023-12-18,51,"18-49","FEMALE","White, Non-Hispanic",0,49826,0,601
+"Los Angeles",2023-12-25,52,"18-49","FEMALE","White, Non-Hispanic",0,49826,3,604
+"Los Angeles",2023-05-29,22,"18-49","FEMALE","Black, Non-Hispanic",55,55,0,0
+"Los Angeles",2023-06-05,23,"18-49","FEMALE","Black, Non-Hispanic",65,120,0,0
+"Los Angeles",2023-06-12,24,"18-49","FEMALE","Black, Non-Hispanic",35,155,0,0
+"Los Angeles",2023-06-19,25,"18-49","FEMALE","Black, Non-Hispanic",138,293,1,1
+"Los Angeles",2023-06-26,26,"18-49","FEMALE","Black, Non-Hispanic",224,517,1,2
+"Los Angeles",2023-07-03,27,"18-49","FEMALE","Black, Non-Hispanic",309,826,1,3
+"Los Angeles",2023-07-10,28,"18-49","FEMALE","Black, Non-Hispanic",390,1216,1,4
+"Los Angeles",2023-07-17,29,"18-49","FEMALE","Black, Non-Hispanic",290,1506,5,9
+"Los Angeles",2023-07-24,30,"18-49","FEMALE","Black, Non-Hispanic",299,1805,5,14
+"Los Angeles",2023-07-31,31,"18-49","FEMALE","Black, Non-Hispanic",518,2323,2,16
+"Los Angeles",2023-08-07,32,"18-49","FEMALE","Black, Non-Hispanic",553,2876,2,18
+"Los Angeles",2023-08-14,33,"18-49","FEMALE","Black, Non-Hispanic",706,3582,8,26
+"Los Angeles",2023-08-21,34,"18-49","FEMALE","Black, Non-Hispanic",1051,4633,7,33
+"Los Angeles",2023-08-28,35,"18-49","FEMALE","Black, Non-Hispanic",1521,6154,11,44
+"Los Angeles",2023-09-04,36,"18-49","FEMALE","Black, Non-Hispanic",1593,7747,18,62
+"Los Angeles",2023-09-11,37,"18-49","FEMALE","Black, Non-Hispanic",1441,9188,19,81
+"Los Angeles",2023-09-18,38,"18-49","FEMALE","Black, Non-Hispanic",1629,10817,28,109
+"Los Angeles",2023-09-25,39,"18-49","FEMALE","Black, Non-Hispanic",1349,12166,16,125
+"Los Angeles",2023-10-02,40,"18-49","FEMALE","Black, Non-Hispanic",1341,13507,18,143
+"Los Angeles",2023-10-09,41,"18-49","FEMALE","Black, Non-Hispanic",1374,14881,11,154
+"Los Angeles",2023-10-16,42,"18-49","FEMALE","Black, Non-Hispanic",1303,16184,17,171
+"Los Angeles",2023-10-23,43,"18-49","FEMALE","Black, Non-Hispanic",1107,17291,14,185
+"Los Angeles",2023-10-30,44,"18-49","FEMALE","Black, Non-Hispanic",776,18067,12,197
+"Los Angeles",2023-11-06,45,"18-49","FEMALE","Black, Non-Hispanic",561,18628,20,217
+"Los Angeles",2023-11-13,46,"18-49","FEMALE","Black, Non-Hispanic",201,18829,13,230
+"Los Angeles",2023-11-20,47,"18-49","FEMALE","Black, Non-Hispanic",27,18856,6,236
+"Los Angeles",2023-11-27,48,"18-49","FEMALE","Black, Non-Hispanic",37,18893,4,240
+"Los Angeles",2023-12-04,49,"18-49","FEMALE","Black, Non-Hispanic",0,18893,1,241
+"Los Angeles",2023-12-11,50,"18-49","FEMALE","Black, Non-Hispanic",28,18921,0,241
+"Los Angeles",2023-12-18,51,"18-49","FEMALE","Black, Non-Hispanic",0,18921,0,241
+"Los Angeles",2023-12-25,52,"18-49","FEMALE","Black, Non-Hispanic",0,18921,0,241
+"Los Angeles",2023-05-29,22,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",2,2,0,0
+"Los Angeles",2023-06-05,23,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",1,3,0,0
+"Los Angeles",2023-06-12,24,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,3,0,0
+"Los Angeles",2023-06-19,25,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",4,7,0,0
+"Los Angeles",2023-06-26,26,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",4,11,0,0
+"Los Angeles",2023-07-03,27,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",5,16,0,0
+"Los Angeles",2023-07-10,28,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",13,29,0,0
+"Los Angeles",2023-07-17,29,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",4,33,0,0
+"Los Angeles",2023-07-24,30,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",3,36,0,0
+"Los Angeles",2023-07-31,31,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",15,51,0,0
+"Los Angeles",2023-08-07,32,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",17,68,0,0
+"Los Angeles",2023-08-14,33,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",10,78,0,0
+"Los Angeles",2023-08-21,34,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",27,105,0,0
+"Los Angeles",2023-08-28,35,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",38,143,0,0
+"Los Angeles",2023-09-04,36,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",36,179,1,1
+"Los Angeles",2023-09-11,37,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",28,207,1,2
+"Los Angeles",2023-09-18,38,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",42,249,1,3
+"Los Angeles",2023-09-25,39,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",31,280,2,5
+"Los Angeles",2023-10-02,40,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",29,309,0,5
+"Los Angeles",2023-10-09,41,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",30,339,0,5
+"Los Angeles",2023-10-16,42,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",26,365,2,7
+"Los Angeles",2023-10-23,43,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",23,388,0,7
+"Los Angeles",2023-10-30,44,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",20,408,1,8
+"Los Angeles",2023-11-06,45,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",5,413,0,8
+"Los Angeles",2023-11-13,46,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",3,416,0,8
+"Los Angeles",2023-11-20,47,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,416,0,8
+"Los Angeles",2023-11-27,48,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",1,417,0,8
+"Los Angeles",2023-12-04,49,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,417,0,8
+"Los Angeles",2023-12-11,50,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,417,0,8
+"Los Angeles",2023-12-18,51,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,417,0,8
+"Los Angeles",2023-12-25,52,"18-49","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,417,0,8
+"Los Angeles",2023-05-29,22,"18-49","FEMALE","Asian, Non-Hispanic",83,83,0,0
+"Los Angeles",2023-06-05,23,"18-49","FEMALE","Asian, Non-Hispanic",84,167,0,0
+"Los Angeles",2023-06-12,24,"18-49","FEMALE","Asian, Non-Hispanic",81,248,1,1
+"Los Angeles",2023-06-19,25,"18-49","FEMALE","Asian, Non-Hispanic",201,449,1,2
+"Los Angeles",2023-06-26,26,"18-49","FEMALE","Asian, Non-Hispanic",353,802,0,2
+"Los Angeles",2023-07-03,27,"18-49","FEMALE","Asian, Non-Hispanic",436,1238,1,3
+"Los Angeles",2023-07-10,28,"18-49","FEMALE","Asian, Non-Hispanic",598,1836,6,9
+"Los Angeles",2023-07-17,29,"18-49","FEMALE","Asian, Non-Hispanic",429,2265,8,17
+"Los Angeles",2023-07-24,30,"18-49","FEMALE","Asian, Non-Hispanic",485,2750,4,21
+"Los Angeles",2023-07-31,31,"18-49","FEMALE","Asian, Non-Hispanic",802,3552,2,23
+"Los Angeles",2023-08-07,32,"18-49","FEMALE","Asian, Non-Hispanic",811,4363,9,32
+"Los Angeles",2023-08-14,33,"18-49","FEMALE","Asian, Non-Hispanic",1053,5416,8,40
+"Los Angeles",2023-08-21,34,"18-49","FEMALE","Asian, Non-Hispanic",1604,7020,13,53
+"Los Angeles",2023-08-28,35,"18-49","FEMALE","Asian, Non-Hispanic",2395,9415,15,68
+"Los Angeles",2023-09-04,36,"18-49","FEMALE","Asian, Non-Hispanic",2340,11755,23,91
+"Los Angeles",2023-09-11,37,"18-49","FEMALE","Asian, Non-Hispanic",2206,13961,26,117
+"Los Angeles",2023-09-18,38,"18-49","FEMALE","Asian, Non-Hispanic",2520,16481,21,138
+"Los Angeles",2023-09-25,39,"18-49","FEMALE","Asian, Non-Hispanic",2040,18521,20,158
+"Los Angeles",2023-10-02,40,"18-49","FEMALE","Asian, Non-Hispanic",2110,20631,32,190
+"Los Angeles",2023-10-09,41,"18-49","FEMALE","Asian, Non-Hispanic",2064,22695,19,209
+"Los Angeles",2023-10-16,42,"18-49","FEMALE","Asian, Non-Hispanic",2126,24821,29,238
+"Los Angeles",2023-10-23,43,"18-49","FEMALE","Asian, Non-Hispanic",1691,26512,25,263
+"Los Angeles",2023-10-30,44,"18-49","FEMALE","Asian, Non-Hispanic",1165,27677,28,291
+"Los Angeles",2023-11-06,45,"18-49","FEMALE","Asian, Non-Hispanic",793,28470,20,311
+"Los Angeles",2023-11-13,46,"18-49","FEMALE","Asian, Non-Hispanic",261,28731,11,322
+"Los Angeles",2023-11-20,47,"18-49","FEMALE","Asian, Non-Hispanic",39,28770,9,331
+"Los Angeles",2023-11-27,48,"18-49","FEMALE","Asian, Non-Hispanic",53,28823,4,335
+"Los Angeles",2023-12-04,49,"18-49","FEMALE","Asian, Non-Hispanic",0,28823,1,336
+"Los Angeles",2023-12-11,50,"18-49","FEMALE","Asian, Non-Hispanic",61,28884,2,338
+"Los Angeles",2023-12-18,51,"18-49","FEMALE","Asian, Non-Hispanic",0,28884,0,338
+"Los Angeles",2023-12-25,52,"18-49","FEMALE","Asian, Non-Hispanic",0,28884,1,339
+"Los Angeles",2023-05-29,22,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",2,2,0,0
+"Los Angeles",2023-06-05,23,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",1,3,0,0
+"Los Angeles",2023-06-12,24,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,3,0,0
+"Los Angeles",2023-06-19,25,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",3,6,0,0
+"Los Angeles",2023-06-26,26,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",5,11,0,0
+"Los Angeles",2023-07-03,27,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",6,17,0,0
+"Los Angeles",2023-07-10,28,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",13,30,0,0
+"Los Angeles",2023-07-17,29,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",8,38,0,0
+"Los Angeles",2023-07-24,30,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",11,49,0,0
+"Los Angeles",2023-07-31,31,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",18,67,0,0
+"Los Angeles",2023-08-07,32,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",11,78,0,0
+"Los Angeles",2023-08-14,33,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",15,93,0,0
+"Los Angeles",2023-08-21,34,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",30,123,0,0
+"Los Angeles",2023-08-28,35,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",53,176,0,0
+"Los Angeles",2023-09-04,36,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",48,224,0,0
+"Los Angeles",2023-09-11,37,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",42,266,1,1
+"Los Angeles",2023-09-18,38,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",57,323,1,2
+"Los Angeles",2023-09-25,39,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",47,370,0,2
+"Los Angeles",2023-10-02,40,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",43,413,0,2
+"Los Angeles",2023-10-09,41,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",42,455,1,3
+"Los Angeles",2023-10-16,42,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",53,508,0,3
+"Los Angeles",2023-10-23,43,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",35,543,0,3
+"Los Angeles",2023-10-30,44,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",10,553,4,7
+"Los Angeles",2023-11-06,45,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",20,573,1,8
+"Los Angeles",2023-11-13,46,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",5,578,0,8
+"Los Angeles",2023-11-20,47,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,578,0,8
+"Los Angeles",2023-11-27,48,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",4,582,0,8
+"Los Angeles",2023-12-04,49,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,582,0,8
+"Los Angeles",2023-12-11,50,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,582,0,8
+"Los Angeles",2023-12-18,51,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,582,0,8
+"Los Angeles",2023-12-25,52,"18-49","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,582,0,8
+"Los Angeles",2023-05-29,22,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",12,12,0,0
+"Los Angeles",2023-06-05,23,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",25,37,0,0
+"Los Angeles",2023-06-12,24,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",13,50,0,0
+"Los Angeles",2023-06-19,25,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",36,86,1,1
+"Los Angeles",2023-06-26,26,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",71,157,0,1
+"Los Angeles",2023-07-03,27,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",62,219,0,1
+"Los Angeles",2023-07-10,28,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",89,308,0,1
+"Los Angeles",2023-07-17,29,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",85,393,0,1
+"Los Angeles",2023-07-24,30,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",92,485,2,3
+"Los Angeles",2023-07-31,31,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",163,648,0,3
+"Los Angeles",2023-08-07,32,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",160,808,0,3
+"Los Angeles",2023-08-14,33,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",198,1006,2,5
+"Los Angeles",2023-08-21,34,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",283,1289,3,8
+"Los Angeles",2023-08-28,35,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",440,1729,4,12
+"Los Angeles",2023-09-04,36,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",466,2195,8,20
+"Los Angeles",2023-09-11,37,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",449,2644,5,25
+"Los Angeles",2023-09-18,38,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",486,3130,11,36
+"Los Angeles",2023-09-25,39,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",369,3499,4,40
+"Los Angeles",2023-10-02,40,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",389,3888,4,44
+"Los Angeles",2023-10-09,41,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",390,4278,5,49
+"Los Angeles",2023-10-16,42,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",396,4674,4,53
+"Los Angeles",2023-10-23,43,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",316,4990,5,58
+"Los Angeles",2023-10-30,44,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",237,5227,7,65
+"Los Angeles",2023-11-06,45,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",149,5376,4,69
+"Los Angeles",2023-11-13,46,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",49,5425,3,72
+"Los Angeles",2023-11-20,47,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",4,5429,1,73
+"Los Angeles",2023-11-27,48,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",12,5441,2,75
+"Los Angeles",2023-12-04,49,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",0,5441,0,75
+"Los Angeles",2023-12-11,50,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",9,5450,0,75
+"Los Angeles",2023-12-18,51,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",0,5450,0,75
+"Los Angeles",2023-12-25,52,"18-49","FEMALE","Multiracial (two or more of above races), Non-Hispanic",0,5450,0,75
+"Los Angeles",2023-05-29,22,"18-49","FEMALE","Hispanic (any race)",423,423,0,0
+"Los Angeles",2023-06-05,23,"18-49","FEMALE","Hispanic (any race)",405,828,0,0
+"Los Angeles",2023-06-12,24,"18-49","FEMALE","Hispanic (any race)",359,1187,6,6
+"Los Angeles",2023-06-19,25,"18-49","FEMALE","Hispanic (any race)",1010,2197,7,13
+"Los Angeles",2023-06-26,26,"18-49","FEMALE","Hispanic (any race)",1566,3763,6,19
+"Los Angeles",2023-07-03,27,"18-49","FEMALE","Hispanic (any race)",1980,5743,13,32
+"Los Angeles",2023-07-10,28,"18-49","FEMALE","Hispanic (any race)",2547,8290,18,50
+"Los Angeles",2023-07-17,29,"18-49","FEMALE","Hispanic (any race)",2044,10334,25,75
+"Los Angeles",2023-07-24,30,"18-49","FEMALE","Hispanic (any race)",2104,12438,25,100
+"Los Angeles",2023-07-31,31,"18-49","FEMALE","Hispanic (any race)",3608,16046,23,123
+"Los Angeles",2023-08-07,32,"18-49","FEMALE","Hispanic (any race)",3672,19718,25,148
+"Los Angeles",2023-08-14,33,"18-49","FEMALE","Hispanic (any race)",4692,24410,44,192
+"Los Angeles",2023-08-21,34,"18-49","FEMALE","Hispanic (any race)",6949,31359,34,226
+"Los Angeles",2023-08-28,35,"18-49","FEMALE","Hispanic (any race)",10723,42082,48,274
+"Los Angeles",2023-09-04,36,"18-49","FEMALE","Hispanic (any race)",10669,52751,69,343
+"Los Angeles",2023-09-11,37,"18-49","FEMALE","Hispanic (any race)",9961,62712,125,468
+"Los Angeles",2023-09-18,38,"18-49","FEMALE","Hispanic (any race)",11314,74026,141,609
+"Los Angeles",2023-09-25,39,"18-49","FEMALE","Hispanic (any race)",9380,83406,119,728
+"Los Angeles",2023-10-02,40,"18-49","FEMALE","Hispanic (any race)",9532,92938,117,845
+"Los Angeles",2023-10-09,41,"18-49","FEMALE","Hispanic (any race)",9250,102188,103,948
+"Los Angeles",2023-10-16,42,"18-49","FEMALE","Hispanic (any race)",9503,111691,110,1058
+"Los Angeles",2023-10-23,43,"18-49","FEMALE","Hispanic (any race)",7681,119372,108,1166
+"Los Angeles",2023-10-30,44,"18-49","FEMALE","Hispanic (any race)",5054,124426,130,1296
+"Los Angeles",2023-11-06,45,"18-49","FEMALE","Hispanic (any race)",3796,128222,95,1391
+"Los Angeles",2023-11-13,46,"18-49","FEMALE","Hispanic (any race)",1268,129490,62,1453
+"Los Angeles",2023-11-20,47,"18-49","FEMALE","Hispanic (any race)",156,129646,42,1495
+"Los Angeles",2023-11-27,48,"18-49","FEMALE","Hispanic (any race)",204,129850,15,1510
+"Los Angeles",2023-12-04,49,"18-49","FEMALE","Hispanic (any race)",0,129850,2,1512
+"Los Angeles",2023-12-11,50,"18-49","FEMALE","Hispanic (any race)",240,130090,3,1515
+"Los Angeles",2023-12-18,51,"18-49","FEMALE","Hispanic (any race)",0,130090,0,1515
+"Los Angeles",2023-12-25,52,"18-49","FEMALE","Hispanic (any race)",0,130090,3,1518
+"Los Angeles",2023-05-29,22,"18-49","MALE","White, Non-Hispanic",147,147,0,0
+"Los Angeles",2023-06-05,23,"18-49","MALE","White, Non-Hispanic",170,317,0,0
+"Los Angeles",2023-06-12,24,"18-49","MALE","White, Non-Hispanic",159,476,0,0
+"Los Angeles",2023-06-19,25,"18-49","MALE","White, Non-Hispanic",405,881,3,3
+"Los Angeles",2023-06-26,26,"18-49","MALE","White, Non-Hispanic",684,1565,1,4
+"Los Angeles",2023-07-03,27,"18-49","MALE","White, Non-Hispanic",733,2298,5,9
+"Los Angeles",2023-07-10,28,"18-49","MALE","White, Non-Hispanic",1036,3334,8,17
+"Los Angeles",2023-07-17,29,"18-49","MALE","White, Non-Hispanic",818,4152,10,27
+"Los Angeles",2023-07-24,30,"18-49","MALE","White, Non-Hispanic",886,5038,10,37
+"Los Angeles",2023-07-31,31,"18-49","MALE","White, Non-Hispanic",1498,6536,13,50
+"Los Angeles",2023-08-07,32,"18-49","MALE","White, Non-Hispanic",1483,8019,11,61
+"Los Angeles",2023-08-14,33,"18-49","MALE","White, Non-Hispanic",1987,10006,14,75
+"Los Angeles",2023-08-21,34,"18-49","MALE","White, Non-Hispanic",2876,12882,17,92
+"Los Angeles",2023-08-28,35,"18-49","MALE","White, Non-Hispanic",4608,17490,19,111
+"Los Angeles",2023-09-04,36,"18-49","MALE","White, Non-Hispanic",4335,21825,25,136
+"Los Angeles",2023-09-11,37,"18-49","MALE","White, Non-Hispanic",3994,25819,53,189
+"Los Angeles",2023-09-18,38,"18-49","MALE","White, Non-Hispanic",4526,30345,49,238
+"Los Angeles",2023-09-25,39,"18-49","MALE","White, Non-Hispanic",3959,34304,40,278
+"Los Angeles",2023-10-02,40,"18-49","MALE","White, Non-Hispanic",3904,38208,58,336
+"Los Angeles",2023-10-09,41,"18-49","MALE","White, Non-Hispanic",3801,42009,41,377
+"Los Angeles",2023-10-16,42,"18-49","MALE","White, Non-Hispanic",3944,45953,58,435
+"Los Angeles",2023-10-23,43,"18-49","MALE","White, Non-Hispanic",3152,49105,57,492
+"Los Angeles",2023-10-30,44,"18-49","MALE","White, Non-Hispanic",2170,51275,41,533
+"Los Angeles",2023-11-06,45,"18-49","MALE","White, Non-Hispanic",1603,52878,43,576
+"Los Angeles",2023-11-13,46,"18-49","MALE","White, Non-Hispanic",489,53367,22,598
+"Los Angeles",2023-11-20,47,"18-49","MALE","White, Non-Hispanic",81,53448,20,618
+"Los Angeles",2023-11-27,48,"18-49","MALE","White, Non-Hispanic",91,53539,9,627
+"Los Angeles",2023-12-04,49,"18-49","MALE","White, Non-Hispanic",0,53539,1,628
+"Los Angeles",2023-12-11,50,"18-49","MALE","White, Non-Hispanic",77,53616,1,629
+"Los Angeles",2023-12-18,51,"18-49","MALE","White, Non-Hispanic",0,53616,0,629
+"Los Angeles",2023-12-25,52,"18-49","MALE","White, Non-Hispanic",0,53616,0,629
+"Los Angeles",2023-05-29,22,"18-49","MALE","Black, Non-Hispanic",47,47,0,0
+"Los Angeles",2023-06-05,23,"18-49","MALE","Black, Non-Hispanic",46,93,0,0
+"Los Angeles",2023-06-12,24,"18-49","MALE","Black, Non-Hispanic",55,148,0,0
+"Los Angeles",2023-06-19,25,"18-49","MALE","Black, Non-Hispanic",127,275,1,1
+"Los Angeles",2023-06-26,26,"18-49","MALE","Black, Non-Hispanic",257,532,1,2
+"Los Angeles",2023-07-03,27,"18-49","MALE","Black, Non-Hispanic",274,806,2,4
+"Los Angeles",2023-07-10,28,"18-49","MALE","Black, Non-Hispanic",358,1164,2,6
+"Los Angeles",2023-07-17,29,"18-49","MALE","Black, Non-Hispanic",279,1443,4,10
+"Los Angeles",2023-07-24,30,"18-49","MALE","Black, Non-Hispanic",343,1786,5,15
+"Los Angeles",2023-07-31,31,"18-49","MALE","Black, Non-Hispanic",547,2333,3,18
+"Los Angeles",2023-08-07,32,"18-49","MALE","Black, Non-Hispanic",528,2861,3,21
+"Los Angeles",2023-08-14,33,"18-49","MALE","Black, Non-Hispanic",666,3527,6,27
+"Los Angeles",2023-08-21,34,"18-49","MALE","Black, Non-Hispanic",1024,4551,2,29
+"Los Angeles",2023-08-28,35,"18-49","MALE","Black, Non-Hispanic",1598,6149,4,33
+"Los Angeles",2023-09-04,36,"18-49","MALE","Black, Non-Hispanic",1464,7613,7,40
+"Los Angeles",2023-09-11,37,"18-49","MALE","Black, Non-Hispanic",1416,9029,16,56
+"Los Angeles",2023-09-18,38,"18-49","MALE","Black, Non-Hispanic",1690,10719,24,80
+"Los Angeles",2023-09-25,39,"18-49","MALE","Black, Non-Hispanic",1312,12031,16,96
+"Los Angeles",2023-10-02,40,"18-49","MALE","Black, Non-Hispanic",1338,13369,15,111
+"Los Angeles",2023-10-09,41,"18-49","MALE","Black, Non-Hispanic",1406,14775,16,127
+"Los Angeles",2023-10-16,42,"18-49","MALE","Black, Non-Hispanic",1389,16164,14,141
+"Los Angeles",2023-10-23,43,"18-49","MALE","Black, Non-Hispanic",1083,17247,17,158
+"Los Angeles",2023-10-30,44,"18-49","MALE","Black, Non-Hispanic",763,18010,13,171
+"Los Angeles",2023-11-06,45,"18-49","MALE","Black, Non-Hispanic",519,18529,17,188
+"Los Angeles",2023-11-13,46,"18-49","MALE","Black, Non-Hispanic",199,18728,3,191
+"Los Angeles",2023-11-20,47,"18-49","MALE","Black, Non-Hispanic",22,18750,4,195
+"Los Angeles",2023-11-27,48,"18-49","MALE","Black, Non-Hispanic",41,18791,3,198
+"Los Angeles",2023-12-04,49,"18-49","MALE","Black, Non-Hispanic",0,18791,0,198
+"Los Angeles",2023-12-11,50,"18-49","MALE","Black, Non-Hispanic",35,18826,0,198
+"Los Angeles",2023-12-18,51,"18-49","MALE","Black, Non-Hispanic",0,18826,0,198
+"Los Angeles",2023-12-25,52,"18-49","MALE","Black, Non-Hispanic",0,18826,0,198
+"Los Angeles",2023-05-29,22,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",1,1,0,0
+"Los Angeles",2023-06-05,23,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",4,5,0,0
+"Los Angeles",2023-06-12,24,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",0,5,0,0
+"Los Angeles",2023-06-19,25,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",3,8,0,0
+"Los Angeles",2023-06-26,26,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",8,16,0,0
+"Los Angeles",2023-07-03,27,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",1,17,0,0
+"Los Angeles",2023-07-10,28,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",9,26,0,0
+"Los Angeles",2023-07-17,29,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",9,35,0,0
+"Los Angeles",2023-07-24,30,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",6,41,0,0
+"Los Angeles",2023-07-31,31,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",9,50,1,1
+"Los Angeles",2023-08-07,32,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",4,54,0,1
+"Los Angeles",2023-08-14,33,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",14,68,0,1
+"Los Angeles",2023-08-21,34,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",27,95,0,1
+"Los Angeles",2023-08-28,35,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",30,125,0,1
+"Los Angeles",2023-09-04,36,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",30,155,0,1
+"Los Angeles",2023-09-11,37,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",25,180,2,3
+"Los Angeles",2023-09-18,38,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",29,209,0,3
+"Los Angeles",2023-09-25,39,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",31,240,0,3
+"Los Angeles",2023-10-02,40,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",30,270,0,3
+"Los Angeles",2023-10-09,41,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",24,294,0,3
+"Los Angeles",2023-10-16,42,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",31,325,0,3
+"Los Angeles",2023-10-23,43,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",26,351,0,3
+"Los Angeles",2023-10-30,44,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",25,376,0,3
+"Los Angeles",2023-11-06,45,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",13,389,0,3
+"Los Angeles",2023-11-13,46,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",8,397,0,3
+"Los Angeles",2023-11-20,47,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",1,398,0,3
+"Los Angeles",2023-11-27,48,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",0,398,0,3
+"Los Angeles",2023-12-04,49,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",0,398,0,3
+"Los Angeles",2023-12-11,50,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",0,398,0,3
+"Los Angeles",2023-12-18,51,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",0,398,0,3
+"Los Angeles",2023-12-25,52,"18-49","MALE","American Indian or Alaska Native, Non-Hispanic",0,398,0,3
+"Los Angeles",2023-05-29,22,"18-49","MALE","Asian, Non-Hispanic",89,89,0,0
+"Los Angeles",2023-06-05,23,"18-49","MALE","Asian, Non-Hispanic",98,187,0,0
+"Los Angeles",2023-06-12,24,"18-49","MALE","Asian, Non-Hispanic",70,257,2,2
+"Los Angeles",2023-06-19,25,"18-49","MALE","Asian, Non-Hispanic",208,465,2,4
+"Los Angeles",2023-06-26,26,"18-49","MALE","Asian, Non-Hispanic",338,803,2,6
+"Los Angeles",2023-07-03,27,"18-49","MALE","Asian, Non-Hispanic",432,1235,1,7
+"Los Angeles",2023-07-10,28,"18-49","MALE","Asian, Non-Hispanic",549,1784,5,12
+"Los Angeles",2023-07-17,29,"18-49","MALE","Asian, Non-Hispanic",396,2180,11,23
+"Los Angeles",2023-07-24,30,"18-49","MALE","Asian, Non-Hispanic",439,2619,6,29
+"Los Angeles",2023-07-31,31,"18-49","MALE","Asian, Non-Hispanic",791,3410,5,34
+"Los Angeles",2023-08-07,32,"18-49","MALE","Asian, Non-Hispanic",829,4239,2,36
+"Los Angeles",2023-08-14,33,"18-49","MALE","Asian, Non-Hispanic",1036,5275,8,44
+"Los Angeles",2023-08-21,34,"18-49","MALE","Asian, Non-Hispanic",1548,6823,12,56
+"Los Angeles",2023-08-28,35,"18-49","MALE","Asian, Non-Hispanic",2433,9256,13,69
+"Los Angeles",2023-09-04,36,"18-49","MALE","Asian, Non-Hispanic",2309,11565,17,86
+"Los Angeles",2023-09-11,37,"18-49","MALE","Asian, Non-Hispanic",2211,13776,17,103
+"Los Angeles",2023-09-18,38,"18-49","MALE","Asian, Non-Hispanic",2512,16288,30,133
+"Los Angeles",2023-09-25,39,"18-49","MALE","Asian, Non-Hispanic",1993,18281,36,169
+"Los Angeles",2023-10-02,40,"18-49","MALE","Asian, Non-Hispanic",2053,20334,23,192
+"Los Angeles",2023-10-09,41,"18-49","MALE","Asian, Non-Hispanic",1977,22311,16,208
+"Los Angeles",2023-10-16,42,"18-49","MALE","Asian, Non-Hispanic",2030,24341,20,228
+"Los Angeles",2023-10-23,43,"18-49","MALE","Asian, Non-Hispanic",1668,26009,20,248
+"Los Angeles",2023-10-30,44,"18-49","MALE","Asian, Non-Hispanic",1153,27162,20,268
+"Los Angeles",2023-11-06,45,"18-49","MALE","Asian, Non-Hispanic",801,27963,16,284
+"Los Angeles",2023-11-13,46,"18-49","MALE","Asian, Non-Hispanic",266,28229,12,296
+"Los Angeles",2023-11-20,47,"18-49","MALE","Asian, Non-Hispanic",28,28257,9,305
+"Los Angeles",2023-11-27,48,"18-49","MALE","Asian, Non-Hispanic",55,28312,5,310
+"Los Angeles",2023-12-04,49,"18-49","MALE","Asian, Non-Hispanic",0,28312,2,312
+"Los Angeles",2023-12-11,50,"18-49","MALE","Asian, Non-Hispanic",52,28364,2,314
+"Los Angeles",2023-12-18,51,"18-49","MALE","Asian, Non-Hispanic",0,28364,0,314
+"Los Angeles",2023-12-25,52,"18-49","MALE","Asian, Non-Hispanic",0,28364,0,314
+"Los Angeles",2023-05-29,22,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",4,4,0,0
+"Los Angeles",2023-06-05,23,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,4,0,0
+"Los Angeles",2023-06-12,24,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",2,6,0,0
+"Los Angeles",2023-06-19,25,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",3,9,0,0
+"Los Angeles",2023-06-26,26,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",2,11,0,0
+"Los Angeles",2023-07-03,27,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",10,21,0,0
+"Los Angeles",2023-07-10,28,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",17,38,0,0
+"Los Angeles",2023-07-17,29,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",10,48,1,1
+"Los Angeles",2023-07-24,30,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",10,58,0,1
+"Los Angeles",2023-07-31,31,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",16,74,0,1
+"Los Angeles",2023-08-07,32,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",17,91,0,1
+"Los Angeles",2023-08-14,33,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",23,114,0,1
+"Los Angeles",2023-08-21,34,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",27,141,0,1
+"Los Angeles",2023-08-28,35,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",62,203,2,3
+"Los Angeles",2023-09-04,36,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",70,273,1,4
+"Los Angeles",2023-09-11,37,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",37,310,1,5
+"Los Angeles",2023-09-18,38,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",44,354,2,7
+"Los Angeles",2023-09-25,39,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",51,405,1,8
+"Los Angeles",2023-10-02,40,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",51,456,1,9
+"Los Angeles",2023-10-09,41,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",50,506,1,10
+"Los Angeles",2023-10-16,42,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",41,547,2,12
+"Los Angeles",2023-10-23,43,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",32,579,2,14
+"Los Angeles",2023-10-30,44,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",29,608,1,15
+"Los Angeles",2023-11-06,45,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",18,626,1,16
+"Los Angeles",2023-11-13,46,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",3,629,1,17
+"Los Angeles",2023-11-20,47,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",2,631,2,19
+"Los Angeles",2023-11-27,48,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",1,632,0,19
+"Los Angeles",2023-12-04,49,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,632,0,19
+"Los Angeles",2023-12-11,50,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",3,635,0,19
+"Los Angeles",2023-12-18,51,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,635,0,19
+"Los Angeles",2023-12-25,52,"18-49","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,635,0,19
+"Los Angeles",2023-05-29,22,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",20,20,0,0
+"Los Angeles",2023-06-05,23,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",14,34,0,0
+"Los Angeles",2023-06-12,24,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",12,46,0,0
+"Los Angeles",2023-06-19,25,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",40,86,0,0
+"Los Angeles",2023-06-26,26,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",57,143,0,0
+"Los Angeles",2023-07-03,27,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",80,223,0,0
+"Los Angeles",2023-07-10,28,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",97,320,1,1
+"Los Angeles",2023-07-17,29,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",86,406,0,1
+"Los Angeles",2023-07-24,30,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",83,489,0,1
+"Los Angeles",2023-07-31,31,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",161,650,1,2
+"Los Angeles",2023-08-07,32,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",166,816,2,4
+"Los Angeles",2023-08-14,33,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",223,1039,4,8
+"Los Angeles",2023-08-21,34,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",325,1364,3,11
+"Los Angeles",2023-08-28,35,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",464,1828,3,14
+"Los Angeles",2023-09-04,36,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",441,2269,4,18
+"Los Angeles",2023-09-11,37,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",375,2644,5,23
+"Los Angeles",2023-09-18,38,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",453,3097,5,28
+"Los Angeles",2023-09-25,39,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",405,3502,3,31
+"Los Angeles",2023-10-02,40,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",408,3910,15,46
+"Los Angeles",2023-10-09,41,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",352,4262,7,53
+"Los Angeles",2023-10-16,42,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",414,4676,6,59
+"Los Angeles",2023-10-23,43,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",295,4971,4,63
+"Los Angeles",2023-10-30,44,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",196,5167,5,68
+"Los Angeles",2023-11-06,45,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",176,5343,0,68
+"Los Angeles",2023-11-13,46,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",68,5411,1,69
+"Los Angeles",2023-11-20,47,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",6,5417,1,70
+"Los Angeles",2023-11-27,48,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",12,5429,1,71
+"Los Angeles",2023-12-04,49,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",0,5429,0,71
+"Los Angeles",2023-12-11,50,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",9,5438,0,71
+"Los Angeles",2023-12-18,51,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",0,5438,0,71
+"Los Angeles",2023-12-25,52,"18-49","MALE","Multiracial (two or more of above races), Non-Hispanic",0,5438,0,71
+"Los Angeles",2023-05-29,22,"18-49","MALE","Hispanic (any race)",402,402,0,0
+"Los Angeles",2023-06-05,23,"18-49","MALE","Hispanic (any race)",386,788,0,0
+"Los Angeles",2023-06-12,24,"18-49","MALE","Hispanic (any race)",329,1117,8,8
+"Los Angeles",2023-06-19,25,"18-49","MALE","Hispanic (any race)",1002,2119,3,11
+"Los Angeles",2023-06-26,26,"18-49","MALE","Hispanic (any race)",1726,3845,4,15
+"Los Angeles",2023-07-03,27,"18-49","MALE","Hispanic (any race)",2037,5882,15,30
+"Los Angeles",2023-07-10,28,"18-49","MALE","Hispanic (any race)",2653,8535,14,44
+"Los Angeles",2023-07-17,29,"18-49","MALE","Hispanic (any race)",2083,10618,18,62
+"Los Angeles",2023-07-24,30,"18-49","MALE","Hispanic (any race)",2294,12912,32,94
+"Los Angeles",2023-07-31,31,"18-49","MALE","Hispanic (any race)",3985,16897,19,113
+"Los Angeles",2023-08-07,32,"18-49","MALE","Hispanic (any race)",3927,20824,23,136
+"Los Angeles",2023-08-14,33,"18-49","MALE","Hispanic (any race)",5039,25863,48,184
+"Los Angeles",2023-08-21,34,"18-49","MALE","Hispanic (any race)",7421,33284,49,233
+"Los Angeles",2023-08-28,35,"18-49","MALE","Hispanic (any race)",11373,44657,49,282
+"Los Angeles",2023-09-04,36,"18-49","MALE","Hispanic (any race)",11383,56040,80,362
+"Los Angeles",2023-09-11,37,"18-49","MALE","Hispanic (any race)",10524,66564,134,496
+"Los Angeles",2023-09-18,38,"18-49","MALE","Hispanic (any race)",12110,78674,134,630
+"Los Angeles",2023-09-25,39,"18-49","MALE","Hispanic (any race)",9935,88609,131,761
+"Los Angeles",2023-10-02,40,"18-49","MALE","Hispanic (any race)",10025,98634,145,906
+"Los Angeles",2023-10-09,41,"18-49","MALE","Hispanic (any race)",9700,108334,117,1023
+"Los Angeles",2023-10-16,42,"18-49","MALE","Hispanic (any race)",10034,118368,110,1133
+"Los Angeles",2023-10-23,43,"18-49","MALE","Hispanic (any race)",8021,126389,121,1254
+"Los Angeles",2023-10-30,44,"18-49","MALE","Hispanic (any race)",5461,131850,106,1360
+"Los Angeles",2023-11-06,45,"18-49","MALE","Hispanic (any race)",3945,135795,102,1462
+"Los Angeles",2023-11-13,46,"18-49","MALE","Hispanic (any race)",1317,137112,62,1524
+"Los Angeles",2023-11-20,47,"18-49","MALE","Hispanic (any race)",171,137283,55,1579
+"Los Angeles",2023-11-27,48,"18-49","MALE","Hispanic (any race)",246,137529,18,1597
+"Los Angeles",2023-12-04,49,"18-49","MALE","Hispanic (any race)",0,137529,3,1600
+"Los Angeles",2023-12-11,50,"18-49","MALE","Hispanic (any race)",275,137804,2,1602
+"Los Angeles",2023-12-18,51,"18-49","MALE","Hispanic (any race)",0,137804,1,1603
+"Los Angeles",2023-12-25,52,"18-49","MALE","Hispanic (any race)",0,137804,2,1605
+"Los Angeles",2023-05-29,22,"50-64","FEMALE","White, Non-Hispanic",30,30,0,0
+"Los Angeles",2023-06-05,23,"50-64","FEMALE","White, Non-Hispanic",44,74,0,0
+"Los Angeles",2023-06-12,24,"50-64","FEMALE","White, Non-Hispanic",35,109,0,0
+"Los Angeles",2023-06-19,25,"50-64","FEMALE","White, Non-Hispanic",109,218,0,0
+"Los Angeles",2023-06-26,26,"50-64","FEMALE","White, Non-Hispanic",178,396,1,1
+"Los Angeles",2023-07-03,27,"50-64","FEMALE","White, Non-Hispanic",232,628,0,1
+"Los Angeles",2023-07-10,28,"50-64","FEMALE","White, Non-Hispanic",287,915,0,1
+"Los Angeles",2023-07-17,29,"50-64","FEMALE","White, Non-Hispanic",221,1136,3,4
+"Los Angeles",2023-07-24,30,"50-64","FEMALE","White, Non-Hispanic",249,1385,1,5
+"Los Angeles",2023-07-31,31,"50-64","FEMALE","White, Non-Hispanic",409,1794,1,6
+"Los Angeles",2023-08-07,32,"50-64","FEMALE","White, Non-Hispanic",418,2212,0,6
+"Los Angeles",2023-08-14,33,"50-64","FEMALE","White, Non-Hispanic",572,2784,1,7
+"Los Angeles",2023-08-21,34,"50-64","FEMALE","White, Non-Hispanic",809,3593,2,9
+"Los Angeles",2023-08-28,35,"50-64","FEMALE","White, Non-Hispanic",1245,4838,2,11
+"Los Angeles",2023-09-04,36,"50-64","FEMALE","White, Non-Hispanic",1267,6105,2,13
+"Los Angeles",2023-09-11,37,"50-64","FEMALE","White, Non-Hispanic",1121,7226,5,18
+"Los Angeles",2023-09-18,38,"50-64","FEMALE","White, Non-Hispanic",1345,8571,8,26
+"Los Angeles",2023-09-25,39,"50-64","FEMALE","White, Non-Hispanic",1157,9728,6,32
+"Los Angeles",2023-10-02,40,"50-64","FEMALE","White, Non-Hispanic",1134,10862,4,36
+"Los Angeles",2023-10-09,41,"50-64","FEMALE","White, Non-Hispanic",1135,11997,5,41
+"Los Angeles",2023-10-16,42,"50-64","FEMALE","White, Non-Hispanic",1251,13248,5,46
+"Los Angeles",2023-10-23,43,"50-64","FEMALE","White, Non-Hispanic",956,14204,6,52
+"Los Angeles",2023-10-30,44,"50-64","FEMALE","White, Non-Hispanic",656,14860,8,60
+"Los Angeles",2023-11-06,45,"50-64","FEMALE","White, Non-Hispanic",468,15328,8,68
+"Los Angeles",2023-11-13,46,"50-64","FEMALE","White, Non-Hispanic",180,15508,3,71
+"Los Angeles",2023-11-20,47,"50-64","FEMALE","White, Non-Hispanic",26,15534,2,73
+"Los Angeles",2023-11-27,48,"50-64","FEMALE","White, Non-Hispanic",28,15562,0,73
+"Los Angeles",2023-12-04,49,"50-64","FEMALE","White, Non-Hispanic",0,15562,0,73
+"Los Angeles",2023-12-11,50,"50-64","FEMALE","White, Non-Hispanic",29,15591,0,73
+"Los Angeles",2023-12-18,51,"50-64","FEMALE","White, Non-Hispanic",0,15591,0,73
+"Los Angeles",2023-12-25,52,"50-64","FEMALE","White, Non-Hispanic",0,15591,0,73
+"Los Angeles",2023-05-29,22,"50-64","FEMALE","Black, Non-Hispanic",20,20,0,0
+"Los Angeles",2023-06-05,23,"50-64","FEMALE","Black, Non-Hispanic",9,29,0,0
+"Los Angeles",2023-06-12,24,"50-64","FEMALE","Black, Non-Hispanic",19,48,0,0
+"Los Angeles",2023-06-19,25,"50-64","FEMALE","Black, Non-Hispanic",42,90,0,0
+"Los Angeles",2023-06-26,26,"50-64","FEMALE","Black, Non-Hispanic",65,155,0,0
+"Los Angeles",2023-07-03,27,"50-64","FEMALE","Black, Non-Hispanic",71,226,0,0
+"Los Angeles",2023-07-10,28,"50-64","FEMALE","Black, Non-Hispanic",98,324,0,0
+"Los Angeles",2023-07-17,29,"50-64","FEMALE","Black, Non-Hispanic",67,391,1,1
+"Los Angeles",2023-07-24,30,"50-64","FEMALE","Black, Non-Hispanic",78,469,1,2
+"Los Angeles",2023-07-31,31,"50-64","FEMALE","Black, Non-Hispanic",144,613,0,2
+"Los Angeles",2023-08-07,32,"50-64","FEMALE","Black, Non-Hispanic",125,738,0,2
+"Los Angeles",2023-08-14,33,"50-64","FEMALE","Black, Non-Hispanic",179,917,0,2
+"Los Angeles",2023-08-21,34,"50-64","FEMALE","Black, Non-Hispanic",260,1177,1,3
+"Los Angeles",2023-08-28,35,"50-64","FEMALE","Black, Non-Hispanic",428,1605,1,4
+"Los Angeles",2023-09-04,36,"50-64","FEMALE","Black, Non-Hispanic",438,2043,1,5
+"Los Angeles",2023-09-11,37,"50-64","FEMALE","Black, Non-Hispanic",423,2466,2,7
+"Los Angeles",2023-09-18,38,"50-64","FEMALE","Black, Non-Hispanic",457,2923,2,9
+"Los Angeles",2023-09-25,39,"50-64","FEMALE","Black, Non-Hispanic",349,3272,1,10
+"Los Angeles",2023-10-02,40,"50-64","FEMALE","Black, Non-Hispanic",353,3625,2,12
+"Los Angeles",2023-10-09,41,"50-64","FEMALE","Black, Non-Hispanic",372,3997,2,14
+"Los Angeles",2023-10-16,42,"50-64","FEMALE","Black, Non-Hispanic",412,4409,1,15
+"Los Angeles",2023-10-23,43,"50-64","FEMALE","Black, Non-Hispanic",298,4707,2,17
+"Los Angeles",2023-10-30,44,"50-64","FEMALE","Black, Non-Hispanic",229,4936,1,18
+"Los Angeles",2023-11-06,45,"50-64","FEMALE","Black, Non-Hispanic",166,5102,1,19
+"Los Angeles",2023-11-13,46,"50-64","FEMALE","Black, Non-Hispanic",42,5144,2,21
+"Los Angeles",2023-11-20,47,"50-64","FEMALE","Black, Non-Hispanic",7,5151,1,22
+"Los Angeles",2023-11-27,48,"50-64","FEMALE","Black, Non-Hispanic",6,5157,1,23
+"Los Angeles",2023-12-04,49,"50-64","FEMALE","Black, Non-Hispanic",0,5157,0,23
+"Los Angeles",2023-12-11,50,"50-64","FEMALE","Black, Non-Hispanic",11,5168,0,23
+"Los Angeles",2023-12-18,51,"50-64","FEMALE","Black, Non-Hispanic",0,5168,0,23
+"Los Angeles",2023-12-25,52,"50-64","FEMALE","Black, Non-Hispanic",0,5168,0,23
+"Los Angeles",2023-05-29,22,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-06-05,23,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-06-12,24,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-06-19,25,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-06-26,26,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",5,5,0,0
+"Los Angeles",2023-07-03,27,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,5,0,0
+"Los Angeles",2023-07-10,28,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",4,9,0,0
+"Los Angeles",2023-07-17,29,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",3,12,0,0
+"Los Angeles",2023-07-24,30,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",3,15,0,0
+"Los Angeles",2023-07-31,31,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",4,19,0,0
+"Los Angeles",2023-08-07,32,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",2,21,0,0
+"Los Angeles",2023-08-14,33,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",8,29,0,0
+"Los Angeles",2023-08-21,34,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",11,40,0,0
+"Los Angeles",2023-08-28,35,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",7,47,0,0
+"Los Angeles",2023-09-04,36,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",9,56,0,0
+"Los Angeles",2023-09-11,37,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",16,72,0,0
+"Los Angeles",2023-09-18,38,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",11,83,0,0
+"Los Angeles",2023-09-25,39,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",4,87,0,0
+"Los Angeles",2023-10-02,40,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",11,98,0,0
+"Los Angeles",2023-10-09,41,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",10,108,0,0
+"Los Angeles",2023-10-16,42,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",13,121,0,0
+"Los Angeles",2023-10-23,43,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",6,127,0,0
+"Los Angeles",2023-10-30,44,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",1,128,0,0
+"Los Angeles",2023-11-06,45,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",3,131,0,0
+"Los Angeles",2023-11-13,46,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",3,134,0,0
+"Los Angeles",2023-11-20,47,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,134,0,0
+"Los Angeles",2023-11-27,48,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,134,0,0
+"Los Angeles",2023-12-04,49,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,134,0,0
+"Los Angeles",2023-12-11,50,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,134,0,0
+"Los Angeles",2023-12-18,51,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,134,0,0
+"Los Angeles",2023-12-25,52,"50-64","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,134,0,0
+"Los Angeles",2023-05-29,22,"50-64","FEMALE","Asian, Non-Hispanic",20,20,0,0
+"Los Angeles",2023-06-05,23,"50-64","FEMALE","Asian, Non-Hispanic",28,48,0,0
+"Los Angeles",2023-06-12,24,"50-64","FEMALE","Asian, Non-Hispanic",27,75,0,0
+"Los Angeles",2023-06-19,25,"50-64","FEMALE","Asian, Non-Hispanic",67,142,0,0
+"Los Angeles",2023-06-26,26,"50-64","FEMALE","Asian, Non-Hispanic",107,249,0,0
+"Los Angeles",2023-07-03,27,"50-64","FEMALE","Asian, Non-Hispanic",136,385,0,0
+"Los Angeles",2023-07-10,28,"50-64","FEMALE","Asian, Non-Hispanic",164,549,0,0
+"Los Angeles",2023-07-17,29,"50-64","FEMALE","Asian, Non-Hispanic",127,676,0,0
+"Los Angeles",2023-07-24,30,"50-64","FEMALE","Asian, Non-Hispanic",142,818,1,1
+"Los Angeles",2023-07-31,31,"50-64","FEMALE","Asian, Non-Hispanic",267,1085,4,5
+"Los Angeles",2023-08-07,32,"50-64","FEMALE","Asian, Non-Hispanic",265,1350,1,6
+"Los Angeles",2023-08-14,33,"50-64","FEMALE","Asian, Non-Hispanic",327,1677,1,7
+"Los Angeles",2023-08-21,34,"50-64","FEMALE","Asian, Non-Hispanic",507,2184,1,8
+"Los Angeles",2023-08-28,35,"50-64","FEMALE","Asian, Non-Hispanic",745,2929,4,12
+"Los Angeles",2023-09-04,36,"50-64","FEMALE","Asian, Non-Hispanic",696,3625,6,18
+"Los Angeles",2023-09-11,37,"50-64","FEMALE","Asian, Non-Hispanic",656,4281,4,22
+"Los Angeles",2023-09-18,38,"50-64","FEMALE","Asian, Non-Hispanic",748,5029,2,24
+"Los Angeles",2023-09-25,39,"50-64","FEMALE","Asian, Non-Hispanic",666,5695,5,29
+"Los Angeles",2023-10-02,40,"50-64","FEMALE","Asian, Non-Hispanic",633,6328,1,30
+"Los Angeles",2023-10-09,41,"50-64","FEMALE","Asian, Non-Hispanic",616,6944,2,32
+"Los Angeles",2023-10-16,42,"50-64","FEMALE","Asian, Non-Hispanic",714,7658,1,33
+"Los Angeles",2023-10-23,43,"50-64","FEMALE","Asian, Non-Hispanic",517,8175,6,39
+"Los Angeles",2023-10-30,44,"50-64","FEMALE","Asian, Non-Hispanic",393,8568,1,40
+"Los Angeles",2023-11-06,45,"50-64","FEMALE","Asian, Non-Hispanic",295,8863,3,43
+"Los Angeles",2023-11-13,46,"50-64","FEMALE","Asian, Non-Hispanic",110,8973,1,44
+"Los Angeles",2023-11-20,47,"50-64","FEMALE","Asian, Non-Hispanic",11,8984,3,47
+"Los Angeles",2023-11-27,48,"50-64","FEMALE","Asian, Non-Hispanic",12,8996,1,48
+"Los Angeles",2023-12-04,49,"50-64","FEMALE","Asian, Non-Hispanic",0,8996,0,48
+"Los Angeles",2023-12-11,50,"50-64","FEMALE","Asian, Non-Hispanic",19,9015,0,48
+"Los Angeles",2023-12-18,51,"50-64","FEMALE","Asian, Non-Hispanic",0,9015,0,48
+"Los Angeles",2023-12-25,52,"50-64","FEMALE","Asian, Non-Hispanic",0,9015,0,48
+"Los Angeles",2023-05-29,22,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-06-05,23,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-06-12,24,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-06-19,25,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-06-26,26,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",1,1,0,0
+"Los Angeles",2023-07-03,27,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,1,0,0
+"Los Angeles",2023-07-10,28,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",1,2,0,0
+"Los Angeles",2023-07-17,29,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",2,4,0,0
+"Los Angeles",2023-07-24,30,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",1,5,0,0
+"Los Angeles",2023-07-31,31,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",4,9,0,0
+"Los Angeles",2023-08-07,32,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",2,11,0,0
+"Los Angeles",2023-08-14,33,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",4,15,0,0
+"Los Angeles",2023-08-21,34,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",10,25,0,0
+"Los Angeles",2023-08-28,35,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",12,37,0,0
+"Los Angeles",2023-09-04,36,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",8,45,0,0
+"Los Angeles",2023-09-11,37,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",13,58,0,0
+"Los Angeles",2023-09-18,38,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",8,66,0,0
+"Los Angeles",2023-09-25,39,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",16,82,0,0
+"Los Angeles",2023-10-02,40,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",12,94,0,0
+"Los Angeles",2023-10-09,41,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",9,103,0,0
+"Los Angeles",2023-10-16,42,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",11,114,0,0
+"Los Angeles",2023-10-23,43,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",6,120,0,0
+"Los Angeles",2023-10-30,44,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",3,123,0,0
+"Los Angeles",2023-11-06,45,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",5,128,0,0
+"Los Angeles",2023-11-13,46,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",2,130,0,0
+"Los Angeles",2023-11-20,47,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,130,0,0
+"Los Angeles",2023-11-27,48,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",1,131,0,0
+"Los Angeles",2023-12-04,49,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,131,0,0
+"Los Angeles",2023-12-11,50,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,131,0,0
+"Los Angeles",2023-12-18,51,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,131,0,0
+"Los Angeles",2023-12-25,52,"50-64","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,131,0,0
+"Los Angeles",2023-05-29,22,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",2,2,0,0
+"Los Angeles",2023-06-05,23,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",2,4,0,0
+"Los Angeles",2023-06-12,24,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",2,6,0,0
+"Los Angeles",2023-06-19,25,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",11,17,0,0
+"Los Angeles",2023-06-26,26,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",8,25,0,0
+"Los Angeles",2023-07-03,27,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",8,33,0,0
+"Los Angeles",2023-07-10,28,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",9,42,0,0
+"Los Angeles",2023-07-17,29,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",5,47,0,0
+"Los Angeles",2023-07-24,30,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",17,64,0,0
+"Los Angeles",2023-07-31,31,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",20,84,0,0
+"Los Angeles",2023-08-07,32,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",24,108,0,0
+"Los Angeles",2023-08-14,33,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",32,140,0,0
+"Los Angeles",2023-08-21,34,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",33,173,0,0
+"Los Angeles",2023-08-28,35,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",58,231,0,0
+"Los Angeles",2023-09-04,36,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",57,288,0,0
+"Los Angeles",2023-09-11,37,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",74,362,1,1
+"Los Angeles",2023-09-18,38,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",69,431,0,1
+"Los Angeles",2023-09-25,39,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",58,489,0,1
+"Los Angeles",2023-10-02,40,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",52,541,2,3
+"Los Angeles",2023-10-09,41,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",48,589,0,3
+"Los Angeles",2023-10-16,42,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",51,640,0,3
+"Los Angeles",2023-10-23,43,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",52,692,0,3
+"Los Angeles",2023-10-30,44,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",23,715,0,3
+"Los Angeles",2023-11-06,45,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",24,739,0,3
+"Los Angeles",2023-11-13,46,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",6,745,0,3
+"Los Angeles",2023-11-20,47,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",2,747,0,3
+"Los Angeles",2023-11-27,48,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",0,747,0,3
+"Los Angeles",2023-12-04,49,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",0,747,0,3
+"Los Angeles",2023-12-11,50,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",2,749,0,3
+"Los Angeles",2023-12-18,51,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",0,749,0,3
+"Los Angeles",2023-12-25,52,"50-64","FEMALE","Multiracial (two or more of above races), Non-Hispanic",0,749,0,3
+"Los Angeles",2023-05-29,22,"50-64","FEMALE","Hispanic (any race)",69,69,0,0
+"Los Angeles",2023-06-05,23,"50-64","FEMALE","Hispanic (any race)",74,143,0,0
+"Los Angeles",2023-06-12,24,"50-64","FEMALE","Hispanic (any race)",53,196,1,1
+"Los Angeles",2023-06-19,25,"50-64","FEMALE","Hispanic (any race)",168,364,1,2
+"Los Angeles",2023-06-26,26,"50-64","FEMALE","Hispanic (any race)",323,687,1,3
+"Los Angeles",2023-07-03,27,"50-64","FEMALE","Hispanic (any race)",354,1041,2,5
+"Los Angeles",2023-07-10,28,"50-64","FEMALE","Hispanic (any race)",472,1513,1,6
+"Los Angeles",2023-07-17,29,"50-64","FEMALE","Hispanic (any race)",370,1883,4,10
+"Los Angeles",2023-07-24,30,"50-64","FEMALE","Hispanic (any race)",393,2276,3,13
+"Los Angeles",2023-07-31,31,"50-64","FEMALE","Hispanic (any race)",707,2983,5,18
+"Los Angeles",2023-08-07,32,"50-64","FEMALE","Hispanic (any race)",738,3721,2,20
+"Los Angeles",2023-08-14,33,"50-64","FEMALE","Hispanic (any race)",922,4643,4,24
+"Los Angeles",2023-08-21,34,"50-64","FEMALE","Hispanic (any race)",1409,6052,2,26
+"Los Angeles",2023-08-28,35,"50-64","FEMALE","Hispanic (any race)",2018,8070,4,30
+"Los Angeles",2023-09-04,36,"50-64","FEMALE","Hispanic (any race)",1964,10034,4,34
+"Los Angeles",2023-09-11,37,"50-64","FEMALE","Hispanic (any race)",1935,11969,15,49
+"Los Angeles",2023-09-18,38,"50-64","FEMALE","Hispanic (any race)",2300,14269,14,63
+"Los Angeles",2023-09-25,39,"50-64","FEMALE","Hispanic (any race)",1791,16060,6,69
+"Los Angeles",2023-10-02,40,"50-64","FEMALE","Hispanic (any race)",1811,17871,18,87
+"Los Angeles",2023-10-09,41,"50-64","FEMALE","Hispanic (any race)",1812,19683,10,97
+"Los Angeles",2023-10-16,42,"50-64","FEMALE","Hispanic (any race)",1891,21574,12,109
+"Los Angeles",2023-10-23,43,"50-64","FEMALE","Hispanic (any race)",1503,23077,12,121
+"Los Angeles",2023-10-30,44,"50-64","FEMALE","Hispanic (any race)",1035,24112,9,130
+"Los Angeles",2023-11-06,45,"50-64","FEMALE","Hispanic (any race)",688,24800,7,137
+"Los Angeles",2023-11-13,46,"50-64","FEMALE","Hispanic (any race)",264,25064,5,142
+"Los Angeles",2023-11-20,47,"50-64","FEMALE","Hispanic (any race)",34,25098,2,144
+"Los Angeles",2023-11-27,48,"50-64","FEMALE","Hispanic (any race)",47,25145,4,148
+"Los Angeles",2023-12-04,49,"50-64","FEMALE","Hispanic (any race)",0,25145,0,148
+"Los Angeles",2023-12-11,50,"50-64","FEMALE","Hispanic (any race)",33,25178,0,148
+"Los Angeles",2023-12-18,51,"50-64","FEMALE","Hispanic (any race)",0,25178,0,148
+"Los Angeles",2023-12-25,52,"50-64","FEMALE","Hispanic (any race)",0,25178,0,148
+"Los Angeles",2023-05-29,22,"50-64","MALE","White, Non-Hispanic",49,49,0,0
+"Los Angeles",2023-06-05,23,"50-64","MALE","White, Non-Hispanic",44,93,0,0
+"Los Angeles",2023-06-12,24,"50-64","MALE","White, Non-Hispanic",43,136,2,2
+"Los Angeles",2023-06-19,25,"50-64","MALE","White, Non-Hispanic",103,239,0,2
+"Los Angeles",2023-06-26,26,"50-64","MALE","White, Non-Hispanic",173,412,1,3
+"Los Angeles",2023-07-03,27,"50-64","MALE","White, Non-Hispanic",250,662,0,3
+"Los Angeles",2023-07-10,28,"50-64","MALE","White, Non-Hispanic",305,967,1,4
+"Los Angeles",2023-07-17,29,"50-64","MALE","White, Non-Hispanic",276,1243,0,4
+"Los Angeles",2023-07-24,30,"50-64","MALE","White, Non-Hispanic",267,1510,1,5
+"Los Angeles",2023-07-31,31,"50-64","MALE","White, Non-Hispanic",437,1947,1,6
+"Los Angeles",2023-08-07,32,"50-64","MALE","White, Non-Hispanic",506,2453,0,6
+"Los Angeles",2023-08-14,33,"50-64","MALE","White, Non-Hispanic",596,3049,1,7
+"Los Angeles",2023-08-21,34,"50-64","MALE","White, Non-Hispanic",905,3954,2,9
+"Los Angeles",2023-08-28,35,"50-64","MALE","White, Non-Hispanic",1418,5372,2,11
+"Los Angeles",2023-09-04,36,"50-64","MALE","White, Non-Hispanic",1397,6769,6,17
+"Los Angeles",2023-09-11,37,"50-64","MALE","White, Non-Hispanic",1234,8003,11,28
+"Los Angeles",2023-09-18,38,"50-64","MALE","White, Non-Hispanic",1509,9512,9,37
+"Los Angeles",2023-09-25,39,"50-64","MALE","White, Non-Hispanic",1182,10694,4,41
+"Los Angeles",2023-10-02,40,"50-64","MALE","White, Non-Hispanic",1239,11933,6,47
+"Los Angeles",2023-10-09,41,"50-64","MALE","White, Non-Hispanic",1242,13175,9,56
+"Los Angeles",2023-10-16,42,"50-64","MALE","White, Non-Hispanic",1208,14383,3,59
+"Los Angeles",2023-10-23,43,"50-64","MALE","White, Non-Hispanic",1035,15418,4,63
+"Los Angeles",2023-10-30,44,"50-64","MALE","White, Non-Hispanic",649,16067,5,68
+"Los Angeles",2023-11-06,45,"50-64","MALE","White, Non-Hispanic",481,16548,4,72
+"Los Angeles",2023-11-13,46,"50-64","MALE","White, Non-Hispanic",170,16718,4,76
+"Los Angeles",2023-11-20,47,"50-64","MALE","White, Non-Hispanic",12,16730,3,79
+"Los Angeles",2023-11-27,48,"50-64","MALE","White, Non-Hispanic",37,16767,3,82
+"Los Angeles",2023-12-04,49,"50-64","MALE","White, Non-Hispanic",0,16767,0,82
+"Los Angeles",2023-12-11,50,"50-64","MALE","White, Non-Hispanic",34,16801,0,82
+"Los Angeles",2023-12-18,51,"50-64","MALE","White, Non-Hispanic",0,16801,0,82
+"Los Angeles",2023-12-25,52,"50-64","MALE","White, Non-Hispanic",0,16801,0,82
+"Los Angeles",2023-05-29,22,"50-64","MALE","Black, Non-Hispanic",20,20,0,0
+"Los Angeles",2023-06-05,23,"50-64","MALE","Black, Non-Hispanic",15,35,0,0
+"Los Angeles",2023-06-12,24,"50-64","MALE","Black, Non-Hispanic",7,42,0,0
+"Los Angeles",2023-06-19,25,"50-64","MALE","Black, Non-Hispanic",33,75,0,0
+"Los Angeles",2023-06-26,26,"50-64","MALE","Black, Non-Hispanic",62,137,0,0
+"Los Angeles",2023-07-03,27,"50-64","MALE","Black, Non-Hispanic",68,205,0,0
+"Los Angeles",2023-07-10,28,"50-64","MALE","Black, Non-Hispanic",83,288,0,0
+"Los Angeles",2023-07-17,29,"50-64","MALE","Black, Non-Hispanic",62,350,1,1
+"Los Angeles",2023-07-24,30,"50-64","MALE","Black, Non-Hispanic",65,415,0,1
+"Los Angeles",2023-07-31,31,"50-64","MALE","Black, Non-Hispanic",113,528,1,2
+"Los Angeles",2023-08-07,32,"50-64","MALE","Black, Non-Hispanic",144,672,1,3
+"Los Angeles",2023-08-14,33,"50-64","MALE","Black, Non-Hispanic",168,840,1,4
+"Los Angeles",2023-08-21,34,"50-64","MALE","Black, Non-Hispanic",233,1073,0,4
+"Los Angeles",2023-08-28,35,"50-64","MALE","Black, Non-Hispanic",365,1438,2,6
+"Los Angeles",2023-09-04,36,"50-64","MALE","Black, Non-Hispanic",347,1785,3,9
+"Los Angeles",2023-09-11,37,"50-64","MALE","Black, Non-Hispanic",291,2076,6,15
+"Los Angeles",2023-09-18,38,"50-64","MALE","Black, Non-Hispanic",401,2477,2,17
+"Los Angeles",2023-09-25,39,"50-64","MALE","Black, Non-Hispanic",325,2802,1,18
+"Los Angeles",2023-10-02,40,"50-64","MALE","Black, Non-Hispanic",327,3129,0,18
+"Los Angeles",2023-10-09,41,"50-64","MALE","Black, Non-Hispanic",305,3434,2,20
+"Los Angeles",2023-10-16,42,"50-64","MALE","Black, Non-Hispanic",301,3735,1,21
+"Los Angeles",2023-10-23,43,"50-64","MALE","Black, Non-Hispanic",271,4006,2,23
+"Los Angeles",2023-10-30,44,"50-64","MALE","Black, Non-Hispanic",195,4201,2,25
+"Los Angeles",2023-11-06,45,"50-64","MALE","Black, Non-Hispanic",104,4305,1,26
+"Los Angeles",2023-11-13,46,"50-64","MALE","Black, Non-Hispanic",43,4348,1,27
+"Los Angeles",2023-11-20,47,"50-64","MALE","Black, Non-Hispanic",2,4350,1,28
+"Los Angeles",2023-11-27,48,"50-64","MALE","Black, Non-Hispanic",12,4362,1,29
+"Los Angeles",2023-12-04,49,"50-64","MALE","Black, Non-Hispanic",0,4362,0,29
+"Los Angeles",2023-12-11,50,"50-64","MALE","Black, Non-Hispanic",9,4371,0,29
+"Los Angeles",2023-12-18,51,"50-64","MALE","Black, Non-Hispanic",0,4371,0,29
+"Los Angeles",2023-12-25,52,"50-64","MALE","Black, Non-Hispanic",0,4371,0,29
+"Los Angeles",2023-05-29,22,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",1,1,0,0
+"Los Angeles",2023-06-05,23,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",1,2,0,0
+"Los Angeles",2023-06-12,24,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",1,3,0,0
+"Los Angeles",2023-06-19,25,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",2,5,0,0
+"Los Angeles",2023-06-26,26,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",0,5,0,0
+"Los Angeles",2023-07-03,27,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",1,6,0,0
+"Los Angeles",2023-07-10,28,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",4,10,0,0
+"Los Angeles",2023-07-17,29,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",1,11,0,0
+"Los Angeles",2023-07-24,30,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",0,11,0,0
+"Los Angeles",2023-07-31,31,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",5,16,0,0
+"Los Angeles",2023-08-07,32,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",7,23,0,0
+"Los Angeles",2023-08-14,33,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",6,29,0,0
+"Los Angeles",2023-08-21,34,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",3,32,0,0
+"Los Angeles",2023-08-28,35,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",9,41,0,0
+"Los Angeles",2023-09-04,36,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",12,53,0,0
+"Los Angeles",2023-09-11,37,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",12,65,0,0
+"Los Angeles",2023-09-18,38,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",12,77,0,0
+"Los Angeles",2023-09-25,39,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",5,82,0,0
+"Los Angeles",2023-10-02,40,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",8,90,0,0
+"Los Angeles",2023-10-09,41,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",5,95,0,0
+"Los Angeles",2023-10-16,42,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",6,101,0,0
+"Los Angeles",2023-10-23,43,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",5,106,0,0
+"Los Angeles",2023-10-30,44,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",2,108,0,0
+"Los Angeles",2023-11-06,45,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",6,114,0,0
+"Los Angeles",2023-11-13,46,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",0,114,0,0
+"Los Angeles",2023-11-20,47,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",0,114,0,0
+"Los Angeles",2023-11-27,48,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",0,114,0,0
+"Los Angeles",2023-12-04,49,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",0,114,0,0
+"Los Angeles",2023-12-11,50,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",1,115,0,0
+"Los Angeles",2023-12-18,51,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",0,115,0,0
+"Los Angeles",2023-12-25,52,"50-64","MALE","American Indian or Alaska Native, Non-Hispanic",0,115,0,0
+"Los Angeles",2023-05-29,22,"50-64","MALE","Asian, Non-Hispanic",16,16,0,0
+"Los Angeles",2023-06-05,23,"50-64","MALE","Asian, Non-Hispanic",22,38,0,0
+"Los Angeles",2023-06-12,24,"50-64","MALE","Asian, Non-Hispanic",26,64,0,0
+"Los Angeles",2023-06-19,25,"50-64","MALE","Asian, Non-Hispanic",62,126,0,0
+"Los Angeles",2023-06-26,26,"50-64","MALE","Asian, Non-Hispanic",95,221,0,0
+"Los Angeles",2023-07-03,27,"50-64","MALE","Asian, Non-Hispanic",111,332,0,0
+"Los Angeles",2023-07-10,28,"50-64","MALE","Asian, Non-Hispanic",140,472,0,0
+"Los Angeles",2023-07-17,29,"50-64","MALE","Asian, Non-Hispanic",93,565,0,0
+"Los Angeles",2023-07-24,30,"50-64","MALE","Asian, Non-Hispanic",124,689,0,0
+"Los Angeles",2023-07-31,31,"50-64","MALE","Asian, Non-Hispanic",186,875,1,1
+"Los Angeles",2023-08-07,32,"50-64","MALE","Asian, Non-Hispanic",206,1081,0,1
+"Los Angeles",2023-08-14,33,"50-64","MALE","Asian, Non-Hispanic",267,1348,1,2
+"Los Angeles",2023-08-21,34,"50-64","MALE","Asian, Non-Hispanic",392,1740,0,2
+"Los Angeles",2023-08-28,35,"50-64","MALE","Asian, Non-Hispanic",656,2396,2,4
+"Los Angeles",2023-09-04,36,"50-64","MALE","Asian, Non-Hispanic",606,3002,3,7
+"Los Angeles",2023-09-11,37,"50-64","MALE","Asian, Non-Hispanic",518,3520,2,9
+"Los Angeles",2023-09-18,38,"50-64","MALE","Asian, Non-Hispanic",639,4159,3,12
+"Los Angeles",2023-09-25,39,"50-64","MALE","Asian, Non-Hispanic",529,4688,5,17
+"Los Angeles",2023-10-02,40,"50-64","MALE","Asian, Non-Hispanic",547,5235,1,18
+"Los Angeles",2023-10-09,41,"50-64","MALE","Asian, Non-Hispanic",491,5726,3,21
+"Los Angeles",2023-10-16,42,"50-64","MALE","Asian, Non-Hispanic",524,6250,1,22
+"Los Angeles",2023-10-23,43,"50-64","MALE","Asian, Non-Hispanic",438,6688,4,26
+"Los Angeles",2023-10-30,44,"50-64","MALE","Asian, Non-Hispanic",308,6996,3,29
+"Los Angeles",2023-11-06,45,"50-64","MALE","Asian, Non-Hispanic",218,7214,3,32
+"Los Angeles",2023-11-13,46,"50-64","MALE","Asian, Non-Hispanic",64,7278,2,34
+"Los Angeles",2023-11-20,47,"50-64","MALE","Asian, Non-Hispanic",6,7284,2,36
+"Los Angeles",2023-11-27,48,"50-64","MALE","Asian, Non-Hispanic",12,7296,0,36
+"Los Angeles",2023-12-04,49,"50-64","MALE","Asian, Non-Hispanic",0,7296,0,36
+"Los Angeles",2023-12-11,50,"50-64","MALE","Asian, Non-Hispanic",12,7308,0,36
+"Los Angeles",2023-12-18,51,"50-64","MALE","Asian, Non-Hispanic",0,7308,0,36
+"Los Angeles",2023-12-25,52,"50-64","MALE","Asian, Non-Hispanic",0,7308,0,36
+"Los Angeles",2023-05-29,22,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",2,2,0,0
+"Los Angeles",2023-06-05,23,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,2,0,0
+"Los Angeles",2023-06-12,24,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,2,0,0
+"Los Angeles",2023-06-19,25,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",2,4,0,0
+"Los Angeles",2023-06-26,26,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",2,6,0,0
+"Los Angeles",2023-07-03,27,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",1,7,0,0
+"Los Angeles",2023-07-10,28,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",3,10,0,0
+"Los Angeles",2023-07-17,29,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",2,12,0,0
+"Los Angeles",2023-07-24,30,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",4,16,0,0
+"Los Angeles",2023-07-31,31,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",4,20,0,0
+"Los Angeles",2023-08-07,32,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",4,24,0,0
+"Los Angeles",2023-08-14,33,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",7,31,0,0
+"Los Angeles",2023-08-21,34,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",10,41,0,0
+"Los Angeles",2023-08-28,35,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",14,55,0,0
+"Los Angeles",2023-09-04,36,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",10,65,0,0
+"Los Angeles",2023-09-11,37,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",6,71,0,0
+"Los Angeles",2023-09-18,38,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",11,82,0,0
+"Los Angeles",2023-09-25,39,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",13,95,0,0
+"Los Angeles",2023-10-02,40,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",7,102,0,0
+"Los Angeles",2023-10-09,41,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",8,110,0,0
+"Los Angeles",2023-10-16,42,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",11,121,0,0
+"Los Angeles",2023-10-23,43,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",6,127,0,0
+"Los Angeles",2023-10-30,44,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",7,134,0,0
+"Los Angeles",2023-11-06,45,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",3,137,0,0
+"Los Angeles",2023-11-13,46,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,137,0,0
+"Los Angeles",2023-11-20,47,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,137,0,0
+"Los Angeles",2023-11-27,48,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",1,138,0,0
+"Los Angeles",2023-12-04,49,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,138,0,0
+"Los Angeles",2023-12-11,50,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",1,139,0,0
+"Los Angeles",2023-12-18,51,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,139,0,0
+"Los Angeles",2023-12-25,52,"50-64","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,139,0,0
+"Los Angeles",2023-05-29,22,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",1,1,0,0
+"Los Angeles",2023-06-05,23,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",2,3,0,0
+"Los Angeles",2023-06-12,24,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",3,6,0,0
+"Los Angeles",2023-06-19,25,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",7,13,0,0
+"Los Angeles",2023-06-26,26,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",8,21,0,0
+"Los Angeles",2023-07-03,27,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",12,33,0,0
+"Los Angeles",2023-07-10,28,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",17,50,0,0
+"Los Angeles",2023-07-17,29,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",11,61,0,0
+"Los Angeles",2023-07-24,30,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",14,75,0,0
+"Los Angeles",2023-07-31,31,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",15,90,0,0
+"Los Angeles",2023-08-07,32,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",16,106,0,0
+"Los Angeles",2023-08-14,33,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",21,127,0,0
+"Los Angeles",2023-08-21,34,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",46,173,0,0
+"Los Angeles",2023-08-28,35,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",52,225,0,0
+"Los Angeles",2023-09-04,36,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",55,280,1,1
+"Los Angeles",2023-09-11,37,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",61,341,0,1
+"Los Angeles",2023-09-18,38,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",52,393,0,1
+"Los Angeles",2023-09-25,39,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",53,446,0,1
+"Los Angeles",2023-10-02,40,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",47,493,0,1
+"Los Angeles",2023-10-09,41,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",55,548,0,1
+"Los Angeles",2023-10-16,42,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",63,611,0,1
+"Los Angeles",2023-10-23,43,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",40,651,0,1
+"Los Angeles",2023-10-30,44,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",30,681,1,2
+"Los Angeles",2023-11-06,45,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",28,709,0,2
+"Los Angeles",2023-11-13,46,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",8,717,0,2
+"Los Angeles",2023-11-20,47,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",0,717,0,2
+"Los Angeles",2023-11-27,48,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",0,717,0,2
+"Los Angeles",2023-12-04,49,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",0,717,0,2
+"Los Angeles",2023-12-11,50,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",1,718,0,2
+"Los Angeles",2023-12-18,51,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",0,718,0,2
+"Los Angeles",2023-12-25,52,"50-64","MALE","Multiracial (two or more of above races), Non-Hispanic",0,718,0,2
+"Los Angeles",2023-05-29,22,"50-64","MALE","Hispanic (any race)",81,81,0,0
+"Los Angeles",2023-06-05,23,"50-64","MALE","Hispanic (any race)",76,157,0,0
+"Los Angeles",2023-06-12,24,"50-64","MALE","Hispanic (any race)",66,223,1,1
+"Los Angeles",2023-06-19,25,"50-64","MALE","Hispanic (any race)",164,387,0,1
+"Los Angeles",2023-06-26,26,"50-64","MALE","Hispanic (any race)",284,671,1,2
+"Los Angeles",2023-07-03,27,"50-64","MALE","Hispanic (any race)",354,1025,1,3
+"Los Angeles",2023-07-10,28,"50-64","MALE","Hispanic (any race)",484,1509,2,5
+"Los Angeles",2023-07-17,29,"50-64","MALE","Hispanic (any race)",382,1891,2,7
+"Los Angeles",2023-07-24,30,"50-64","MALE","Hispanic (any race)",393,2284,1,8
+"Los Angeles",2023-07-31,31,"50-64","MALE","Hispanic (any race)",727,3011,3,11
+"Los Angeles",2023-08-07,32,"50-64","MALE","Hispanic (any race)",691,3702,0,11
+"Los Angeles",2023-08-14,33,"50-64","MALE","Hispanic (any race)",838,4540,1,12
+"Los Angeles",2023-08-21,34,"50-64","MALE","Hispanic (any race)",1306,5846,3,15
+"Los Angeles",2023-08-28,35,"50-64","MALE","Hispanic (any race)",2098,7944,3,18
+"Los Angeles",2023-09-04,36,"50-64","MALE","Hispanic (any race)",2024,9968,7,25
+"Los Angeles",2023-09-11,37,"50-64","MALE","Hispanic (any race)",1953,11921,9,34
+"Los Angeles",2023-09-18,38,"50-64","MALE","Hispanic (any race)",2130,14051,10,44
+"Los Angeles",2023-09-25,39,"50-64","MALE","Hispanic (any race)",1831,15882,14,58
+"Los Angeles",2023-10-02,40,"50-64","MALE","Hispanic (any race)",1805,17687,11,69
+"Los Angeles",2023-10-09,41,"50-64","MALE","Hispanic (any race)",1852,19539,9,78
+"Los Angeles",2023-10-16,42,"50-64","MALE","Hispanic (any race)",1883,21422,6,84
+"Los Angeles",2023-10-23,43,"50-64","MALE","Hispanic (any race)",1538,22960,14,98
+"Los Angeles",2023-10-30,44,"50-64","MALE","Hispanic (any race)",972,23932,10,108
+"Los Angeles",2023-11-06,45,"50-64","MALE","Hispanic (any race)",780,24712,7,115
+"Los Angeles",2023-11-13,46,"50-64","MALE","Hispanic (any race)",280,24992,4,119
+"Los Angeles",2023-11-20,47,"50-64","MALE","Hispanic (any race)",37,25029,6,125
+"Los Angeles",2023-11-27,48,"50-64","MALE","Hispanic (any race)",42,25071,4,129
+"Los Angeles",2023-12-04,49,"50-64","MALE","Hispanic (any race)",0,25071,1,130
+"Los Angeles",2023-12-11,50,"50-64","MALE","Hispanic (any race)",47,25118,1,131
+"Los Angeles",2023-12-18,51,"50-64","MALE","Hispanic (any race)",0,25118,0,131
+"Los Angeles",2023-12-25,52,"50-64","MALE","Hispanic (any race)",0,25118,0,131
+"Los Angeles",2023-05-29,22,"65+","FEMALE","White, Non-Hispanic",160,160,0,0
+"Los Angeles",2023-06-05,23,"65+","FEMALE","White, Non-Hispanic",147,307,0,0
+"Los Angeles",2023-06-12,24,"65+","FEMALE","White, Non-Hispanic",125,432,7,7
+"Los Angeles",2023-06-19,25,"65+","FEMALE","White, Non-Hispanic",407,839,16,23
+"Los Angeles",2023-06-26,26,"65+","FEMALE","White, Non-Hispanic",661,1500,9,32
+"Los Angeles",2023-07-03,27,"65+","FEMALE","White, Non-Hispanic",739,2239,26,58
+"Los Angeles",2023-07-10,28,"65+","FEMALE","White, Non-Hispanic",995,3234,36,94
+"Los Angeles",2023-07-17,29,"65+","FEMALE","White, Non-Hispanic",794,4028,75,169
+"Los Angeles",2023-07-24,30,"65+","FEMALE","White, Non-Hispanic",797,4825,76,245
+"Los Angeles",2023-07-31,31,"65+","FEMALE","White, Non-Hispanic",1408,6233,47,292
+"Los Angeles",2023-08-07,32,"65+","FEMALE","White, Non-Hispanic",1422,7655,50,342
+"Los Angeles",2023-08-14,33,"65+","FEMALE","White, Non-Hispanic",1745,9400,118,460
+"Los Angeles",2023-08-21,34,"65+","FEMALE","White, Non-Hispanic",2799,12199,107,567
+"Los Angeles",2023-08-28,35,"65+","FEMALE","White, Non-Hispanic",4120,16319,132,699
+"Los Angeles",2023-09-04,36,"65+","FEMALE","White, Non-Hispanic",4112,20431,198,897
+"Los Angeles",2023-09-11,37,"65+","FEMALE","White, Non-Hispanic",3855,24286,300,1197
+"Los Angeles",2023-09-18,38,"65+","FEMALE","White, Non-Hispanic",4360,28646,330,1527
+"Los Angeles",2023-09-25,39,"65+","FEMALE","White, Non-Hispanic",3589,32235,325,1852
+"Los Angeles",2023-10-02,40,"65+","FEMALE","White, Non-Hispanic",3623,35858,329,2181
+"Los Angeles",2023-10-09,41,"65+","FEMALE","White, Non-Hispanic",3661,39519,289,2470
+"Los Angeles",2023-10-16,42,"65+","FEMALE","White, Non-Hispanic",3554,43073,352,2822
+"Los Angeles",2023-10-23,43,"65+","FEMALE","White, Non-Hispanic",3036,46109,290,3112
+"Los Angeles",2023-10-30,44,"65+","FEMALE","White, Non-Hispanic",1980,48089,290,3402
+"Los Angeles",2023-11-06,45,"65+","FEMALE","White, Non-Hispanic",1374,49463,248,3650
+"Los Angeles",2023-11-13,46,"65+","FEMALE","White, Non-Hispanic",493,49956,180,3830
+"Los Angeles",2023-11-20,47,"65+","FEMALE","White, Non-Hispanic",72,50028,134,3964
+"Los Angeles",2023-11-27,48,"65+","FEMALE","White, Non-Hispanic",83,50111,54,4018
+"Los Angeles",2023-12-04,49,"65+","FEMALE","White, Non-Hispanic",0,50111,21,4039
+"Los Angeles",2023-12-11,50,"65+","FEMALE","White, Non-Hispanic",91,50202,14,4053
+"Los Angeles",2023-12-18,51,"65+","FEMALE","White, Non-Hispanic",0,50202,1,4054
+"Los Angeles",2023-12-25,52,"65+","FEMALE","White, Non-Hispanic",0,50202,6,4060
+"Los Angeles",2023-05-29,22,"65+","FEMALE","Black, Non-Hispanic",40,40,0,0
+"Los Angeles",2023-06-05,23,"65+","FEMALE","Black, Non-Hispanic",38,78,0,0
+"Los Angeles",2023-06-12,24,"65+","FEMALE","Black, Non-Hispanic",31,109,1,1
+"Los Angeles",2023-06-19,25,"65+","FEMALE","Black, Non-Hispanic",83,192,3,4
+"Los Angeles",2023-06-26,26,"65+","FEMALE","Black, Non-Hispanic",136,328,3,7
+"Los Angeles",2023-07-03,27,"65+","FEMALE","Black, Non-Hispanic",166,494,2,9
+"Los Angeles",2023-07-10,28,"65+","FEMALE","Black, Non-Hispanic",255,749,10,19
+"Los Angeles",2023-07-17,29,"65+","FEMALE","Black, Non-Hispanic",179,928,12,31
+"Los Angeles",2023-07-24,30,"65+","FEMALE","Black, Non-Hispanic",184,1112,19,50
+"Los Angeles",2023-07-31,31,"65+","FEMALE","Black, Non-Hispanic",340,1452,12,62
+"Los Angeles",2023-08-07,32,"65+","FEMALE","Black, Non-Hispanic",376,1828,15,77
+"Los Angeles",2023-08-14,33,"65+","FEMALE","Black, Non-Hispanic",454,2282,28,105
+"Los Angeles",2023-08-21,34,"65+","FEMALE","Black, Non-Hispanic",698,2980,38,143
+"Los Angeles",2023-08-28,35,"65+","FEMALE","Black, Non-Hispanic",1055,4035,43,186
+"Los Angeles",2023-09-04,36,"65+","FEMALE","Black, Non-Hispanic",1012,5047,52,238
+"Los Angeles",2023-09-11,37,"65+","FEMALE","Black, Non-Hispanic",965,6012,74,312
+"Los Angeles",2023-09-18,38,"65+","FEMALE","Black, Non-Hispanic",971,6983,81,393
+"Los Angeles",2023-09-25,39,"65+","FEMALE","Black, Non-Hispanic",856,7839,76,469
+"Los Angeles",2023-10-02,40,"65+","FEMALE","Black, Non-Hispanic",868,8707,65,534
+"Los Angeles",2023-10-09,41,"65+","FEMALE","Black, Non-Hispanic",863,9570,78,612
+"Los Angeles",2023-10-16,42,"65+","FEMALE","Black, Non-Hispanic",853,10423,71,683
+"Los Angeles",2023-10-23,43,"65+","FEMALE","Black, Non-Hispanic",698,11121,70,753
+"Los Angeles",2023-10-30,44,"65+","FEMALE","Black, Non-Hispanic",495,11616,62,815
+"Los Angeles",2023-11-06,45,"65+","FEMALE","Black, Non-Hispanic",341,11957,59,874
+"Los Angeles",2023-11-13,46,"65+","FEMALE","Black, Non-Hispanic",110,12067,49,923
+"Los Angeles",2023-11-20,47,"65+","FEMALE","Black, Non-Hispanic",19,12086,29,952
+"Los Angeles",2023-11-27,48,"65+","FEMALE","Black, Non-Hispanic",17,12103,14,966
+"Los Angeles",2023-12-04,49,"65+","FEMALE","Black, Non-Hispanic",0,12103,5,971
+"Los Angeles",2023-12-11,50,"65+","FEMALE","Black, Non-Hispanic",35,12138,5,976
+"Los Angeles",2023-12-18,51,"65+","FEMALE","Black, Non-Hispanic",0,12138,1,977
+"Los Angeles",2023-12-25,52,"65+","FEMALE","Black, Non-Hispanic",0,12138,3,980
+"Los Angeles",2023-05-29,22,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",1,1,0,0
+"Los Angeles",2023-06-05,23,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,1,0,0
+"Los Angeles",2023-06-12,24,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,1,0,0
+"Los Angeles",2023-06-19,25,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",2,3,0,0
+"Los Angeles",2023-06-26,26,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",5,8,0,0
+"Los Angeles",2023-07-03,27,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",4,12,0,0
+"Los Angeles",2023-07-10,28,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",1,13,0,0
+"Los Angeles",2023-07-17,29,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",3,16,0,0
+"Los Angeles",2023-07-24,30,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",6,22,1,1
+"Los Angeles",2023-07-31,31,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",6,28,0,1
+"Los Angeles",2023-08-07,32,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,28,0,1
+"Los Angeles",2023-08-14,33,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",8,36,1,2
+"Los Angeles",2023-08-21,34,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",16,52,0,2
+"Los Angeles",2023-08-28,35,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",28,80,0,2
+"Los Angeles",2023-09-04,36,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",25,105,3,5
+"Los Angeles",2023-09-11,37,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",26,131,0,5
+"Los Angeles",2023-09-18,38,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",38,169,3,8
+"Los Angeles",2023-09-25,39,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",33,202,0,8
+"Los Angeles",2023-10-02,40,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",21,223,3,11
+"Los Angeles",2023-10-09,41,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",19,242,2,13
+"Los Angeles",2023-10-16,42,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",20,262,4,17
+"Los Angeles",2023-10-23,43,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",18,280,4,21
+"Los Angeles",2023-10-30,44,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",15,295,2,23
+"Los Angeles",2023-11-06,45,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",8,303,0,23
+"Los Angeles",2023-11-13,46,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",3,306,0,23
+"Los Angeles",2023-11-20,47,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,306,2,25
+"Los Angeles",2023-11-27,48,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,306,1,26
+"Los Angeles",2023-12-04,49,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,306,0,26
+"Los Angeles",2023-12-11,50,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",2,308,0,26
+"Los Angeles",2023-12-18,51,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,308,0,26
+"Los Angeles",2023-12-25,52,"65+","FEMALE","American Indian or Alaska Native, Non-Hispanic",0,308,0,26
+"Los Angeles",2023-05-29,22,"65+","FEMALE","Asian, Non-Hispanic",79,79,0,0
+"Los Angeles",2023-06-05,23,"65+","FEMALE","Asian, Non-Hispanic",78,157,0,0
+"Los Angeles",2023-06-12,24,"65+","FEMALE","Asian, Non-Hispanic",68,225,5,5
+"Los Angeles",2023-06-19,25,"65+","FEMALE","Asian, Non-Hispanic",198,423,6,11
+"Los Angeles",2023-06-26,26,"65+","FEMALE","Asian, Non-Hispanic",310,733,6,17
+"Los Angeles",2023-07-03,27,"65+","FEMALE","Asian, Non-Hispanic",352,1085,14,31
+"Los Angeles",2023-07-10,28,"65+","FEMALE","Asian, Non-Hispanic",501,1586,20,51
+"Los Angeles",2023-07-17,29,"65+","FEMALE","Asian, Non-Hispanic",306,1892,30,81
+"Los Angeles",2023-07-24,30,"65+","FEMALE","Asian, Non-Hispanic",404,2296,44,125
+"Los Angeles",2023-07-31,31,"65+","FEMALE","Asian, Non-Hispanic",679,2975,26,151
+"Los Angeles",2023-08-07,32,"65+","FEMALE","Asian, Non-Hispanic",680,3655,46,197
+"Los Angeles",2023-08-14,33,"65+","FEMALE","Asian, Non-Hispanic",845,4500,53,250
+"Los Angeles",2023-08-21,34,"65+","FEMALE","Asian, Non-Hispanic",1273,5773,63,313
+"Los Angeles",2023-08-28,35,"65+","FEMALE","Asian, Non-Hispanic",2069,7842,46,359
+"Los Angeles",2023-09-04,36,"65+","FEMALE","Asian, Non-Hispanic",1991,9833,89,448
+"Los Angeles",2023-09-11,37,"65+","FEMALE","Asian, Non-Hispanic",1875,11708,128,576
+"Los Angeles",2023-09-18,38,"65+","FEMALE","Asian, Non-Hispanic",2219,13927,130,706
+"Los Angeles",2023-09-25,39,"65+","FEMALE","Asian, Non-Hispanic",1762,15689,170,876
+"Los Angeles",2023-10-02,40,"65+","FEMALE","Asian, Non-Hispanic",1765,17454,167,1043
+"Los Angeles",2023-10-09,41,"65+","FEMALE","Asian, Non-Hispanic",1691,19145,147,1190
+"Los Angeles",2023-10-16,42,"65+","FEMALE","Asian, Non-Hispanic",1737,20882,153,1343
+"Los Angeles",2023-10-23,43,"65+","FEMALE","Asian, Non-Hispanic",1362,22244,127,1470
+"Los Angeles",2023-10-30,44,"65+","FEMALE","Asian, Non-Hispanic",948,23192,146,1616
+"Los Angeles",2023-11-06,45,"65+","FEMALE","Asian, Non-Hispanic",640,23832,126,1742
+"Los Angeles",2023-11-13,46,"65+","FEMALE","Asian, Non-Hispanic",273,24105,90,1832
+"Los Angeles",2023-11-20,47,"65+","FEMALE","Asian, Non-Hispanic",26,24131,75,1907
+"Los Angeles",2023-11-27,48,"65+","FEMALE","Asian, Non-Hispanic",37,24168,33,1940
+"Los Angeles",2023-12-04,49,"65+","FEMALE","Asian, Non-Hispanic",0,24168,18,1958
+"Los Angeles",2023-12-11,50,"65+","FEMALE","Asian, Non-Hispanic",53,24221,6,1964
+"Los Angeles",2023-12-18,51,"65+","FEMALE","Asian, Non-Hispanic",0,24221,1,1965
+"Los Angeles",2023-12-25,52,"65+","FEMALE","Asian, Non-Hispanic",0,24221,2,1967
+"Los Angeles",2023-05-29,22,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-06-05,23,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-06-12,24,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",1,1,0,0
+"Los Angeles",2023-06-19,25,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",1,2,0,0
+"Los Angeles",2023-06-26,26,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",1,3,0,0
+"Los Angeles",2023-07-03,27,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",7,10,0,0
+"Los Angeles",2023-07-10,28,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",7,17,0,0
+"Los Angeles",2023-07-17,29,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",4,21,0,0
+"Los Angeles",2023-07-24,30,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",7,28,1,1
+"Los Angeles",2023-07-31,31,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",4,32,0,1
+"Los Angeles",2023-08-07,32,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",9,41,0,1
+"Los Angeles",2023-08-14,33,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",11,52,0,1
+"Los Angeles",2023-08-21,34,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",15,67,0,1
+"Los Angeles",2023-08-28,35,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",19,86,0,1
+"Los Angeles",2023-09-04,36,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",18,104,0,1
+"Los Angeles",2023-09-11,37,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",22,126,0,1
+"Los Angeles",2023-09-18,38,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",32,158,1,2
+"Los Angeles",2023-09-25,39,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",19,177,0,2
+"Los Angeles",2023-10-02,40,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",23,200,0,2
+"Los Angeles",2023-10-09,41,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",22,222,3,5
+"Los Angeles",2023-10-16,42,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",15,237,1,6
+"Los Angeles",2023-10-23,43,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",14,251,1,7
+"Los Angeles",2023-10-30,44,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",11,262,0,7
+"Los Angeles",2023-11-06,45,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",5,267,0,7
+"Los Angeles",2023-11-13,46,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",1,268,1,8
+"Los Angeles",2023-11-20,47,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",1,269,0,8
+"Los Angeles",2023-11-27,48,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",1,270,0,8
+"Los Angeles",2023-12-04,49,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,270,0,8
+"Los Angeles",2023-12-11,50,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,270,0,8
+"Los Angeles",2023-12-18,51,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,270,0,8
+"Los Angeles",2023-12-25,52,"65+","FEMALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,270,0,8
+"Los Angeles",2023-05-29,22,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",6,6,0,0
+"Los Angeles",2023-06-05,23,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",6,12,0,0
+"Los Angeles",2023-06-12,24,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",4,16,0,0
+"Los Angeles",2023-06-19,25,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",7,23,0,0
+"Los Angeles",2023-06-26,26,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",21,44,1,1
+"Los Angeles",2023-07-03,27,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",24,68,0,1
+"Los Angeles",2023-07-10,28,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",37,105,1,2
+"Los Angeles",2023-07-17,29,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",28,133,3,5
+"Los Angeles",2023-07-24,30,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",32,165,1,6
+"Los Angeles",2023-07-31,31,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",37,202,1,7
+"Los Angeles",2023-08-07,32,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",51,253,2,9
+"Los Angeles",2023-08-14,33,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",36,289,3,12
+"Los Angeles",2023-08-21,34,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",77,366,5,17
+"Los Angeles",2023-08-28,35,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",120,486,4,21
+"Los Angeles",2023-09-04,36,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",125,611,4,25
+"Los Angeles",2023-09-11,37,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",118,729,12,37
+"Los Angeles",2023-09-18,38,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",130,859,13,50
+"Los Angeles",2023-09-25,39,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",120,979,10,60
+"Los Angeles",2023-10-02,40,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",116,1095,4,64
+"Los Angeles",2023-10-09,41,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",110,1205,12,76
+"Los Angeles",2023-10-16,42,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",117,1322,8,84
+"Los Angeles",2023-10-23,43,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",107,1429,8,92
+"Los Angeles",2023-10-30,44,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",61,1490,11,103
+"Los Angeles",2023-11-06,45,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",44,1534,4,107
+"Los Angeles",2023-11-13,46,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",16,1550,5,112
+"Los Angeles",2023-11-20,47,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",2,1552,2,114
+"Los Angeles",2023-11-27,48,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",3,1555,4,118
+"Los Angeles",2023-12-04,49,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",0,1555,1,119
+"Los Angeles",2023-12-11,50,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",6,1561,0,119
+"Los Angeles",2023-12-18,51,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",0,1561,0,119
+"Los Angeles",2023-12-25,52,"65+","FEMALE","Multiracial (two or more of above races), Non-Hispanic",0,1561,0,119
+"Los Angeles",2023-05-29,22,"65+","FEMALE","Hispanic (any race)",128,128,0,0
+"Los Angeles",2023-06-05,23,"65+","FEMALE","Hispanic (any race)",133,261,0,0
+"Los Angeles",2023-06-12,24,"65+","FEMALE","Hispanic (any race)",110,371,7,7
+"Los Angeles",2023-06-19,25,"65+","FEMALE","Hispanic (any race)",345,716,14,21
+"Los Angeles",2023-06-26,26,"65+","FEMALE","Hispanic (any race)",581,1297,17,38
+"Los Angeles",2023-07-03,27,"65+","FEMALE","Hispanic (any race)",676,1973,33,71
+"Los Angeles",2023-07-10,28,"65+","FEMALE","Hispanic (any race)",833,2806,44,115
+"Los Angeles",2023-07-17,29,"65+","FEMALE","Hispanic (any race)",636,3442,57,172
+"Los Angeles",2023-07-24,30,"65+","FEMALE","Hispanic (any race)",765,4207,56,228
+"Los Angeles",2023-07-31,31,"65+","FEMALE","Hispanic (any race)",1253,5460,50,278
+"Los Angeles",2023-08-07,32,"65+","FEMALE","Hispanic (any race)",1265,6725,66,344
+"Los Angeles",2023-08-14,33,"65+","FEMALE","Hispanic (any race)",1490,8215,84,428
+"Los Angeles",2023-08-21,34,"65+","FEMALE","Hispanic (any race)",2284,10499,93,521
+"Los Angeles",2023-08-28,35,"65+","FEMALE","Hispanic (any race)",3620,14119,108,629
+"Los Angeles",2023-09-04,36,"65+","FEMALE","Hispanic (any race)",3587,17706,169,798
+"Los Angeles",2023-09-11,37,"65+","FEMALE","Hispanic (any race)",3241,20947,256,1054
+"Los Angeles",2023-09-18,38,"65+","FEMALE","Hispanic (any race)",3721,24668,259,1313
+"Los Angeles",2023-09-25,39,"65+","FEMALE","Hispanic (any race)",3107,27775,266,1579
+"Los Angeles",2023-10-02,40,"65+","FEMALE","Hispanic (any race)",3150,30925,279,1858
+"Los Angeles",2023-10-09,41,"65+","FEMALE","Hispanic (any race)",3109,34034,263,2121
+"Los Angeles",2023-10-16,42,"65+","FEMALE","Hispanic (any race)",3112,37146,238,2359
+"Los Angeles",2023-10-23,43,"65+","FEMALE","Hispanic (any race)",2508,39654,243,2602
+"Los Angeles",2023-10-30,44,"65+","FEMALE","Hispanic (any race)",1669,41323,267,2869
+"Los Angeles",2023-11-06,45,"65+","FEMALE","Hispanic (any race)",1267,42590,198,3067
+"Los Angeles",2023-11-13,46,"65+","FEMALE","Hispanic (any race)",420,43010,132,3199
+"Los Angeles",2023-11-20,47,"65+","FEMALE","Hispanic (any race)",56,43066,110,3309
+"Los Angeles",2023-11-27,48,"65+","FEMALE","Hispanic (any race)",78,43144,65,3374
+"Los Angeles",2023-12-04,49,"65+","FEMALE","Hispanic (any race)",0,43144,13,3387
+"Los Angeles",2023-12-11,50,"65+","FEMALE","Hispanic (any race)",80,43224,11,3398
+"Los Angeles",2023-12-18,51,"65+","FEMALE","Hispanic (any race)",0,43224,1,3399
+"Los Angeles",2023-12-25,52,"65+","FEMALE","Hispanic (any race)",0,43224,7,3406
+"Los Angeles",2023-05-29,22,"65+","MALE","White, Non-Hispanic",135,135,0,0
+"Los Angeles",2023-06-05,23,"65+","MALE","White, Non-Hispanic",122,257,0,0
+"Los Angeles",2023-06-12,24,"65+","MALE","White, Non-Hispanic",122,379,7,7
+"Los Angeles",2023-06-19,25,"65+","MALE","White, Non-Hispanic",299,678,10,17
+"Los Angeles",2023-06-26,26,"65+","MALE","White, Non-Hispanic",503,1181,11,28
+"Los Angeles",2023-07-03,27,"65+","MALE","White, Non-Hispanic",653,1834,16,44
+"Los Angeles",2023-07-10,28,"65+","MALE","White, Non-Hispanic",892,2726,35,79
+"Los Angeles",2023-07-17,29,"65+","MALE","White, Non-Hispanic",656,3382,59,138
+"Los Angeles",2023-07-24,30,"65+","MALE","White, Non-Hispanic",738,4120,59,197
+"Los Angeles",2023-07-31,31,"65+","MALE","White, Non-Hispanic",1238,5358,66,263
+"Los Angeles",2023-08-07,32,"65+","MALE","White, Non-Hispanic",1218,6576,49,312
+"Los Angeles",2023-08-14,33,"65+","MALE","White, Non-Hispanic",1527,8103,91,403
+"Los Angeles",2023-08-21,34,"65+","MALE","White, Non-Hispanic",2320,10423,92,495
+"Los Angeles",2023-08-28,35,"65+","MALE","White, Non-Hispanic",3638,14061,91,586
+"Los Angeles",2023-09-04,36,"65+","MALE","White, Non-Hispanic",3627,17688,174,760
+"Los Angeles",2023-09-11,37,"65+","MALE","White, Non-Hispanic",3338,21026,257,1017
+"Los Angeles",2023-09-18,38,"65+","MALE","White, Non-Hispanic",3799,24825,275,1292
+"Los Angeles",2023-09-25,39,"65+","MALE","White, Non-Hispanic",3104,27929,255,1547
+"Los Angeles",2023-10-02,40,"65+","MALE","White, Non-Hispanic",3177,31106,290,1837
+"Los Angeles",2023-10-09,41,"65+","MALE","White, Non-Hispanic",3003,34109,233,2070
+"Los Angeles",2023-10-16,42,"65+","MALE","White, Non-Hispanic",3141,37250,256,2326
+"Los Angeles",2023-10-23,43,"65+","MALE","White, Non-Hispanic",2570,39820,233,2559
+"Los Angeles",2023-10-30,44,"65+","MALE","White, Non-Hispanic",1754,41574,270,2829
+"Los Angeles",2023-11-06,45,"65+","MALE","White, Non-Hispanic",1171,42745,203,3032
+"Los Angeles",2023-11-13,46,"65+","MALE","White, Non-Hispanic",416,43161,156,3188
+"Los Angeles",2023-11-20,47,"65+","MALE","White, Non-Hispanic",44,43205,99,3287
+"Los Angeles",2023-11-27,48,"65+","MALE","White, Non-Hispanic",82,43287,54,3341
+"Los Angeles",2023-12-04,49,"65+","MALE","White, Non-Hispanic",0,43287,22,3363
+"Los Angeles",2023-12-11,50,"65+","MALE","White, Non-Hispanic",74,43361,10,3373
+"Los Angeles",2023-12-18,51,"65+","MALE","White, Non-Hispanic",0,43361,3,3376
+"Los Angeles",2023-12-25,52,"65+","MALE","White, Non-Hispanic",0,43361,9,3385
+"Los Angeles",2023-05-29,22,"65+","MALE","Black, Non-Hispanic",21,21,0,0
+"Los Angeles",2023-06-05,23,"65+","MALE","Black, Non-Hispanic",30,51,0,0
+"Los Angeles",2023-06-12,24,"65+","MALE","Black, Non-Hispanic",18,69,2,2
+"Los Angeles",2023-06-19,25,"65+","MALE","Black, Non-Hispanic",67,136,3,5
+"Los Angeles",2023-06-26,26,"65+","MALE","Black, Non-Hispanic",109,245,0,5
+"Los Angeles",2023-07-03,27,"65+","MALE","Black, Non-Hispanic",122,367,5,10
+"Los Angeles",2023-07-10,28,"65+","MALE","Black, Non-Hispanic",158,525,7,17
+"Los Angeles",2023-07-17,29,"65+","MALE","Black, Non-Hispanic",125,650,11,28
+"Los Angeles",2023-07-24,30,"65+","MALE","Black, Non-Hispanic",131,781,11,39
+"Los Angeles",2023-07-31,31,"65+","MALE","Black, Non-Hispanic",238,1019,4,43
+"Los Angeles",2023-08-07,32,"65+","MALE","Black, Non-Hispanic",257,1276,15,58
+"Los Angeles",2023-08-14,33,"65+","MALE","Black, Non-Hispanic",277,1553,22,80
+"Los Angeles",2023-08-21,34,"65+","MALE","Black, Non-Hispanic",475,2028,27,107
+"Los Angeles",2023-08-28,35,"65+","MALE","Black, Non-Hispanic",665,2693,17,124
+"Los Angeles",2023-09-04,36,"65+","MALE","Black, Non-Hispanic",716,3409,34,158
+"Los Angeles",2023-09-11,37,"65+","MALE","Black, Non-Hispanic",605,4014,48,206
+"Los Angeles",2023-09-18,38,"65+","MALE","Black, Non-Hispanic",738,4752,57,263
+"Los Angeles",2023-09-25,39,"65+","MALE","Black, Non-Hispanic",618,5370,50,313
+"Los Angeles",2023-10-02,40,"65+","MALE","Black, Non-Hispanic",601,5971,59,372
+"Los Angeles",2023-10-09,41,"65+","MALE","Black, Non-Hispanic",559,6530,48,420
+"Los Angeles",2023-10-16,42,"65+","MALE","Black, Non-Hispanic",545,7075,41,461
+"Los Angeles",2023-10-23,43,"65+","MALE","Black, Non-Hispanic",520,7595,59,520
+"Los Angeles",2023-10-30,44,"65+","MALE","Black, Non-Hispanic",334,7929,42,562
+"Los Angeles",2023-11-06,45,"65+","MALE","Black, Non-Hispanic",251,8180,38,600
+"Los Angeles",2023-11-13,46,"65+","MALE","Black, Non-Hispanic",73,8253,29,629
+"Los Angeles",2023-11-20,47,"65+","MALE","Black, Non-Hispanic",11,8264,18,647
+"Los Angeles",2023-11-27,48,"65+","MALE","Black, Non-Hispanic",14,8278,6,653
+"Los Angeles",2023-12-04,49,"65+","MALE","Black, Non-Hispanic",0,8278,5,658
+"Los Angeles",2023-12-11,50,"65+","MALE","Black, Non-Hispanic",13,8291,2,660
+"Los Angeles",2023-12-18,51,"65+","MALE","Black, Non-Hispanic",0,8291,0,660
+"Los Angeles",2023-12-25,52,"65+","MALE","Black, Non-Hispanic",0,8291,0,660
+"Los Angeles",2023-05-29,22,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",1,1,0,0
+"Los Angeles",2023-06-05,23,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",1,2,0,0
+"Los Angeles",2023-06-12,24,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",1,3,1,1
+"Los Angeles",2023-06-19,25,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",1,4,1,2
+"Los Angeles",2023-06-26,26,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",6,10,0,2
+"Los Angeles",2023-07-03,27,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",6,16,0,2
+"Los Angeles",2023-07-10,28,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",3,19,2,4
+"Los Angeles",2023-07-17,29,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",5,24,2,6
+"Los Angeles",2023-07-24,30,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",4,28,1,7
+"Los Angeles",2023-07-31,31,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",5,33,1,8
+"Los Angeles",2023-08-07,32,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",5,38,0,8
+"Los Angeles",2023-08-14,33,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",11,49,0,8
+"Los Angeles",2023-08-21,34,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",13,62,1,9
+"Los Angeles",2023-08-28,35,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",16,78,0,9
+"Los Angeles",2023-09-04,36,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",16,94,0,9
+"Los Angeles",2023-09-11,37,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",23,117,4,13
+"Los Angeles",2023-09-18,38,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",17,134,1,14
+"Los Angeles",2023-09-25,39,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",26,160,2,16
+"Los Angeles",2023-10-02,40,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",20,180,0,16
+"Los Angeles",2023-10-09,41,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",19,199,3,19
+"Los Angeles",2023-10-16,42,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",13,212,2,21
+"Los Angeles",2023-10-23,43,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",25,237,2,23
+"Los Angeles",2023-10-30,44,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",3,240,2,25
+"Los Angeles",2023-11-06,45,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",9,249,0,25
+"Los Angeles",2023-11-13,46,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",5,254,0,25
+"Los Angeles",2023-11-20,47,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",0,254,0,25
+"Los Angeles",2023-11-27,48,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",0,254,0,25
+"Los Angeles",2023-12-04,49,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",0,254,0,25
+"Los Angeles",2023-12-11,50,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",1,255,0,25
+"Los Angeles",2023-12-18,51,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",0,255,0,25
+"Los Angeles",2023-12-25,52,"65+","MALE","American Indian or Alaska Native, Non-Hispanic",0,255,0,25
+"Los Angeles",2023-05-29,22,"65+","MALE","Asian, Non-Hispanic",58,58,0,0
+"Los Angeles",2023-06-05,23,"65+","MALE","Asian, Non-Hispanic",46,104,0,0
+"Los Angeles",2023-06-12,24,"65+","MALE","Asian, Non-Hispanic",37,141,3,3
+"Los Angeles",2023-06-19,25,"65+","MALE","Asian, Non-Hispanic",133,274,4,7
+"Los Angeles",2023-06-26,26,"65+","MALE","Asian, Non-Hispanic",221,495,2,9
+"Los Angeles",2023-07-03,27,"65+","MALE","Asian, Non-Hispanic",287,782,15,24
+"Los Angeles",2023-07-10,28,"65+","MALE","Asian, Non-Hispanic",319,1101,16,40
+"Los Angeles",2023-07-17,29,"65+","MALE","Asian, Non-Hispanic",267,1368,20,60
+"Los Angeles",2023-07-24,30,"65+","MALE","Asian, Non-Hispanic",300,1668,29,89
+"Los Angeles",2023-07-31,31,"65+","MALE","Asian, Non-Hispanic",524,2192,19,108
+"Los Angeles",2023-08-07,32,"65+","MALE","Asian, Non-Hispanic",480,2672,31,139
+"Los Angeles",2023-08-14,33,"65+","MALE","Asian, Non-Hispanic",643,3315,45,184
+"Los Angeles",2023-08-21,34,"65+","MALE","Asian, Non-Hispanic",952,4267,39,223
+"Los Angeles",2023-08-28,35,"65+","MALE","Asian, Non-Hispanic",1510,5777,56,279
+"Los Angeles",2023-09-04,36,"65+","MALE","Asian, Non-Hispanic",1479,7256,68,347
+"Los Angeles",2023-09-11,37,"65+","MALE","Asian, Non-Hispanic",1345,8601,114,461
+"Los Angeles",2023-09-18,38,"65+","MALE","Asian, Non-Hispanic",1534,10135,137,598
+"Los Angeles",2023-09-25,39,"65+","MALE","Asian, Non-Hispanic",1253,11388,117,715
+"Los Angeles",2023-10-02,40,"65+","MALE","Asian, Non-Hispanic",1243,12631,113,828
+"Los Angeles",2023-10-09,41,"65+","MALE","Asian, Non-Hispanic",1258,13889,94,922
+"Los Angeles",2023-10-16,42,"65+","MALE","Asian, Non-Hispanic",1226,15115,110,1032
+"Los Angeles",2023-10-23,43,"65+","MALE","Asian, Non-Hispanic",1064,16179,105,1137
+"Los Angeles",2023-10-30,44,"65+","MALE","Asian, Non-Hispanic",685,16864,106,1243
+"Los Angeles",2023-11-06,45,"65+","MALE","Asian, Non-Hispanic",517,17381,80,1323
+"Los Angeles",2023-11-13,46,"65+","MALE","Asian, Non-Hispanic",174,17555,53,1376
+"Los Angeles",2023-11-20,47,"65+","MALE","Asian, Non-Hispanic",17,17572,45,1421
+"Los Angeles",2023-11-27,48,"65+","MALE","Asian, Non-Hispanic",27,17599,28,1449
+"Los Angeles",2023-12-04,49,"65+","MALE","Asian, Non-Hispanic",0,17599,9,1458
+"Los Angeles",2023-12-11,50,"65+","MALE","Asian, Non-Hispanic",32,17631,3,1461
+"Los Angeles",2023-12-18,51,"65+","MALE","Asian, Non-Hispanic",0,17631,1,1462
+"Los Angeles",2023-12-25,52,"65+","MALE","Asian, Non-Hispanic",0,17631,4,1466
+"Los Angeles",2023-05-29,22,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-06-05,23,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-06-12,24,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,0,0,0
+"Los Angeles",2023-06-19,25,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",2,2,0,0
+"Los Angeles",2023-06-26,26,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",4,6,0,0
+"Los Angeles",2023-07-03,27,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",4,10,0,0
+"Los Angeles",2023-07-10,28,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",5,15,0,0
+"Los Angeles",2023-07-17,29,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",3,18,1,1
+"Los Angeles",2023-07-24,30,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",3,21,0,1
+"Los Angeles",2023-07-31,31,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",9,30,2,3
+"Los Angeles",2023-08-07,32,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",6,36,0,3
+"Los Angeles",2023-08-14,33,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",8,44,2,5
+"Los Angeles",2023-08-21,34,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",16,60,1,6
+"Los Angeles",2023-08-28,35,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",17,77,1,7
+"Los Angeles",2023-09-04,36,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",15,92,1,8
+"Los Angeles",2023-09-11,37,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",12,104,0,8
+"Los Angeles",2023-09-18,38,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",22,126,2,10
+"Los Angeles",2023-09-25,39,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",14,140,0,10
+"Los Angeles",2023-10-02,40,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",16,156,2,12
+"Los Angeles",2023-10-09,41,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",15,171,0,12
+"Los Angeles",2023-10-16,42,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",12,183,1,13
+"Los Angeles",2023-10-23,43,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",9,192,1,14
+"Los Angeles",2023-10-30,44,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",5,197,2,16
+"Los Angeles",2023-11-06,45,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",2,199,1,17
+"Los Angeles",2023-11-13,46,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",1,200,0,17
+"Los Angeles",2023-11-20,47,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,200,1,18
+"Los Angeles",2023-11-27,48,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,200,0,18
+"Los Angeles",2023-12-04,49,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,200,0,18
+"Los Angeles",2023-12-11,50,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,200,0,18
+"Los Angeles",2023-12-18,51,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,200,0,18
+"Los Angeles",2023-12-25,52,"65+","MALE","Native Hawaiian or Pacific Islander, Non-Hispanic",0,200,0,18
+"Los Angeles",2023-05-29,22,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",5,5,0,0
+"Los Angeles",2023-06-05,23,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",5,10,0,0
+"Los Angeles",2023-06-12,24,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",4,14,0,0
+"Los Angeles",2023-06-19,25,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",14,28,0,0
+"Los Angeles",2023-06-26,26,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",14,42,0,0
+"Los Angeles",2023-07-03,27,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",23,65,1,1
+"Los Angeles",2023-07-10,28,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",28,93,2,3
+"Los Angeles",2023-07-17,29,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",13,106,4,7
+"Los Angeles",2023-07-24,30,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",19,125,4,11
+"Los Angeles",2023-07-31,31,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",43,168,1,12
+"Los Angeles",2023-08-07,32,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",28,196,2,14
+"Los Angeles",2023-08-14,33,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",46,242,2,16
+"Los Angeles",2023-08-21,34,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",67,309,0,16
+"Los Angeles",2023-08-28,35,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",108,417,2,18
+"Los Angeles",2023-09-04,36,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",89,506,5,23
+"Los Angeles",2023-09-11,37,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",91,597,3,26
+"Los Angeles",2023-09-18,38,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",116,713,11,37
+"Los Angeles",2023-09-25,39,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",75,788,7,44
+"Los Angeles",2023-10-02,40,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",88,876,9,53
+"Los Angeles",2023-10-09,41,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",81,957,9,62
+"Los Angeles",2023-10-16,42,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",87,1044,2,64
+"Los Angeles",2023-10-23,43,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",75,1119,2,66
+"Los Angeles",2023-10-30,44,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",42,1161,8,74
+"Los Angeles",2023-11-06,45,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",24,1185,4,78
+"Los Angeles",2023-11-13,46,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",6,1191,1,79
+"Los Angeles",2023-11-20,47,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",0,1191,1,80
+"Los Angeles",2023-11-27,48,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",3,1194,1,81
+"Los Angeles",2023-12-04,49,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",0,1194,0,81
+"Los Angeles",2023-12-11,50,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",1,1195,0,81
+"Los Angeles",2023-12-18,51,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",0,1195,0,81
+"Los Angeles",2023-12-25,52,"65+","MALE","Multiracial (two or more of above races), Non-Hispanic",0,1195,0,81
+"Los Angeles",2023-05-29,22,"65+","MALE","Hispanic (any race)",124,124,0,0
+"Los Angeles",2023-06-05,23,"65+","MALE","Hispanic (any race)",106,230,0,0
+"Los Angeles",2023-06-12,24,"65+","MALE","Hispanic (any race)",81,311,6,6
+"Los Angeles",2023-06-19,25,"65+","MALE","Hispanic (any race)",245,556,6,12
+"Los Angeles",2023-06-26,26,"65+","MALE","Hispanic (any race)",456,1012,8,20
+"Los Angeles",2023-07-03,27,"65+","MALE","Hispanic (any race)",487,1499,16,36
+"Los Angeles",2023-07-10,28,"65+","MALE","Hispanic (any race)",677,2176,32,68
+"Los Angeles",2023-07-17,29,"65+","MALE","Hispanic (any race)",500,2676,34,102
+"Los Angeles",2023-07-24,30,"65+","MALE","Hispanic (any race)",573,3249,39,141
+"Los Angeles",2023-07-31,31,"65+","MALE","Hispanic (any race)",901,4150,44,185
+"Los Angeles",2023-08-07,32,"65+","MALE","Hispanic (any race)",964,5114,44,229
+"Los Angeles",2023-08-14,33,"65+","MALE","Hispanic (any race)",1292,6406,57,286
+"Los Angeles",2023-08-21,34,"65+","MALE","Hispanic (any race)",1826,8232,69,355
+"Los Angeles",2023-08-28,35,"65+","MALE","Hispanic (any race)",2790,11022,98,453
+"Los Angeles",2023-09-04,36,"65+","MALE","Hispanic (any race)",2732,13754,137,590
+"Los Angeles",2023-09-11,37,"65+","MALE","Hispanic (any race)",2507,16261,197,787
+"Los Angeles",2023-09-18,38,"65+","MALE","Hispanic (any race)",2877,19138,209,996
+"Los Angeles",2023-09-25,39,"65+","MALE","Hispanic (any race)",2381,21519,198,1194
+"Los Angeles",2023-10-02,40,"65+","MALE","Hispanic (any race)",2365,23884,235,1429
+"Los Angeles",2023-10-09,41,"65+","MALE","Hispanic (any race)",2340,26224,206,1635
+"Los Angeles",2023-10-16,42,"65+","MALE","Hispanic (any race)",2413,28637,195,1830
+"Los Angeles",2023-10-23,43,"65+","MALE","Hispanic (any race)",1986,30623,180,2010
+"Los Angeles",2023-10-30,44,"65+","MALE","Hispanic (any race)",1296,31919,181,2191
+"Los Angeles",2023-11-06,45,"65+","MALE","Hispanic (any race)",923,32842,162,2353
+"Los Angeles",2023-11-13,46,"65+","MALE","Hispanic (any race)",338,33180,132,2485
+"Los Angeles",2023-11-20,47,"65+","MALE","Hispanic (any race)",39,33219,80,2565
+"Los Angeles",2023-11-27,48,"65+","MALE","Hispanic (any race)",53,33272,52,2617
+"Los Angeles",2023-12-04,49,"65+","MALE","Hispanic (any race)",0,33272,14,2631
+"Los Angeles",2023-12-11,50,"65+","MALE","Hispanic (any race)",64,33336,5,2636
+"Los Angeles",2023-12-18,51,"65+","MALE","Hispanic (any race)",0,33336,0,2636
+"Los Angeles",2023-12-25,52,"65+","MALE","Hispanic (any race)",0,33336,4,2640
