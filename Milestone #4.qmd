@@ -57,7 +57,9 @@ all_three_joined <- read_csv(data_file8)
 data_file9 <- "https://raw.githubusercontent.com/estherkong/ph251w_group_project/refs/heads/main/morbidity_combined.csv"
 morbidity_combined <- read_csv(data_file9)
 ```
+
 ## Map of New Infections by County
+
 ```{r}
 # map of new infections by county
 
@@ -71,10 +73,16 @@ map_data <- ca_counties %>%
   left_join(stratified_rate_infections, by = c("subregion" = "county"))
 
 # map
+
+long_caption <- "The map shows that Imperial County has the highest new infections in 2023. It appears that the coastal counties have a lower rate of new infections."
+wrapped_caption <- str_wrap(long_caption, width = 50) 
+
+       
+
 ggplot(map_data, aes(long, lat, group = group, fill = new_infections_per_capita)) +
   geom_polygon(color = "white") +
   scale_fill_viridis_c(option = "magma", limits = c(0,50), na.value = "grey") +
-  labs(title = "Heat Map of New Infections per Capita by County, 2023", fill = "Infection Rate") +
+  labs(title = "Heat Map of New Infections per Capita by County, 2023", fill = "Infection Rate", caption = wrapped_caption) +
   theme_void() + 
   theme(
   plot.title = element_text(hjust = 0.5, margin = margin(b = 10)),
@@ -90,7 +98,9 @@ ggplot(map_data, aes(long, lat, group = group, fill = new_infections_per_capita)
 summary(map_data$new_infections_per_capita)
 
 ```
+
 ## Table of Infections per Race/County
+
 ```{r}
 
 #table 
@@ -124,7 +134,9 @@ as.datatable(
   caption = "New Infection Cases by Race/Ethnicity over Population"
 )
 ```
+
 ## Plot of infection distributions by age
+
 ```{r}
 # re-stratify datasets by age categories
 age_ca_pop <- ca_pop_clean %>%
@@ -164,4 +176,3 @@ age_plot <- ggplot(data = age_rates,
        caption = "New infections rate and new severe infections rate is highest among those aged 65+.")
 age_plot
 ```
-
