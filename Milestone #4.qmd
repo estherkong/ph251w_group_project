@@ -9,7 +9,7 @@ editor: visual
 ------------------------------------------------------------------------
 
 ```{r}
-
+#| include: FALSE
 #Load required packages
 library(tidyverse)
 library(readr)
@@ -18,9 +18,9 @@ library(tidyr)
 library(ggplot2)
 library(dplyr)
 library(sf)
-install.packages("maps")
+#install.packages("maps")
 library(maps)
-install.packages("formattable")
+#install.packages("formattable")
 library(formattable)
 ```
 

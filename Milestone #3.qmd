@@ -264,7 +264,7 @@ ca_pop_clean <- ca_pop_clean %>% mutate(
 ca_pop_clean <- ca_pop_clean %>% mutate(
   age_category = case_when(
     age_category %in% c("0-4", "5-11", "12-17") ~ "0-17",
-    TRUE ~ NA_character_
+    TRUE ~ age_category
   )
 )
 

@@ -17,7 +17,7 @@
 "Amador","Asian, Non-Hispanic",53,4,586,9.04436860068259,0.68259385665529
 "Amador","Black, Non-Hispanic",94,1,1360,6.91176470588235,0.0735294117647059
 "Amador","Hispanic (any race)",467,15,6736,6.93289786223278,0.222684085510689
-"Amador","Multiracial (two or more of above races), Non-Hispanic",101,1,2050,4.92682926829268,0.048780487804878
+"Amador","Multiracial (two or more of above races), Non-Hispanic",101,1,2050,4.92682926829268,0.0487804878048781
 "Amador","Native Hawaiian or Pacific Islander, Non-Hispanic",5,0,83,6.02409638554217,0
 "Amador","White, Non-Hispanic",2751,116,28693,9.58770431812637,0.404279789495696
 "Butte","American Indian or Alaska Native, Non-Hispanic",296,9,3005,9.85024958402662,0.299500831946755
@@ -86,10 +86,10 @@
 "Imperial","American Indian or Alaska Native, Non-Hispanic",739,11,1863,39.6672034353194,0.59044551798175
 "Imperial","Asian, Non-Hispanic",1049,29,3194,32.8428303068253,0.907952410770194
 "Imperial","Black, Non-Hispanic",2179,37,3270,66.6360856269113,1.13149847094801
-"Imperial","Hispanic (any race)",63833,1457,153907,41.4750466190622,0.946675589804233
+"Imperial","Hispanic (any race)",63833,1457,153907,41.4750466190622,0.946675589804232
 "Imperial","Multiracial (two or more of above races), Non-Hispanic",503,20,1727,29.125651418645,1.15807759119861
 "Imperial","Native Hawaiian or Pacific Islander, Non-Hispanic",43,0,91,47.2527472527472,0
-"Imperial","White, Non-Hispanic",10277,405,15587,65.933149419388,2.59831911208058
+"Imperial","White, Non-Hispanic",10277,405,15587,65.9331494193879,2.59831911208058
 "Inyo","American Indian or Alaska Native, Non-Hispanic",471,16,2089,22.5466730493059,0.765916706558162
 "Inyo","Asian, Non-Hispanic",76,3,289,26.2975778546713,1.03806228373702
 "Inyo","Black, Non-Hispanic",33,0,91,36.2637362637363,0
@@ -104,7 +104,7 @@
 "Kern","Multiracial (two or more of above races), Non-Hispanic",4042,83,25730,15.7092887679751,0.32258064516129
 "Kern","Native Hawaiian or Pacific Islander, Non-Hispanic",282,4,1168,24.1438356164384,0.342465753424658
 "Kern","White, Non-Hispanic",81498,2529,254585,32.0120981204706,0.993381385391912
-"Kings","American Indian or Alaska Native, Non-Hispanic",317,11,1351,23.4641006661732,0.81421169504071
+"Kings","American Indian or Alaska Native, Non-Hispanic",317,11,1351,23.4641006661732,0.814211695040711
 "Kings","Asian, Non-Hispanic",1288,43,4214,30.5647840531561,1.02040816326531
 "Kings","Black, Non-Hispanic",2341,48,7100,32.9718309859155,0.676056338028169
 "Kings","Hispanic (any race)",18072,343,102516,17.6284677513754,0.334581918919973
@@ -154,7 +154,7 @@
 "Mariposa","Native Hawaiian or Pacific Islander, Non-Hispanic",5,0,17,29.4117647058824,0
 "Mariposa","White, Non-Hispanic",1572,73,12052,13.0434782608696,0.605708596083638
 "Mendocino","American Indian or Alaska Native, Non-Hispanic",346,18,3436,10.069848661234,0.523864959254948
-"Mendocino","Asian, Non-Hispanic",130,7,1803,7.210205213533,0.388241819190239
+"Mendocino","Asian, Non-Hispanic",130,7,1803,7.210205213533,0.388241819190238
 "Mendocino","Black, Non-Hispanic",54,1,615,8.78048780487805,0.16260162601626
 "Mendocino","Hispanic (any race)",2026,44,25975,7.79980750721848,0.16939364773821
 "Mendocino","Multiracial (two or more of above races), Non-Hispanic",254,9,4697,5.40770704705131,0.191611667021503
@@ -182,7 +182,7 @@
 "Mono","Native Hawaiian or Pacific Islander, Non-Hispanic",1,0,28,3.57142857142857,0
 "Mono","White, Non-Hispanic",839,33,8603,9.75241194932,0.383587120771824
 "Monterey","American Indian or Alaska Native, Non-Hispanic",159,4,1508,10.5437665782493,0.26525198938992
-"Monterey","Asian, Non-Hispanic",2521,102,26280,9.59284627092846,0.388127853881278
+"Monterey","Asian, Non-Hispanic",2521,102,26280,9.59284627092846,0.388127853881279
 "Monterey","Black, Non-Hispanic",1215,36,10611,11.4503816793893,0.339270568278202
 "Monterey","Hispanic (any race)",24821,553,256581,9.67374825103963,0.215526480916358
 "Monterey","Multiracial (two or more of above races), Non-Hispanic",977,20,14254,6.85421636031991,0.140311491511155
@@ -246,7 +246,7 @@
 "San Benito","White, Non-Hispanic",2004,80,17716,11.3118085346579,0.451569202980357
 "San Bernardino","American Indian or Alaska Native, Non-Hispanic",2044,73,8356,24.4614648157013,0.873623743417903
 "San Bernardino","Asian, Non-Hispanic",30740,883,180526,17.028018124813,0.489126220045866
-"San Bernardino","Black, Non-Hispanic",41066,965,172238,23.8425899046668,0.56027125256912
+"San Bernardino","Black, Non-Hispanic",41066,965,172238,23.8425899046668,0.560271252569119
 "San Bernardino","Hispanic (any race)",244773,4729,1186707,20.6262371419398,0.398497691511047
 "San Bernardino","Multiracial (two or more of above races), Non-Hispanic",10315,201,66067,15.6129383807347,0.304236608291583
 "San Bernardino","Native Hawaiian or Pacific Islander, Non-Hispanic",1429,26,6617,21.5958893758501,0.392927308447937
@@ -370,7 +370,7 @@
 "Trinity","Multiracial (two or more of above races), Non-Hispanic",58,2,1000,5.8,0.2
 "Trinity","Native Hawaiian or Pacific Islander, Non-Hispanic",1,0,28,3.57142857142857,0
 "Trinity","White, Non-Hispanic",1007,47,10864,9.26914580265096,0.432621502209131
-"Tulare","American Indian or Alaska Native, Non-Hispanic",832,16,3075,27.0569105691057,0.520325203252033
+"Tulare","American Indian or Alaska Native, Non-Hispanic",832,16,3075,27.0569105691057,0.520325203252032
 "Tulare","Asian, Non-Hispanic",3861,107,14830,26.0350640593392,0.721510451786918
 "Tulare","Black, Non-Hispanic",1398,35,5450,25.651376146789,0.642201834862385
 "Tulare","Hispanic (any race)",69661,1283,331992,20.9827345237235,0.386455095303501
