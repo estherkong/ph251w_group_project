@@ -8,8 +8,7 @@ editor: visual
 
 ------------------------------------------------------------------------
 
-```{r}
-#| include: FALSE
+```{r, include=FALSE}
 #Load required packages
 library(tidyverse)
 library(readr)
@@ -26,7 +25,7 @@ library(formattable)
 
 # Milestone #4
 
-```{r}
+```{r, include=F}
 # import clean datasets 
 data_file <- "https://raw.githubusercontent.com/estherkong/ph251w_group_project/refs/heads/main/ca_pop_clean.csv"
 ca_pop_clean <- read_csv(data_file)
@@ -58,11 +57,9 @@ all_three_joined <- read_csv(data_file8)
 data_file9 <- "https://raw.githubusercontent.com/estherkong/ph251w_group_project/refs/heads/main/morbidity_combined.csv"
 morbidity_combined <- read_csv(data_file9)
 ```
-
+## Map of New Infections by County
 ```{r}
-
 # map of new infections by county
-
 
 ca_counties <- map_data("county") %>%
   filter(region == "california")
@@ -93,7 +90,7 @@ ggplot(map_data, aes(long, lat, group = group, fill = new_infections_per_capita)
 summary(map_data$new_infections_per_capita)
 
 ```
-
+## Table of Infections per Race/County
 ```{r}
 
 #table 
@@ -127,3 +124,44 @@ as.datatable(
   caption = "New Infection Cases by Race/Ethnicity over Population"
 )
 ```
+## Plot of infection distributions by age
+```{r}
+# re-stratify datasets by age categories
+age_ca_pop <- ca_pop_clean %>%
+  group_by(age_category) %>% 
+  summarize(pop = sum(pop)) %>% 
+  ungroup()
+
+age_morbidity_infections <- morbidity_combined %>% 
+  group_by(age_category) %>% 
+  summarise("new_infections" = sum(new_infections),
+            "new_severe" = sum(new_severe)) %>% 
+  ungroup()
+
+# join age datasets together
+age_joined <- left_join(age_morbidity_infections,
+                              age_ca_pop, 
+                              by = c("age_category"))
+
+# calculate infection rates per 100 ppl for age groups and pivot for plotting
+age_rates <- age_joined %>% 
+  mutate(new_inf_rate = round((new_infections/pop)*100, digits=3),
+         new_severe_rate = round((new_severe/pop)*100,digits=3)) %>% 
+  pivot_longer(cols = c(new_inf_rate, new_severe_rate),
+               names_to = "variable", values_to = "rate") %>% 
+  mutate(variable = recode(variable,
+                           new_inf_rate = "New infections",
+                           new_severe_rate = "New severe infections"))
+
+# create plot
+age_plot <- ggplot(data = age_rates,
+                   aes(x = age_category, y = rate, fill=variable)) +
+  geom_col(position = "dodge") +
+  labs(fill = "Infection type",
+       title = "New and Severe Infections in California by Age Group",
+       y= "New infections per 100 people",
+       x = "Age group",
+       caption = "New infections rate and new severe infections rate is highest among those aged 65+.")
+age_plot
+```
+
