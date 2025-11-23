@@ -148,21 +148,23 @@ race_infections_table <- race_infections_clean %>%
 
 library(DT)
 
-datatable(formattable(race_infections_table, 
+datatable(
+  formattable(
+    race_infections_table, 
     align = c("l", rep("r", NCOL(race_infections_table)))
-    ),
+  ),
   options = list(
-    pageLength = 10,
-    scrollX = TRUE,             
-    autoWidth = TRUE            
+    pageLength = 15,
+    scrollX = TRUE,
+    autoWidth = TRUE
   ),
   caption = "Imperial and Merced Counties have the highest rates of infection. American Indian or Alaska Native (Non-Hispanic) have the highest per capita rates."
 ) %>%
-  formatRound(columns = 2:ncol(race_infections_clean), digits = 2) %>%
+  formatRound(columns = 2:ncol(race_infections_table), digits = 2) %>%
   formatStyle(
     'County',
     fontWeight = 'bold',
-    fontSize = '12px'            
+    fontSize = '12px'
   )
 ```
 
