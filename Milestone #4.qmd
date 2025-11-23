@@ -4,6 +4,7 @@ author: "Carli Boyd, Esther Kong, Pamela Pichon"
 date: November 20, 2025
 format: html
 editor: visual
+widgetframe: true
 ---
 
 ------------------------------------------------------------------------
