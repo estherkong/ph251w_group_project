@@ -1,7 +1,7 @@
 ---
 title: "Milestone #4 for Infectious Disease Outbreak"
 author: "Carli Boyd, Esther Kong, Pamela Pichon"
-date: Nobember 20, 2025
+date: November 20, 2025
 format: html
 editor: visual
 ---
@@ -9,18 +9,18 @@ editor: visual
 ------------------------------------------------------------------------
 
 ```{r, include=FALSE}
-#Load required packages
+# Install packages if needed
+if (!require("maps")) install.packages("maps")
+if (!require("formattable")) install.packages("formattable")
+if (!require("plotly")) install.packages("plotly")
+
+# Load required packages
 library(tidyverse)
-library(readr)
 library(readxl)
-library(tidyr)
-library(ggplot2)
-library(dplyr)
 library(sf)
-#install.packages("maps")
 library(maps)
-#install.packages("formattable")
 library(formattable)
+library(plotly)
 ```
 
 # Milestone #4
@@ -135,44 +135,84 @@ as.datatable(
 )
 ```
 
-## Plot of infection distributions by age
 
+## Time trends of infections
 ```{r}
-# re-stratify datasets by age categories
+# re-stratify datasets by epi week
+epiweek_morbidity_infections <- morbidity_combined %>% 
+  group_by(age_category,diagnosis_date) %>% 
+  summarise("new_infections" = sum(new_infections),
+            "new_severe" = sum(new_severe)) %>% 
+  ungroup()
+
 age_ca_pop <- ca_pop_clean %>%
   group_by(age_category) %>% 
   summarize(pop = sum(pop)) %>% 
   ungroup()
 
-age_morbidity_infections <- morbidity_combined %>% 
-  group_by(age_category) %>% 
-  summarise("new_infections" = sum(new_infections),
-            "new_severe" = sum(new_severe)) %>% 
-  ungroup()
-
 # join age datasets together
-age_joined <- left_join(age_morbidity_infections,
+epiweek_age_joined <- left_join(epiweek_morbidity_infections,
                               age_ca_pop, 
                               by = c("age_category"))
 
-# calculate infection rates per 100 ppl for age groups and pivot for plotting
-age_rates <- age_joined %>% 
-  mutate(new_inf_rate = round((new_infections/pop)*100, digits=3),
-         new_severe_rate = round((new_severe/pop)*100,digits=3)) %>% 
-  pivot_longer(cols = c(new_inf_rate, new_severe_rate),
-               names_to = "variable", values_to = "rate") %>% 
-  mutate(variable = recode(variable,
-                           new_inf_rate = "New infections",
-                           new_severe_rate = "New severe infections"))
+# calculate infection rates per 100 ppl for epiweek/race groups
+epiweek_rates <- epiweek_age_joined %>% 
+  mutate(new_inf_rate = round((new_infections/pop)*1000, digits=3),
+         new_severe_rate = round((new_severe/pop)*1000,digits=3))
 
-# create plot
-age_plot <- ggplot(data = age_rates,
-                   aes(x = age_category, y = rate, fill=variable)) +
-  geom_col(position = "dodge") +
-  labs(fill = "Infection type",
-       title = "New and Severe Infections in California by Age Group",
-       y= "New infections per 100 people",
-       x = "Age group",
-       caption = "New infections rate and new severe infections rate is highest among those aged 65+.")
-age_plot
+# graph
+epiweek_new_plot <- plot_ly(
+  epiweek_rates,
+  x = ~diagnosis_date,
+  y = ~new_inf_rate,
+  type = 'scatter',
+  mode = 'lines',
+  color = ~age_category,
+  legendgroup = "age",
+  showlegend = TRUE
+)
+
+epiweek_severe_plot <- plot_ly(
+  epiweek_rates,
+  x = ~diagnosis_date,
+  y = ~new_severe_rate,
+  type = 'scatter',
+  mode = 'lines',
+  color = ~age_category,
+  legendgroup = "age",
+  showlegend = FALSE
+)
+
+epiweek_plot <- subplot(
+  epiweek_new_plot,
+  epiweek_severe_plot,
+  nrows = 1,
+  shareX = TRUE,
+  titleY = FALSE,
+  titleX = FALSE
+) %>%
+  layout(title = list(
+      text = "New and Severe Case Rates by Age",
+      x = 0.45, y=1.2,
+      xanchor = "center",
+      font = list(size = 16, color = "black")
+    ),
+    annotations = list(
+      list(x = 0.15, y = 1.05, text = "New Infections", 
+           xref = "paper", yref = "paper", showarrow = FALSE),
+      list(x = 0.85, y = 1.05, text = "New Severe Infections", 
+           xref = "paper", yref = "paper", showarrow = FALSE),
+      list(x = 0.5, y = -0.2,
+           text = "Infection rates are highest between early August to late October.<br>Both new and severe infection rates are highest among those aged 65+.",
+           xref = "paper", yref = "paper", showarrow = FALSE)
+    ),
+    margin = list(t = 70, b = 90),
+    yaxis = list(title = "Cases per 1000 people"),
+    xaxis = list(zeroline = FALSE),
+    legend = list(title = list(text = "Age")),
+    plot_bgcolor = '#e5ecf6'
+  )
+
+epiweek_plot
 ```
+
