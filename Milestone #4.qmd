@@ -61,21 +61,21 @@ morbidity_combined <- read_csv(data_file9)
 
 ## Map of New Infections by County
 
-```{r}
+```{r, warning=FALSE}
 # map of new infections by county
 
 ca_counties <- map_data("county") %>%
   filter(region == "california")
 
-stratified_rate_infections <- stratified_rate_infections %>%
+stratified_rate_infections_lower <- stratified_rate_infections %>%
   mutate(county = str_to_lower(county))
 
 map_data <- ca_counties %>%
-  left_join(stratified_rate_infections, by = c("subregion" = "county"))
+  left_join(stratified_rate_infections_lower, by = c("subregion" = "county"))
 
 # map
 
-long_caption <- "The map shows that Imperial County has the highest new infections in 2023. It appears that the coastal counties have a lower rate of new infections."
+long_caption <- "The map shows that Imperial County has the highest new infections in 2023. It appears that the coastal counties may have a lower rate of new infections."
 wrapped_caption <- str_wrap(long_caption, width = 50) 
 
        
@@ -94,9 +94,6 @@ ggplot(map_data, aes(long, lat, group = group, fill = new_infections_per_capita)
 )
 
 
-
-
-summary(map_data$new_infections_per_capita)
 
 ```
 
@@ -170,7 +167,7 @@ datatable(
 
 ## Time trends of infections
 
-```{r}
+```{r, warning=FALSE}
 # re-stratify datasets by epi week
 epiweek_morbidity_infections <- morbidity_combined %>% 
   group_by(age_category,diagnosis_date) %>% 
