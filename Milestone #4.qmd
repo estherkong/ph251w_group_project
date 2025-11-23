@@ -15,6 +15,7 @@ if (!require("formattable")) install.packages("formattable")
 if (!require("plotly")) install.packages("plotly")
 
 # Load required packages
+library(dplyr)
 library(tidyverse)
 library(readxl)
 library(sf)
@@ -99,44 +100,74 @@ summary(map_data$new_infections_per_capita)
 
 ```
 
-## Table of Infections per Race/County
+## Table of Infections Per Capita per Race/Ethnicity and County
+
+race_infections_table \<- race_infections_clean %\>%
+
+select(County, \`American Indian or Alaska Native Non-Hispanic\`, \`Asian Non-Hispanic', Black Non-Hispanic\`, \`Hispanic (Any Race)\`, \`Multiracial (Two or More Above Races)\`, \`Total Infections per Capita per County\`)
 
 ```{r}
 
-#table 
+#Reformatting df for Table and adding Total per Capita for each County
 
-race_infections_tbl <- stratified_rate_infections %>%
+race_infections_clean <- stratified_rate_infections %>%
   pivot_wider(
     id_cols = county,
     names_from = race_ethnicity,
-    values_from = c("new infections", "pop")
-  )
-#renaming columns 
+    values_from = c("new_infections_per_capita", "pop")
+  ) %>% 
+  mutate(`total infected per capita` = rowSums(select(., 2:7), na.rm = TRUE)
+  ) 
 
-colnames(race_infections_tbl) <- c("County", "American Indian or Alaska Native Non-Hispanic", "Asian Non-Hispanic", "Black Non-Hispanic", "Hispanic (Any Race)", "Multiracial (Two or More of Above Races)", "Native Hawaiian or Pacific Islander Non-Hispanic", "White Non-Hispanic", "American Indian or Alaska Native Non-Hispanic Pop", "Asian Non-Hispanic Pop",  "Black Non-Hispanic Pop", "Hispanic (Any Race) Pop", "Multiracial (Two or More of Above Races) Pop", "Native Hawaiian or Pacific Islander Non-Hispanic Pop", "White Non-Hispanic Pop") 
+#Renaming columns 
 
-#rearrange the columns 
+colnames(race_infections_clean) <- c("County", "American Indian or Alaska Native Non-Hispanic", "Asian Non-Hispanic", "Black Non-Hispanic", "Hispanic (Any Race)", "Multiracial (Two or More of Above Races)", "Native Hawaiian or Pacific Islander Non-Hispanic", "White Non-Hispanic", "American Indian or Alaska Native Non-Hispanic Pop", "Asian Non-Hispanic Pop",  "Black Non-Hispanic Pop", "Hispanic (Any Race) Pop", "Multiracial (Two or More of Above Races) Pop", "Native Hawaiian or Pacific Islander Non-Hispanic Pop", "White Non-Hispanic Pop", "Total Infections per Capita per County") 
 
-race_infections_clean <- race_infections_tbl %>%
-  select(County, `American Indian or Alaska Native Non-Hispanic`, `American Indian or Alaska Native Non-Hispanic Pop`,`Asian Non-Hispanic`, `Asian Non-Hispanic Pop`, `Black Non-Hispanic`, `Black Non-Hispanic Pop`,`Hispanic (Any Race)`, `Hispanic (Any Race) Pop`, `Multiracial (Two or More of Above Races)`,`Multiracial (Two or More of Above Races) Pop`, `Native Hawaiian or Pacific Islander Non-Hispanic`, `Native Hawaiian or Pacific Islander Non-Hispanic Pop`, `White Non-Hispanic`, `White Non-Hispanic Pop`)
+#Adding Total per Capita for each Race/Ethnic Group Category
 
-#add column of urban / rural? 
-
-#add rates ?
-
-#table attempt - will continue working on this - 
-
-as.datatable(
-  formattable(race_infections_clean, 
-    align = c("l", rep("r", NCOL(race_infections_clean)))
-  ),
-  options = list(pageLength = 10),
-  caption = "New Infection Cases by Race/Ethnicity over Population"
+race_group <- c(
+  "American Indian or Alaska Native Non-Hispanic",
+  "Asian Non-Hispanic",
+  "Black Non-Hispanic",
+  "Hispanic (Any Race)",
+  "Multiracial (Two or More of Above Races)"
 )
+
+race_sum <- race_infections_clean %>%
+  summarise(across(all_of(race_group), ~ sum(.x, na.rm = TRUE))) %>%
+  mutate(County = "Total per each Race/Ethnic Group")
+
+race_infections_clean <- bind_rows(race_infections_clean, race_sum)
+
+#Rearranging and Select the columns 
+
+race_infections_table <- race_infections_clean %>%
+  select(County, `American Indian or Alaska Native Non-Hispanic`, `Asian Non-Hispanic`, `Black Non-Hispanic`, `Hispanic (Any Race)`, `Multiracial (Two or More of Above Races)`, `Total Infections per Capita per County`)
+
+#Creating Table Visualization
+
+library(DT)
+
+datatable(formattable(race_infections_table, 
+    align = c("l", rep("r", NCOL(race_infections_table)))
+    ),
+  options = list(
+    pageLength = 10,
+    scrollX = TRUE,             
+    autoWidth = TRUE            
+  ),
+  caption = "Imperial and Merced Counties have the highest rates of infection. American Indian or Alaska Native (Non-Hispanic) have the highest per capita rates."
+) %>%
+  formatRound(columns = 2:ncol(race_infections_clean), digits = 2) %>%
+  formatStyle(
+    'County',
+    fontWeight = 'bold',
+    fontSize = '12px'            
+  )
 ```
 
-
 ## Time trends of infections
+
 ```{r}
 # re-stratify datasets by epi week
 epiweek_morbidity_infections <- morbidity_combined %>% 
@@ -215,4 +246,3 @@ epiweek_plot <- subplot(
 
 epiweek_plot
 ```
-
