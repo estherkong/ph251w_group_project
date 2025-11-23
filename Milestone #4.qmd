@@ -22,6 +22,7 @@ library(sf)
 library(maps)
 library(formattable)
 library(plotly)
+library(DT)
 ```
 
 # Milestone #4
