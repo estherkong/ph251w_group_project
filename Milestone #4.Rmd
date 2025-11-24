@@ -1,0 +1,296 @@
+---
+title: 'Milestone #4'
+author: "Carli Boyd, Esther Kong, Pamela Pichon"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r, include=FALSE}
+# Install packages if needed
+if (!require("maps")) install.packages("maps")
+if (!require("formattable")) install.packages("formattable")
+if (!require("plotly")) install.packages("plotly")
+
+# Load required packages
+library(dplyr)
+library(tidyverse)
+library(readxl)
+library(sf)
+library(maps)
+library(formattable)
+library(plotly)
+library(DT)
+```
+
+# Milestone #4
+
+```{r, include=F}
+# import clean datasets 
+data_file <- "https://raw.githubusercontent.com/estherkong/ph251w_group_project/refs/heads/main/ca_pop_clean.csv"
+ca_pop_clean <- read_csv(data_file)
+
+data_file1 <- "https://raw.githubusercontent.com/estherkong/ph251w_group_project/refs/heads/main/la_county_clean.csv"
+la_county_clean <- read_csv(data_file1)
+
+data_file2 <- "https://raw.githubusercontent.com/estherkong/ph251w_group_project/refs/heads/main/novelid_clean.csv"
+novelid_clean <- read_csv(data_file2)
+
+data_file3 <- "https://raw.githubusercontent.com/estherkong/ph251w_group_project/refs/heads/main/Stratified_morbidity_infections.csv"
+stratified_morbidity_infections <- read_csv(data_file3)
+
+data_file4 <- "https://raw.githubusercontent.com/estherkong/ph251w_group_project/refs/heads/main/stratified_rate_infections.csv"
+stratified_rate_infections <- read_csv(data_file4)
+
+data_file5 <- "https://raw.githubusercontent.com/estherkong/ph251w_group_project/refs/heads/main/stratified_ca_pop.csv"
+stratified_ca_pop <- read_csv(data_file5)
+
+data_file6 <- "https://raw.githubusercontent.com/estherkong/ph251w_group_project/refs/heads/main/summary_table.csv"
+summary_table <- read_csv(data_file6)
+
+data_file7 <- "https://raw.githubusercontent.com/estherkong/ph251w_group_project/refs/heads/main/data_dictionary.csv"
+data_dictionary <- read_csv(data_file7)
+
+data_file8 <- "https://raw.githubusercontent.com/estherkong/ph251w_group_project/refs/heads/main/all_three_joined.csv"
+all_three_joined <- read_csv(data_file8)
+
+data_file9 <- "https://raw.githubusercontent.com/estherkong/ph251w_group_project/refs/heads/main/morbidity_combined.csv"
+morbidity_combined <- read_csv(data_file9)
+```
+
+## Map of New Infections by County
+
+```{r, warning=FALSE}
+# map of new infections by county
+
+ca_counties <- map_data("county") %>%
+  filter(region == "california")
+
+stratified_rate_infections_lower <- stratified_rate_infections %>%
+  mutate(county = str_to_lower(county))
+
+map_data <- ca_counties %>%
+  left_join(stratified_rate_infections_lower, by = c("subregion" = "county"))
+
+# map
+
+long_caption <- "The map shows that Imperial County has the highest new infections in 2023. It appears that the coastal counties may have a lower rate of new infections."
+wrapped_caption <- str_wrap(long_caption, width = 50) 
+
+       
+
+ggplot(map_data, aes(long, lat, group = group, fill = new_infections_per_capita)) +
+  geom_polygon(color = "white") +
+  scale_fill_viridis_c(option = "magma", limits = c(0,50), na.value = "grey") +
+  labs(title = "Heat Map of New Infections per Capita by County, 2023", fill = "Infection Rate", caption = wrapped_caption) +
+  theme_void() + 
+  theme(
+  plot.title = element_text(hjust = 0.5, margin = margin(b = 10)),
+  legend.position = "right",
+  legend.title = element_text(size = 10),
+  legend.text = element_text(size = 8),
+  plot.margin = margin(t = 20, r = 20, b = 20, l = 20)
+)
+
+
+
+```
+
+## Table of Infections Per Capita per Race/Ethnicity and County
+
+race_infections_table \<- race_infections_clean %\>%
+
+select(County, \`American Indian or Alaska Native Non-Hispanic\`, \`Asian Non-Hispanic', Black Non-Hispanic\`, \`Hispanic (Any Race)\`, \`Multiracial (Two or More Above Races)\`, \`Total Infections per Capita per County\`)
+
+(
+
+"American Indian or Alaska Native (Non-Hispanic)",
+
+"Asian (Non-Hispanic)",
+
+"Black (Non-Hispanic)",
+
+"Hispanic (Any Race)",
+
+"Multiracial (Two or More of Above Races)",
+
+"Native Hawaiian or Pacific Islander (Non-Hispanic)"
+
+"White (Non-Hispanic)"
+
+)
+
+race_infections_table,
+
+options = list(
+
+pageLength = 15,
+
+scrollX = TRUE,
+
+autoWidth = TRUE
+
+)
+
+) %\>%
+
+formatStyle(
+
+columns = 2,
+
+valueColumns = 2,
+
+color = styleEqual(race_infections_table\[8, 2\], 'red')
+
+) %\>%
+
+formatStyle(
+
+columns = 8,
+
+valueColumns = 8,
+
+color = styleEqual(race_infections_table\[8, 8\], 'red')
+
+)
+
+```{r}
+
+#Reformatting df for Table 
+
+race_infections_clean <- stratified_rate_infections %>%
+  pivot_wider(
+    id_cols = county,
+    names_from = race_ethnicity,
+    values_from = c("new_infections_per_capita", "pop")
+  )
+
+#Renaming columns 
+
+colnames(race_infections_clean) <- c("County", "American Indian or Alaska Native (Non-Hispanic)", "Asian (Non-Hispanic)", "Black (Non-Hispanic)", "Hispanic (Any Race)", "Multiracial (Two or More of Above Races)", "Native Hawaiian or Pacific Islander (Non-Hispanic)", "White (Non-Hispanic)", "American Indian or Alaska Native (Non-Hispanic) Pop", "Asian (Non-Hispanic) Pop",  "Black (Non-Hispanic) Pop", "Hispanic (Any Race) Pop", "Multiracial (Two or More of Above Races) Pop", "Native Hawaiian or Pacific Islander (Non-Hispanic) Pop", "White (Non-Hispanic) Pop")
+
+#Adding Total per Capita for each Race/Ethnic Group Category
+
+race_group <- c(
+  "American Indian or Alaska Native (Non-Hispanic)",
+  "Asian (Non-Hispanic)",
+  "Black (Non-Hispanic)",
+  "Hispanic (Any Race)",
+  "Multiracial (Two or More of Above Races)",
+  "Native Hawaiian or Pacific Islander (Non-Hispanic)",
+  "White (Non-Hispanic)"
+)
+
+race_sum <- race_infections_clean %>%
+  summarise(across(all_of(race_group), ~ sum(.x, na.rm = TRUE))) %>%
+  mutate(County = "Total per each Race/Ethnic Group")
+
+race_infections_clean <- bind_rows(race_infections_clean, race_sum)
+
+#Rearranging and Select the columns 
+
+race_infections_table <- race_infections_clean %>%
+  select(County, `American Indian or Alaska Native (Non-Hispanic)`, `Asian (Non-Hispanic)`, `Black (Non-Hispanic)`, `Hispanic (Any Race)`, `Multiracial (Two or More of Above Races)`, `Native Hawaiian or Pacific Islander (Non-Hispanic)`, `White (Non-Hispanic)`
+)
+
+#Creating Table Visualization
+
+#Adding Bolded Values and Color
+datatable(
+  race_infections_table,
+  options = list(
+    pageLength = 15,
+    scrollX = TRUE,
+    autoWidth = TRUE
+  ),
+  caption = "Rate of Infections per Capita by Race and Ethnic Group per County"
+) %>%
+  formatRound(columns = 2:ncol(race_infections_table), digits = 2) %>%
+  formatStyle(1,color="darkgreen") %>%
+  formatStyle(
+    columns = c(2, 8),
+    fontWeight = 'bold'
+  )
+
+#Table Description: "American Indian or Alaska Native (Non-Hispanic) and White (Non-Hispanic) racial and ethnic groups have the highest per capita rates in total in California. "
+```
+
+## Time trends of infections
+
+```{r, warning=FALSE}
+# re-stratify datasets by epi week
+epiweek_morbidity_infections <- morbidity_combined %>% 
+  group_by(age_category,diagnosis_date) %>% 
+  summarise("new_infections" = sum(new_infections),
+            "new_severe" = sum(new_severe)) %>% 
+  ungroup()
+
+age_ca_pop <- ca_pop_clean %>%
+  group_by(age_category) %>% 
+  summarize(pop = sum(pop)) %>% 
+  ungroup()
+
+# join age datasets together
+epiweek_age_joined <- left_join(epiweek_morbidity_infections,
+                              age_ca_pop, 
+                              by = c("age_category"))
+
+# calculate infection rates per 100 ppl for epiweek/race groups
+epiweek_rates <- epiweek_age_joined %>% 
+  mutate(new_inf_rate = round((new_infections/pop)*1000, digits=3),
+         new_severe_rate = round((new_severe/pop)*1000,digits=3))
+
+# graph
+epiweek_new_plot <- plot_ly(
+  epiweek_rates,
+  x = ~diagnosis_date,
+  y = ~new_inf_rate,
+  type = 'scatter',
+  mode = 'lines',
+  color = ~age_category,
+  legendgroup = "age",
+  showlegend = TRUE
+)
+
+epiweek_severe_plot <- plot_ly(
+  epiweek_rates,
+  x = ~diagnosis_date,
+  y = ~new_severe_rate,
+  type = 'scatter',
+  mode = 'lines',
+  color = ~age_category,
+  legendgroup = "age",
+  showlegend = FALSE
+)
+
+epiweek_plot <- subplot(
+  epiweek_new_plot,
+  epiweek_severe_plot,
+  nrows = 1,
+  shareX = TRUE,
+  titleY = FALSE,
+  titleX = FALSE
+) %>%
+  layout(title = list(
+      text = "New and Severe Case Rates by Age",
+      x = 0.45, y=1.2,
+      xanchor = "center",
+      font = list(size = 16, color = "black")
+    ),
+    annotations = list(
+      list(x = 0.15, y = 1.05, text = "New Infections", 
+           xref = "paper", yref = "paper", showarrow = FALSE),
+      list(x = 0.85, y = 1.05, text = "New Severe Infections", 
+           xref = "paper", yref = "paper", showarrow = FALSE),
+      list(x = 0.5, y = -0.2,
+           text = "Infection rates are highest between early August to late October.<br>Both new and severe infection rates are highest among those aged 65+.",
+           xref = "paper", yref = "paper", showarrow = FALSE)
+    ),
+    margin = list(t = 70, b = 90),
+    yaxis = list(title = "Cases per 1000 people"),
+    xaxis = list(zeroline = FALSE),
+    legend = list(title = list(text = "Age")),
+    plot_bgcolor = '#e5ecf6'
+  )
+
+epiweek_plot
+```
