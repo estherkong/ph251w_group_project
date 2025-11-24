@@ -22,7 +22,7 @@ library(plotly)
 library(DT)
 ```
 
-# Milestone #4
+# Visualizations for Scenario 1
 
 ```{r, include=F}
 # import clean datasets 
@@ -59,7 +59,7 @@ morbidity_combined <- read_csv(data_file9)
 
 ## Map of New Infections by County
 
-```{r, warning=FALSE}
+```{r, error=FALSE, warning=FALSE}
 # map of new infections by county
 
 ca_counties <- map_data("county") %>%
@@ -154,12 +154,13 @@ datatable(race_infections_table,
     fontWeight = styleEqual(13, "bold"),
     color = styleEqual(13, "red"))
 
-```
 ## Table Description: "American Indian or Alaska Native (Non-Hispanic) and White (Non-Hispanic) racial and ethnic groups have the highest per capita rates of new infections in total in California. Specifically, the highest per capita rates of new infections for these racial and ethnic groups are in Imperial County. "
+```
 
-## Time trends of infections
 
-```{r, warning=FALSE}
+## Time trends of infections by age group
+
+```{r, error=FALSE, warning=FALSE, message=FALSE}
 # re-stratify datasets by epi week
 epiweek_morbidity_infections <- morbidity_combined %>% 
   group_by(age_category,diagnosis_date) %>% 
@@ -177,7 +178,7 @@ epiweek_age_joined <- left_join(epiweek_morbidity_infections,
                               age_ca_pop, 
                               by = c("age_category"))
 
-# calculate infection rates per 100 ppl for epiweek/race groups
+# calculate infection rates per 1000 ppl for epiweek/age groups
 epiweek_rates <- epiweek_age_joined %>% 
   mutate(new_inf_rate = round((new_infections/pop)*1000, digits=3),
          new_severe_rate = round((new_severe/pop)*1000,digits=3))
@@ -222,7 +223,7 @@ epiweek_plot <- subplot(
     annotations = list(
       list(x = 0.15, y = 1.05, text = "New Infections", 
            xref = "paper", yref = "paper", showarrow = FALSE),
-      list(x = 0.85, y = 1.05, text = "New Severe Infections", 
+      list(x = 0.875, y = 1.05, text = "New Severe Infections", 
            xref = "paper", yref = "paper", showarrow = FALSE),
       list(x = 0.5, y = -0.2,
            text = "Infection rates are highest between early August to late October.<br>Both new and severe infection rates are highest among those aged 65+.",
