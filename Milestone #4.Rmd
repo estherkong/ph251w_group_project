@@ -119,9 +119,9 @@ race_group <- c(
   "Asian (Non-Hispanic)",
   "Black (Non-Hispanic)",
   "Hispanic (Any Race)",
-  "Multiracial (Two or More Races)",
   "Native Hawaiian or Pacific Islander (Non-Hispanic)",
-  "White (Non-Hispanic)"
+  "White (Non-Hispanic)",
+  "Multiracial (Two or More Races)"
 )
 
 race_sum <- race_infections_clean %>%
@@ -154,7 +154,7 @@ datatable(race_infections_table,
     fontWeight = styleEqual(13, "bold"),
     color = styleEqual(13, "red"))
 
-## Table Description: "American Indian or Alaska Native (Non-Hispanic) and White (Non-Hispanic) racial and ethnic groups have the highest per capita rates of new infections (newly infected individuals over population of that racial/ethnic category in each county) in total in California. Specifically, the highest per capita rates of new infections for these racial and ethnic groups are in Imperial County. "
+## Table Description: "American Indian or Alaska Native (Non-Hispanic) and White (Non-Hispanic) racial and ethnic groups have the highest per capita rates of new infections (newly infected individuals over the population of that racial/ethnic category in each county) in total in California. Specifically, the highest per capita rates of new infections for these racial and ethnic groups are in Imperial County. "
 ```
 
 ## Time trends of infections by age group
