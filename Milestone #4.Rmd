@@ -89,13 +89,13 @@ ggplot(map_data, aes(long, lat, group = group, fill = new_infections_per_capita)
   legend.title = element_text(size = 10),
   legend.text = element_text(size = 8),
   plot.margin = margin(t = 20, r = 20, b = 20, l = 20)
-)
+) + coord_fixed()
 
 
 
 ```
 
-## Table of New Infections Per Capita per Race and Ethnic Group in each County 
+## Table of New Infections Per Capita per Race and Ethnic Group in each County
 
 ```{r}
 
@@ -156,7 +156,6 @@ datatable(race_infections_table,
 
 ## Table Description: "American Indian or Alaska Native (Non-Hispanic) and White (Non-Hispanic) racial and ethnic groups have the highest per capita rates of new infections in total in California. Specifically, the highest per capita rates of new infections for these racial and ethnic groups are in Imperial County. "
 ```
-
 
 ## Time trends of infections by age group
 
