@@ -110,7 +110,7 @@ race_infections_clean <- stratified_rate_infections %>%
 
 #Renaming columns 
 
-colnames(race_infections_clean) <- c("County", "American Indian or Alaska Native (Non-Hispanic)", "Asian (Non-Hispanic)", "Black (Non-Hispanic)", "Hispanic (Any Race)", "Multiracial (Two or More of Above Races)", "Native Hawaiian or Pacific Islander (Non-Hispanic)", "White (Non-Hispanic)", "American Indian or Alaska Native (Non-Hispanic) Pop", "Asian (Non-Hispanic) Pop",  "Black (Non-Hispanic) Pop", "Hispanic (Any Race) Pop", "Multiracial (Two or More of Above Races) Pop", "Native Hawaiian or Pacific Islander (Non-Hispanic) Pop", "White (Non-Hispanic) Pop")
+colnames(race_infections_clean) <- c("County", "American Indian or Alaska Native (Non-Hispanic)", "Asian (Non-Hispanic)", "Black (Non-Hispanic)", "Hispanic (Any Race)", "Multiracial (Two or More Races)", "Native Hawaiian or Pacific Islander (Non-Hispanic)", "White (Non-Hispanic)", "American Indian or Alaska Native (Non-Hispanic) Pop", "Asian (Non-Hispanic) Pop",  "Black (Non-Hispanic) Pop", "Hispanic (Any Race) Pop", "Multiracial (Two or More of Above Races) Pop", "Native Hawaiian or Pacific Islander (Non-Hispanic) Pop", "White (Non-Hispanic) Pop")
 
 #Adding Total per Capita for each Race/Ethnic Group Category
 
@@ -119,7 +119,7 @@ race_group <- c(
   "Asian (Non-Hispanic)",
   "Black (Non-Hispanic)",
   "Hispanic (Any Race)",
-  "Multiracial (Two or More of Above Races)",
+  "Multiracial (Two or More Races)",
   "Native Hawaiian or Pacific Islander (Non-Hispanic)",
   "White (Non-Hispanic)"
 )
@@ -133,8 +133,8 @@ race_infections_clean <- bind_rows(race_infections_clean, race_sum)
 #Rearranging and Select the columns 
 
 race_infections_table <- race_infections_clean %>%
-  select(County, `American Indian or Alaska Native (Non-Hispanic)`, `Asian (Non-Hispanic)`, `Black (Non-Hispanic)`, `Hispanic (Any Race)`, `Multiracial (Two or More of Above Races)`, `Native Hawaiian or Pacific Islander (Non-Hispanic)`, `White (Non-Hispanic)`
-)
+  select(County, `American Indian or Alaska Native (Non-Hispanic)`, `Asian (Non-Hispanic)`, `Black (Non-Hispanic)`, `Hispanic (Any Race)`, `Native Hawaiian or Pacific Islander (Non-Hispanic)`, `White (Non-Hispanic)`, `Multiracial (Two or More Races)`
+         )
 
 #Creating Table Visualization with DT Package
 
@@ -154,7 +154,7 @@ datatable(race_infections_table,
     fontWeight = styleEqual(13, "bold"),
     color = styleEqual(13, "red"))
 
-## Table Description: "American Indian or Alaska Native (Non-Hispanic) and White (Non-Hispanic) racial and ethnic groups have the highest per capita rates of new infections in total in California. Specifically, the highest per capita rates of new infections for these racial and ethnic groups are in Imperial County. "
+## Table Description: "American Indian or Alaska Native (Non-Hispanic) and White (Non-Hispanic) racial and ethnic groups have the highest per capita rates of new infections (newly infected individuals over population of that racial/ethnic category in each county) in total in California. Specifically, the highest per capita rates of new infections for these racial and ethnic groups are in Imperial County. "
 ```
 
 ## Time trends of infections by age group
