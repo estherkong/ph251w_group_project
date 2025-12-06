@@ -1,0 +1,10 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/1377163/6d11b0e5c1fc46cd911edfc92f53115c
+bundleId: https://api.rpubs.com/api/v1/document/1377163/6d11b0e5c1fc46cd911edfc92f53115c
+url: http://rpubs.com/estherkong/1377163
+version: 1

@@ -92,14 +92,18 @@ This dataset is simulated, but approximates what population data from the State 
 ### Analytic methods
 First, the two disease infection datasets were joined together (Source 1 & 2) simply by binding the rows (added the rows from both datasets together). This generated a joined list of infection data for all counties in California.
 
-Next, strata of interest were identified. Since we're interested in the distribution of infections across race and geographic categories, the rows were grouped by county and then by race/ethnicity. Counts of the infections in each stratum were then summed up. Since both datasets have information on both 1. new infections and 2. new severe infections in separate columns, a sum for each of these two columns was obtained per stratum.
+Next, strata of interest were identified. Since we're interested in the distribution of infections across race and geographic categories, the rows were grouped by county and then by race/ethnicity. Counts of the infections in each stratum were then summed up to give a cumulative case count over the entire period of data collection (May to Dec 2023). Since both datasets have information on both 1. new infections and 2. new severe infections in separate columns, a sum for each of these two columns was obtained per stratum.
 
-This stratified summary of weekly new and severe case counts was left joined with the California population dataset, using county and race_ethnicity categories as keys. The resulting table shows the counts of weekly new infections, new severe infections, and total population count for each stratum.
+This stratified summary of cumulative new and severe case counts was left joined with the California population dataset, using county and race_ethnicity categories as keys. The resulting table shows the counts of cumulative new infections, new severe infections, and total population count for each stratum.
 
-To calculate the ra
+To calculate the cumulative incidence of new and severe cases per 100 individuals in each stratified demographic group, the count new or severe cases was divided by the population count for that group, and multiplied by 100.
+
+To obtain weekly incidence rate information, we went back to the joined infection data (Source 1 & 2) and then grouped by age category and diagnosis dates (diagnosis dates were measured once a week). The weekly new case and severe case counts were then summed up to give a total count for each week per age group. The population dataset (Source 3) was likewise grouped by age category, and then included in a left join with the stratified weekly case data. Weekly cases per 1000 individuals in each age group was calculated by dividing the weekly case count of each age group by the population of that age group, and multiplied by 1000.
 
 # Results
-## Map of weekly new infections by county
+## Map of cumulative new infections by county
+
+
 ```{r, echo=F, error=F, warning=F, message=F}
 # map of new infections by county
 
@@ -134,8 +138,9 @@ ggplot(map_data, aes(long, lat, group = group, fill = new_infections_per_capita)
 
 ```
 
-## Table of Weekly New Infections per 100 People per Race and Ethnic Group in each County
+Cumulative incidence of new cases, ignoring ethnicity differences in each county, was mapped. The map shows that Imperial County has the highest cumulative incidence of all the counties. Examining the granular data for Imperial county in the table below, the highest incidence was seen in the Black, Non-Hispanic population in this county, with a cumulative incidence of 66.64 cases/100 individuals. Cumulative incidence among White, Non-Hispanic population in this county was also close behind, with 65.93 cases/100 individuals. In contrast, the coastal counties generally have lower cumulative incidence of new infections.
 
+## Table of Cumulative New Infections per 100 People per Race and Ethnic Group in each County
 ```{r, echo=F, error=F, warning=F, message=F}
 
 #Reformatting df for Table 
@@ -183,7 +188,7 @@ datatable(race_infections_clean,
             pageLength = 15,
             scrollX = TRUE,
             autoWidth = TRUE),
-          caption = "Rate of Infections per Capita by Race and Ethnic Group per County") %>%
+          caption = "Cumulative Incidence of New Infections per 100 individuals by Race and Ethnic Group per County") %>%
   formatRound(columns = 2:ncol(race_infections_table), digits = 2) %>%
   formatStyle(1, color = "darkgreen") %>%
   formatStyle(
@@ -194,10 +199,16 @@ datatable(race_infections_clean,
     color = styleEqual(13, "red")
     )
 
-## Table Description: "American Indian or Alaska Native (Non-Hispanic) and White (Non-Hispanic) racial and ethnic groups have the highest per capita rates of new infections (newly infected individuals over the population of that racial/ethnic category in each county) in total in California. Specifically, the highest per capita rates of new infections for these racial and ethnic groups are in Imperial County. "
+## Table Description: "American Indian or Alaska Native (Non-Hispanic) and White (Non-Hispanic) racial and ethnic groups have the highest cumulative incidence rates of new infections (newly infected individuals over the population of that racial/ethnic category in each county) in total in California. Specifically, the highest per capita rates of new infections for these racial and ethnic groups are in Imperial County. "
 ```
 
-## Time trends of infections by age group
+American Indian or Alaska Native (Non-Hispanic) and White (Non-Hispanic) racial and ethnic groups have the highest cumulative incidence rates of new infections (newly infected individuals over the population of that racial/ethnic category in each county) in all of California during the outbreak from May to December of 2023. Specifically, the highest per capita rates of new infections for these racial and ethnic groups are in Imperial County.
+
+## Time trends of weekly infections by age group
+
+Observing the overall trends for weekly infections, it is evident that weekly new infections as well as severe infections seem to follow similar patterns. New infections begin to take off after the week of Jun 12, 2023, and rise steeply until the week of Aug 28, and remain high until week of Oct 18, before steeply dropping off and returning to baseline by week of Nov 20. Weekly severe infections follow the same shape, but trail behind new infections by 2 weeks, so severe case rates do not drop off until Oct 30, 2023 and only reach baseline the week of Dec 4.
+
+When separated by age group, the rate of weekly new infections follow the same shape for all age groups, but are the highest among those aged 65+, followed by those aged 18-49. The weekly severe infections, however, show that the weekly incidence of severe cases is extremely high in the older population, when compared with all other age groups.
 
 ```{r, echo=F, error=F, warning=F, message=F}
 # re-stratify datasets by epi week
@@ -254,7 +265,7 @@ epiweek_plot <- subplot(
   titleX = FALSE
 ) %>%
   layout(title = list(
-      text = "New and Severe Case Rates by Age",
+      text = "Weekly New and Severe Case Rates by Age",
       x = 0.45, y=1.2,
       xanchor = "center",
       font = list(size = 16, color = "black")
@@ -265,11 +276,11 @@ epiweek_plot <- subplot(
       list(x = 0.875, y = 1.05, text = "New Severe Infections", 
            xref = "paper", yref = "paper", showarrow = FALSE),
       list(x = 0.5, y = -0.2,
-           text = "Infection rates are highest between early August to late October.<br>Both new and severe infection rates are highest among those aged 65+.",
+           text = "Weekly infection rates are highest between early August to late October.<br>Both new and severe infection rates are highest among those aged 65+.",
            xref = "paper", yref = "paper", showarrow = FALSE)
     ),
     margin = list(t = 70, b = 90),
-    yaxis = list(title = "Cases per 1000 people"),
+    yaxis = list(title = "Weekly cases per 1000 people"),
     xaxis = list(zeroline = FALSE),
     legend = list(title = list(text = "Age")),
     plot_bgcolor = '#e5ecf6'
@@ -277,3 +288,13 @@ epiweek_plot <- subplot(
 
 epiweek_plot
 ```
+
+# Discussion
+
+The collected infection data provide insight into the populations most at risk from a novel respiratory infection and most likely to benefit from prevention and mitigation strategies.
+
+In particular, Imperial County appears to be most impacted by the infection, as it demonstrated the highest cumulative incidence among all counties. And among the various populations in Imperial County, the Black, Non-Hispanic population experienced the highest incidence rate of new infections, highlighting this vulnerable population for intervention.
+
+More widely across the entire state, however, American Indian or Alaska Native (Non-Hispanic) and White (Non-Hispanic) racial and ethnic groups are also heavily impacted by the outbreak, indicating that resources should be invested to prevent and treat disease in these populations.
+
+Lastly, the results show that severe disease disproportionately occurs in older adults aged 65+. Given the burden of severe disease is likely to be linked with mortality from infection, investment in protecting this group may be more significant in reducing deaths overall.
