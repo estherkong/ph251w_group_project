@@ -188,7 +188,7 @@ datatable(race_infections_clean,
             pageLength = 15,
             scrollX = TRUE,
             autoWidth = TRUE),
-          caption = "Cumulative Incidence of New Infections per 100 individuals by Race and Ethnic Group per County") %>%
+          caption = "Cumulative Incidence of New Infections per 100 Individuals by Race and Ethnic Group in 2023") %>%
   formatRound(columns = 2:ncol(race_infections_table), digits = 2) %>%
   formatStyle(1, color = "darkgreen") %>%
   formatStyle(
