@@ -149,12 +149,12 @@ race_infections_clean <- stratified_rate_infections %>%
   pivot_wider(
     id_cols = county,
     names_from = race_ethnicity,
-    values_from = c("new_infections_per_capita", "pop")
+    values_from = c("new_infections_per_capita")
   )
 
 #Renaming columns 
 
-colnames(race_infections_clean) <- c("County", "American Indian or Alaska Native (Non-Hispanic)", "Asian (Non-Hispanic)", "Black (Non-Hispanic)", "Hispanic (Any Race)", "Multiracial (Two or More Race Categories to the Left)", "Native Hawaiian or Pacific Islander (Non-Hispanic)", "White (Non-Hispanic)", "American Indian or Alaska Native (Non-Hispanic) Pop", "Asian (Non-Hispanic) Pop",  "Black (Non-Hispanic) Pop", "Hispanic (Any Race) Pop", "Multiracial (Two or More of Above Races) Pop", "Native Hawaiian or Pacific Islander (Non-Hispanic) Pop", "White (Non-Hispanic) Pop")
+colnames(race_infections_clean) <- c("County", "American Indian or Alaska Native (Non-Hispanic)", "Asian (Non-Hispanic)", "Black (Non-Hispanic)", "Hispanic (Any Race)", "Multiracial (Two or More Race Categories)", "Native Hawaiian or Pacific Islander (Non-Hispanic)", "White (Non-Hispanic)")
 
 #Adding Total per Capita for each Race/Ethnic Group Category
 
@@ -165,7 +165,7 @@ race_group <- c(
   "Hispanic (Any Race)",
   "Native Hawaiian or Pacific Islander (Non-Hispanic)",
   "White (Non-Hispanic)",
-  "Multiracial (Two or More Race Categories to the Left)"
+  "Multiracial (Two or More Race Categories)"
 )
 
 race_sum <- race_infections_clean %>%
@@ -177,7 +177,7 @@ race_infections_clean <- bind_rows(race_infections_clean, race_sum)
 #Rearranging and Select the columns 
 
 race_infections_table <- race_infections_clean %>%
-  select(County, `American Indian or Alaska Native (Non-Hispanic)`, `Asian (Non-Hispanic)`, `Black (Non-Hispanic)`, `Hispanic (Any Race)`, `Native Hawaiian or Pacific Islander (Non-Hispanic)`, `White (Non-Hispanic)`, `Multiracial (Two or More Race Categories to the Left)`
+  select(County, `American Indian or Alaska Native (Non-Hispanic)`, `Asian (Non-Hispanic)`, `Black (Non-Hispanic)`, `Hispanic (Any Race)`, `Native Hawaiian or Pacific Islander (Non-Hispanic)`, `White (Non-Hispanic)`, `Multiracial (Two or More Race Categories)`
          )
 
 #Creating Table Visualization with DT Package
