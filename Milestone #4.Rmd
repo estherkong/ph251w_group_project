@@ -22,7 +22,6 @@ library(plotly)
 library(DT)
 ```
 
-# Visualizations for Scenario 1
 
 ```{r, include=F}
 # import clean datasets 
@@ -57,7 +56,6 @@ data_file9 <- "https://raw.githubusercontent.com/estherkong/ph251w_group_project
 morbidity_combined <- read_csv(data_file9)
 ```
 
-## Map of New Infections by County
 
 ```{r, error=FALSE, warning=FALSE}
 # map of new infections by county

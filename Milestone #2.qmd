@@ -25,7 +25,6 @@ Our research question explores if the current outbreak is disproportionately aff
 
 
 #| code-overflow: wrap
-439d5a4657307ab01c57172c77327a1dc1638c74
 sim_novelid_CA <- read_csv("https://raw.githubusercontent.com//PHW290/phw251_projectdata/main/scenario_1/sim_novelid_CA.csv")
 sim_novelid_CA
 
