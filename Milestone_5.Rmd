@@ -170,15 +170,24 @@ race_group <- c(
 
 race_sum <- race_infections_clean %>%
   summarise(across(all_of(race_group), ~ sum(.x, na.rm = TRUE))) %>%
-  mutate(County = "Total per each Race/Ethnic Group")
+  mutate(County = "Total per each Race/Ethnic Group") %>%
+  
 
 race_infections_clean <- bind_rows(race_infections_clean, race_sum)
 
-#Rearranging and Select the columns 
+#Reorder 
 
-race_infections_table <- race_infections_clean %>%
-  select(County, `American Indian or Alaska Native (Non-Hispanic)`, `Asian (Non-Hispanic)`, `Black (Non-Hispanic)`, `Hispanic (Any Race)`, `Native Hawaiian or Pacific Islander (Non-Hispanic)`, `White (Non-Hispanic)`, `Multiracial (Two or More Race Categories)`
-         )
+race_infections_clean <- race_infections_clean %>%
+  select(
+    County,
+    `American Indian or Alaska Native (Non-Hispanic)`,
+    `Asian (Non-Hispanic)`,
+    `Black (Non-Hispanic)`,
+    `Hispanic (Any Race)`,
+    `Native Hawaiian or Pacific Islander (Non-Hispanic)`,
+    `White (Non-Hispanic)`,
+    `Multiracial (Two or More Race Categories)`
+  )
 
 #Creating Table Visualization with DT Package
 
@@ -189,7 +198,7 @@ datatable(race_infections_clean,
             scrollX = TRUE,
             autoWidth = TRUE),
           caption = "Cumulative Incidence of New Infections per 100 Individuals by Race and Ethnic Group in 2023") %>%
-  formatRound(columns = 2:ncol(race_infections_table), digits = 2) %>%
+  formatRound(columns = 2:ncol(race_infections_clean), digits = 2) %>%
   formatStyle(1, color = "darkgreen") %>%
   formatStyle(
     columns = c(2, 8),  
