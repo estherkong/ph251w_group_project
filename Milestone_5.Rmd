@@ -208,10 +208,8 @@ datatable(race_infections_clean,
     color = styleEqual(13, "red")
     )
 
-## Table Description: "American Indian or Alaska Native (Non-Hispanic) and White (Non-Hispanic) racial and ethnic groups have the highest cumulative incidence rates of new infections (newly infected individuals over the population of that racial/ethnic category in each county) in total in California. Specifically, the highest per capita rates of new infections for these racial and ethnic groups are in Imperial County. "
 ```
-
-American Indian or Alaska Native (Non-Hispanic) and White (Non-Hispanic) racial and ethnic groups have the highest cumulative incidence rates of new infections (newly infected individuals over the population of that racial/ethnic category in each county) in all of California during the outbreak from May to December of 2023. Specifically, the highest per capita rates of new infections for these racial and ethnic groups are in Imperial County.
+American Indian or Alaska Native (Non-Hispanic) and White (Non-Hispanic) racial and ethnic groups have the highest cumulative incidence rates of new infections (cumulative incidence of newly infected individuals per 100 individuals by race/ethnic category) in each county in California. Specifically, the highest rates of new infections for these racial and ethnic groups are in Imperial County. 
 
 ## Time trends of weekly infections by age group
 
