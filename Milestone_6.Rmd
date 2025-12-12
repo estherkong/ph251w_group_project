@@ -126,7 +126,7 @@ wrapped_caption <- str_wrap(long_caption, width = 50)
 ggplot(map_data, aes(long, lat, group = group, fill = new_infections_per_capita)) +
   geom_polygon(color = "white") +
   scale_fill_viridis_c(option = "magma", limits = c(0,50), na.value = "grey") +
-  labs(title = "Heat Map of New Infections per Capita by County, 2023", fill = "Infection Rate", caption = wrapped_caption) +
+  labs(title = "Heat Map of New Infections per 1000 people by County, 2023", fill = "Infection Rate", caption = wrapped_caption) +
   theme_void() + 
   theme(
   plot.title = element_text(hjust = 0.5, margin = margin(b = 10)),
