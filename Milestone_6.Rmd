@@ -302,6 +302,8 @@ epiweek_plot
 
 # Discussion
 
+We hypothesize that counties with a higher proportion of agricultural occupations may experience elevated risk of infection. Additionally, demographic factors such as race/ethnicity and age may contribute to this risk. Specifically, inland counties with larger minority populations may face disproportionate exposure, and individuals aged 18–49, due to higher levels of social interaction, may be more susceptible to infection.
+
 The collected infection data provide insight into populations most at risk from a novel respiratory infection and most likely to benefit from targeted prevention and mitigation strategies.
 
 Inland counties appear more impacted than coastal counties. In particular, Imperial County demonstrated the highest cumulative incidence among all counties. Within Imperial County, the Black, Non-Hispanic population experienced the highest incidence rate of new infections, highlighting a vulnerable population for targeted intervention.
