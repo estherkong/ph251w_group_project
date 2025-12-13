@@ -302,11 +302,11 @@ epiweek_plot
 
 # Discussion
 
-The collected infection data provide insight into the populations most at risk from a novel respiratory infection and most likely to benefit from targeted prevention and mitigation strategies.
+The collected infection data provide insight into populations most at risk from a novel respiratory infection and most likely to benefit from targeted prevention and mitigation strategies.
 
-Counties inland versus along the coast appear generally most impacted. In particular, Imperial County appears to be most impacted by the infection, as it demonstrated the highest cumulative incidence among all counties. And among the various populations in Imperial County, the Black, Non-Hispanic population experienced the highest incidence rate of new infections, highlighting this vulnerable population for intervention.
+Inland counties appear more impacted than coastal counties. In particular, Imperial County demonstrated the highest cumulative incidence among all counties. Within Imperial County, the Black, Non-Hispanic population experienced the highest incidence rate of new infections, highlighting a vulnerable population for targeted intervention.
 
-More widely across the entire state, however, American Indian or Alaska Native (Non-Hispanic) and White (Non-Hispanic) racial and ethnic groups are also heavily impacted by the outbreak, indicating that more resources should be invested to prevent and treat disease in these populations.
+Across the entire state, however, American Indian or Alaska Native (Non-Hispanic) and White (Non-Hispanic) racial and ethnic groups are also heavily impacted by the outbreak, indicating that more resources should be invested to prevent and treat disease in these populations.
 
 The results also show that older adults aged 65 and older, as well as young and middle-aged adults aged 18–49, are most affected by the disease. However, severe disease disproportionately occurs among adults aged 65 and older compared with other age groups. Given that the burden of severe disease is likely linked to infection-related mortality, investing in protections for this group may be especially important for reducing overall deaths. Interventions should take into account the pre-existing conditions common in this older population that may exacerbate morbidity and mortality from this respiratory infection.
 
