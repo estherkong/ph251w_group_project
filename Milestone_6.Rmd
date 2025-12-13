@@ -2,7 +2,9 @@
 title: 'Milestone #6'
 author: "Carli Boyd, Esther Kong, Pamela Pichon"
 date: "2025-12-12"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 ```{r, load packages, include=FALSE}
 # Load required packages
