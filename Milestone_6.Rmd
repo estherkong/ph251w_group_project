@@ -58,30 +58,28 @@ The California Department of Public Health detected a novel infectious respirato
 
 ### Dataset 1: Simulated Novel Infection Disease case reporting for California
 
-This data source is simulated data of weekly infectious disease cases for each county in California reported from public health agencies and organizations such as county health departments during 2023, beginning in late May 2023 until the end of December 2023. The infection data are linked with demographic information such as age group, binary gender, race and ethnicity.
+This data source is simulated data of weekly infectious disease cases for each county in California reported from public health agencies and organizations such as county health departments, beginning in late May 2023 until the end of December 2023. The infection data are linked with demographic information such as age group, binary gender, race and ethnicity.
 
 #### Cleaning
 
-1.  Column names into snake case and renamed to match with other sources.
-2.  Diagnosis dates read in dmy format using lubridate.
+1.  Column names into snake case and renamed.
+2.  Diagnosis dates read in dmy format.
 3.  Race/ethnicity categories recoded with human readable values to match the LA county dataset.
-4.  Time interval data recoded into epiweeks.
-5.  Cleaned up county names by removing the word "county" from the value in each row.
+4.  Removed the word "county" from each county name.
 
 ### Dataset 2: Simulated Novel Infectious Disease case reporting for Los Angeles County
 
-This is a simulated dataset containing reported weekly cases of a disease categorized by date of diagnoses, patient demographics, and cumulative totals for infected, unrecovered, and severe cases, for the county of Los Angeles. Such data would have been collected by public health agencies from around LA county. Data was collected from late May 2023 until the end of December 2023. The data provides patient demographics of age group, binary gender, race and ethnicity which will help to answer if there are disparities in the rate of infection among different populations.
+This simulated dataset contains weekly reported cases in Los Angeles county of a disease categorized by diagnosis date, patient demographics, and cumulative totals for infected, unrecovered, and severe cases, representative of data collected by public health agencies from around LA county. Data spans from late May 2023 to late December 2023. The data includes age group, binary gender, race and ethnicity.
 
 #### Cleaning
 
-1.  Column names into snake case and renamed to match with other sources
-2.  Diagnosis dates read in dmy format using lubridate.
-3.  Epi-week column created based off the infection dates.
-4.  Created a "county" column and populated with value "Los Angeles" to match with the state wide infection data source.
+1.  Column names into snake case and renamed.
+2.  Diagnosis dates read in dmy format.
+3.  Created a "county" column and populated with "Los Angeles".
 
 ### Dataset 3: California estimated population for 2023
 
-This dataset is simulated, but approximates what population data from the State of California might look like. It includes population estimates by the CA Dept of Finance for 2023 by CA county and demographic categories (age, race, and sex).
+This dataset is simulated population data from the State of California. It includes population estimates by the CA Dept of Finance for 2023 by CA county and demographic categories (age, race, and sex).
 
 #### Cleaning
 
@@ -92,13 +90,13 @@ This dataset is simulated, but approximates what population data from the State 
 
 ### Analytic methods
 
-First, the two infection datasets were joined together (Source 1 & 2) by binding the rows, which generated a joined infection dataset for all counties in California. Next, strata of interest were identified. Since we're interested in the distribution of infections across race and geographic categories, the rows were grouped by county then by race/ethnicity. Counts of the infections in each stratum were summed have the cumulative case count over the entire data collection period (May to Dec 2023). Since both datasets have information on both 1. new infections and 2. new severe infections in separate columns, a sum for each of these two columns was obtained per stratum.
+First, the two infection datasets were joined together (Source 1 & 2) by binding the rows, to generate a joined infection dataset for all counties in California. Next, strata of interest demonstrating the distribution of infections across race and geographic categories were created by grouping by county then by race/ethnicity. Counts of the infections in each stratum were summed to obtain a cumulative case count over the entire data collection period (May to Dec 2023) for both new infections and new severe infections per stratum.
 
-Stratified cumulative new and severe case counts were left joined with the California population dataset, using county and race_ethnicity categories as keys. The resulting table shows the counts of cumulative new infections, new severe infections, and total population count for each stratum.
+Stratified cumulative new and severe case counts were left joined with the California population dataset, using county and race_ethnicity categories as keys. The resulting table contains the counts of cumulative new infections, new severe infections, and total population count for each stratum.
 
 To calculate the cumulative incidence of new and severe cases per 100 individuals in each stratified demographic group, the count new or severe cases was divided by the population count for that group, and multiplied by 100.
 
-To obtain weekly incidence rate information, we used the joined infection data (Source 1 & 2) and then grouped by age category and diagnosis dates (diagnosis dates were measured once a week). The weekly new case and severe case counts were then summed up to give a total count for each week per age group. The population dataset (Source 3) was likewise grouped by age category, and then included in a left join with the stratified weekly case data. Weekly cases per 1000 individuals in each age group was calculated by dividing the weekly case count of each age group by the population of that age group, and multiplied by 1000.
+To obtain weekly incidence rate information, the joined infection data (Source 1 & 2) was grouped by age category and weekly diagnosis dates. The weekly new case and severe case counts were then summed up to give a total count for each week per age group. The population dataset (Source 3) was likewise grouped by age, and left joined with the stratified weekly case data. Weekly cases per 1000 individuals in each age group was calculated by dividing the weekly case count of each age group by the population of that age group, and multiplied by 1000.
 
 # Results
 
@@ -138,7 +136,7 @@ ggplot(map_data, aes(long, lat, group = group, fill = new_infections_per_capita)
 
 ```
 
-Cumulative incidence of new cases, ignoring ethnicity differences in each county, was mapped. The map shows that Imperial County has the highest cumulative incidence of all the counties. Examining the granular data for Imperial county in the table below, the highest incidence was seen in the Black, Non-Hispanic population in this county, with a cumulative incidence of 66.64 cases/100 individuals. Cumulative incidence among White, Non-Hispanic population in this county was also close behind, with 65.93 cases/100 individuals. In contrast, the coastal counties generally have lower cumulative incidence of new infections.
+Cumulative incidence of new cases in each county was mapped. The map shows that Imperial County has the highest cumulative incidence of all the counties. Examining the granular data for Imperial county, the highest incidence was experienced in the Black, Non-Hispanic population in this county, with a cumulative incidence of 66.64 cases/100. Cumulative incidence among White, Non-Hispanic population in this county was close behind, with 65.93 cases/100. Coastal counties generally have lower cumulative incidence of new infections.
 
 ## Table of Cumulative New Infections per 100 People per Race and Ethnic Group in each County
 
@@ -211,11 +209,11 @@ datatable(race_infections_clean,
 
 ```
 
-American Indian or Alaska Native (Non-Hispanic) and White (Non-Hispanic) racial and ethnic groups have the highest cumulative incidence rates of new infections (cumulative incidence of newly infected individuals per 100 individuals by race/ethnic category) in each county in California. Specifically, the highest rates of new infections for these racial and ethnic groups are in Imperial County.
+American Indian or Alaska Native (Non-Hispanic) and White (Non-Hispanic) race/ethnicity groups have the highest cumulative incidence of new infections/100 in each county in California. Specifically, the highest rates of new infections for these two groups are in Imperial County.
 
 ## Time trends of weekly infections by age group
 
-Observing the overall trends for weekly infections, it is evident that weekly new infections as well as severe infections seem to follow similar patterns. New infections begin to take off after the week of Jun 12, 2023, and rise steeply until the week of Aug 28, and remain high until week of Oct 18, before steeply dropping off and returning to baseline by week of Nov 20. Weekly severe infections follow the same shape, but trail behind new infections by 2 weeks, so severe case rates do not drop off until Oct 30, 2023 and only reach baseline the week of Dec 4.
+Trends for weekly new infections as well as severe infections follow similar patterns. New infections begin to take off after the week of Jun 12, 2023, rise steeply until the week of Aug 28, remain high until week of Oct 18, before steeply dropping off and returning to baseline by week of Nov 20. Weekly severe infections follow the same shape, but trail behind new infections by 2 weeks, with severe cases remaining high until Oct 30, 2023, only reaching baseline by the week of Dec 4.
 
 When separated by age group, the rate of weekly new infections follow the same shape for all age groups, but are the highest among those aged 65+, followed by those aged 18-49. The weekly severe infections, however, show that the weekly incidence of severe cases is extremely high in the older population, when compared with all other age groups.
 
@@ -300,14 +298,14 @@ epiweek_plot
 
 # Discussion
 
-We hypothesize that counties with a higher proportion of agricultural occupations may experience elevated risk of infection. Demographic factors such as race/ethnicity and age may contribute to this risk. Specifically, inland counties with larger minority populations may face disproportionate exposure, and individuals aged 18–49, due to higher levels of social interaction, may be more susceptible to infection.
+The collected infection data provide insight into populations most at risk from this novel respiratory infection and most likely to benefit from targeted prevention and mitigation strategies.
 
-The collected infection data provide insight into populations most at risk from a novel respiratory infection and most likely to benefit from targeted prevention and mitigation strategies.
+Geographically, inland counties experience higher risk than coastal counties, with Imperial county demonstrating the highest incidence. Among race/ethnicity groups, Black (Non-Hispanic), American Indian or Alaska Native (Non-Hispanic), and White (Non-Hispanic) populations experienced the highest incidence of new infections.
 
-Inland counties appear more impacted than coastal counties with Imperial County demonstrating the highest cumulative incidence among all counties. Within Imperial County, the Black, Non-Hispanic population experienced the highest incidence rate of new infections, highlighting a vulnerable population for targeted intervention.
+The disparity in infection risk of inland states may be linked with higher proportion of agricultural occupations, leading to elevated risk of respiratory infection. Risk disparity due to race/ethnicity may also contribute to this. Specifically, inland counties with larger minority populations may face disproportionate exposure risk, indicating that more resources should be invested to prevent disease in these populations.
 
-Across the entire state, however, American Indian or Alaska Native (Non-Hispanic) and White (Non-Hispanic) racial and ethnic groups are also heavily impacted by the outbreak, indicating that more resources should be invested to prevent and treat disease in these populations.
+Older adults aged 65 and older and adults aged 18–49 appear to be at highest risk of infection. The observed increased risk in individuals aged 18–49 over those aged 50-64 may be due to social factors such as increased time in public spaces like school and work, making this age group at increased exposure to infection. However, severe disease disproportionately occurs among adults aged 65 and older. Given that the burden of severe disease is likely linked to infection-related mortality, investing in protections for this group may be especially important for reducing overall deaths. 
 
-Older adults aged 65 and older and adults aged 18–49 are most affected by the infection. However, severe disease disproportionately occurs among adults aged 65 and older. Given that the burden of severe disease is likely linked to infection-related mortality, investing in protections for this group may be especially important for reducing overall deaths. Interventions should take into account the pre-existing conditions common in this older population that may exacerbate morbidity and mortality from this respiratory infection.
+Lastly, weekly infection rates are highest between August through late October in 2023. This provides insight on external factors like weather patterns or individual behaviours that increase risk. Prevention strategies and preparation of testing and treatment should be prioritized preceding these peak months.
 
-Lastly, weekly infection rates are highest between August through late October in 2023. This provides insight on external factors like weather patterns or individual behaviors that put the population more vulnerable to the infection. Resources such as awareness on prevention strategies and preparation for increased access to testing and treatment should be prioritized preceding these peak months. 
+
