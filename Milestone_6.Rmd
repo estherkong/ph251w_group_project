@@ -52,7 +52,7 @@ morbidity_combined <- read_csv(data_file9)
 
 # Problem Statement
 
-The California Department of Public Health detected a novel infectious respiratory disease outbreak in California between May to December 2023, and collected information about the number of cases and case severity, along with demographic information on infected individuals. This report aims to examine the course of this outbreak and understand if it disproportionately affected certain demographic or geographic populations. In particular, race/ethnicity, county, and age factors are examined to identify populations who may benefit most from prevention and treatment resources.
+The California Department of Public Health detected a novel infectious respiratory disease outbreak in California between May to December 2023 and collected the number of cases and case severity with demographic information on infected individuals. This report examines the course of this outbreak to determine whether it disproportionately affected specific demographic or geographic populations. In particular, race/ethnicity, county, and age factors are examined to identify populations who may benefit most from prevention and treatment resources.
 
 # Methods
 
@@ -92,15 +92,13 @@ This dataset is simulated, but approximates what population data from the State 
 
 ### Analytic methods
 
-First, the two disease infection datasets were joined together (Source 1 & 2) simply by binding the rows (added the rows from both datasets together). This generated a joined list of infection data for all counties in California.
+First, the two infection datasets were joined together (Source 1 & 2) by binding the rows, which generated a joined infection dataset for all counties in California. Next, strata of interest were identified. Since we're interested in the distribution of infections across race and geographic categories, the rows were grouped by county then by race/ethnicity. Counts of the infections in each stratum were summed have the cumulative case count over the entire data collection period (May to Dec 2023). Since both datasets have information on both 1. new infections and 2. new severe infections in separate columns, a sum for each of these two columns was obtained per stratum.
 
-Next, strata of interest were identified. Since we're interested in the distribution of infections across race and geographic categories, the rows were grouped by county and then by race/ethnicity. Counts of the infections in each stratum were then summed up to give a cumulative case count over the entire period of data collection (May to Dec 2023). Since both datasets have information on both 1. new infections and 2. new severe infections in separate columns, a sum for each of these two columns was obtained per stratum.
-
-This stratified summary of cumulative new and severe case counts was left joined with the California population dataset, using county and race_ethnicity categories as keys. The resulting table shows the counts of cumulative new infections, new severe infections, and total population count for each stratum.
+Stratified cumulative new and severe case counts were left joined with the California population dataset, using county and race_ethnicity categories as keys. The resulting table shows the counts of cumulative new infections, new severe infections, and total population count for each stratum.
 
 To calculate the cumulative incidence of new and severe cases per 100 individuals in each stratified demographic group, the count new or severe cases was divided by the population count for that group, and multiplied by 100.
 
-To obtain weekly incidence rate information, we went back to the joined infection data (Source 1 & 2) and then grouped by age category and diagnosis dates (diagnosis dates were measured once a week). The weekly new case and severe case counts were then summed up to give a total count for each week per age group. The population dataset (Source 3) was likewise grouped by age category, and then included in a left join with the stratified weekly case data. Weekly cases per 1000 individuals in each age group was calculated by dividing the weekly case count of each age group by the population of that age group, and multiplied by 1000.
+To obtain weekly incidence rate information, we used the joined infection data (Source 1 & 2) and then grouped by age category and diagnosis dates (diagnosis dates were measured once a week). The weekly new case and severe case counts were then summed up to give a total count for each week per age group. The population dataset (Source 3) was likewise grouped by age category, and then included in a left join with the stratified weekly case data. Weekly cases per 1000 individuals in each age group was calculated by dividing the weekly case count of each age group by the population of that age group, and multiplied by 1000.
 
 # Results
 
@@ -302,14 +300,14 @@ epiweek_plot
 
 # Discussion
 
-We hypothesize that counties with a higher proportion of agricultural occupations may experience elevated risk of infection. Additionally, demographic factors such as race/ethnicity and age may contribute to this risk. Specifically, inland counties with larger minority populations may face disproportionate exposure, and individuals aged 18–49, due to higher levels of social interaction, may be more susceptible to infection.
+We hypothesize that counties with a higher proportion of agricultural occupations may experience elevated risk of infection. Demographic factors such as race/ethnicity and age may contribute to this risk. Specifically, inland counties with larger minority populations may face disproportionate exposure, and individuals aged 18–49, due to higher levels of social interaction, may be more susceptible to infection.
 
 The collected infection data provide insight into populations most at risk from a novel respiratory infection and most likely to benefit from targeted prevention and mitigation strategies.
 
-Inland counties appear more impacted than coastal counties. In particular, Imperial County demonstrated the highest cumulative incidence among all counties. Within Imperial County, the Black, Non-Hispanic population experienced the highest incidence rate of new infections, highlighting a vulnerable population for targeted intervention.
+Inland counties appear more impacted than coastal counties with Imperial County demonstrating the highest cumulative incidence among all counties. Within Imperial County, the Black, Non-Hispanic population experienced the highest incidence rate of new infections, highlighting a vulnerable population for targeted intervention.
 
 Across the entire state, however, American Indian or Alaska Native (Non-Hispanic) and White (Non-Hispanic) racial and ethnic groups are also heavily impacted by the outbreak, indicating that more resources should be invested to prevent and treat disease in these populations.
 
-The results also show that older adults aged 65 and older, as well as young and middle-aged adults aged 18–49, are most affected by the disease. However, severe disease disproportionately occurs among adults aged 65 and older compared with other age groups. Given that the burden of severe disease is likely linked to infection-related mortality, investing in protections for this group may be especially important for reducing overall deaths. Interventions should take into account the pre-existing conditions common in this older population that may exacerbate morbidity and mortality from this respiratory infection.
+Older adults aged 65 and older and adults aged 18–49 are most affected by the infection. However, severe disease disproportionately occurs among adults aged 65 and older. Given that the burden of severe disease is likely linked to infection-related mortality, investing in protections for this group may be especially important for reducing overall deaths. Interventions should take into account the pre-existing conditions common in this older population that may exacerbate morbidity and mortality from this respiratory infection.
 
 Lastly, weekly infection rates are highest between August through late October in 2023. This provides insight on external factors like weather patterns or individual behaviors that put the population more vulnerable to the infection. Resources such as awareness on prevention strategies and preparation for increased access to testing and treatment should be prioritized preceding these peak months. 
