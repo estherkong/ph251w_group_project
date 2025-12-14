@@ -306,6 +306,6 @@ The disparity in infection risk of inland states may be linked with higher propo
 
 Older adults aged 65 and older and adults aged 18–49 appear to be at highest risk of infection. The observed increased risk in individuals aged 18–49 over those aged 50-64 may be due to social factors such as increased time in public spaces like school and work, making this age group at increased exposure to infection. However, severe disease disproportionately occurs among adults aged 65 and older. Given that the burden of severe disease is likely linked to infection-related mortality, investing in protections for this group may be especially important for reducing overall deaths. 
 
-Lastly, weekly infection rates are highest between August through late October in 2023. This provides insight on external factors like weather patterns or individual behaviours that increase risk. Prevention strategies and preparation of testing and treatment should be prioritized preceding these peak months.
+Lastly, weekly infection rates are highest between August through late October in 2023. This provides insight on time-dependent external factors like weather patterns on individual behaviours that increase risk. Prevention strategies and preparation of testing and treatment should be prioritized preceding these peak months.
 
 
